@@ -22,72 +22,160 @@
     <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+
+    <script src="https://use.fontawesome.com/4f9d8cab91.js"></script>
 
 
 </head>
 
-<body class="my-3 mx-4">
-    <div class="container">
-        <h3>PH Technophile Helper</h3>
+<body class="my-4">
+    <div class="container mb-4">
+        <div class="d-none d-sm-block">
+            <div class="col-12">
+                <span class="h2 align-middle">
+                    PH Technophile Helper 2
+                    <span class="badge badge-warning align-middle">
+                        BETA
+                    </span>
+                </span>
+            </div>
+            <div class="col-12">
+                <span class="h6 font-italic">
+                    Last Updated:
+                    <span class="lastUpdated">
+
+                    </span>
+                </span>
+            </div>
+        </div>
+
+        <div class="d-block d-sm-none">
+            <div class="col-12 d-flex justify-content-center">
+                <span class="h4 align-middle">
+                    PH Technophile Helper 1
+                    <span class="badge badge-warning align-middle">
+                        BETA
+                    </span>
+                </span>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <span class="h6 font-italic">
+                    Last Updated:
+                    <span class="lastUpdated">
+
+                    </span>
+                </span>
+            </div>
+        </div>
     </div>
     <div class="container">
-        <table class="table table-sm table-striped table-inverse table-responsive" id="datatable">
+        <table class="table-sm table-striped table-inverse table-responsive" id="datatable">
             <thead class="thead-inverse">
                 <tr>
+                    <th></th>
                     <th>Item</th>
                     <th>Cash</th>
                     <th>Seller</th>
                     <th></th>
-                    <th>Base Search</th>
                 </tr>
             </thead>
             <tfoot>
                 <tr>
+                    <th></th>
                     <th>Item</th>
                     <th>Cash</th>
                     <th>Seller</th>
                     <th></th>
-                    <th>Base Search</th>
                 </tr>
             </tfoot>
         </table>
     </div>
 
-
 </body>
 
 <script src="data.js"></script>
+<script>
+    let ctr = 0
+    allData["data"].forEach(element => {
+        element['index'] = ctr
+        ctr++
+    });
 
+    function copyTextToClipboard(text) {
+        var textArea = document.createElement("textarea");
+        textArea.classList.add('hiddenTextArea');
+
+        textArea.value = text;
+
+        document.body.appendChild(textArea);
+
+        textArea.select();
+
+        try {
+            var successful = document.execCommand('copy');
+            var msg = successful ? 'successful' : 'unsuccessful';
+            console.log('Copying text command was ' + msg);
+        } catch (err) {
+            console.log('Oops, unable to copy');
+        }
+
+        document.body.removeChild(textArea);
+    }
+
+    function addToListTable(index) {
+        let row = allData["data"][index]
+        element =
+            '<tr>' +
+            '<td>' + row['name'] + '</td>' +
+            '<td>' + row['price'] + '</td>' +
+            '<td>' + row['seller'] + '</td>' +
+            '<td>' + '' + '</td>' +
+            '<td>' + '' + '</td>' +
+            '</tr>'
+
+        $('#listTableBody').append(element);
+    }
+</script>
 <script>
     $('#datatable').DataTable({
-        "pageLength": 17,
+        "order": [
+            [2, "asc"]
+        ],
+        "pageLength": 15,
         "lengthChange": false,
-        "columnDefs": [{
+        "columnDefs": [
+
+            {
                 className: 'align-middle',
                 targets: '_all'
             },
+
             {
-                orderable: false,
-                targets: 3
+                searchable: false,
+                targets: [1, 2, 3]
             },
-            {
-                "searchable": false,
-                "targets": [0, 1, 2, 3]
-            },
-            {
-                "targets": 4,
-                "visible": false
-            }
+
         ],
         "data": allData['data'],
-        "columns": [{
-                //"data": "name"
-                'render': function (data, type, row) {
+        "columns": [
+
+            {
+                visible: false,
+                render: function (data, type, row) {
+                    return row.name + " " + row.category
+                }
+            },
+
+
+            {
+                searchable: false,
+                render: function (data, type, row) {
                     //return row.name;
 
-                    let returnString = '<div>' + row.name +
-                        '<span class="ml-2 badge badge-primary"><a href ="' + row.url +
-                        '" target="_blank" style="color:white">VIEW</a></span></div>'
+                    let returnString = '<div><a href="' + row.url + '" target="_blank">' + row.name +
+                        '</a></div>'
+
 
                     if (row.note == undefined || row.note == '') {
                         return returnString
@@ -97,24 +185,36 @@
                     }
                 }
             },
-            {
-                "data": "price",
-            },
-            {
-                "data": "seller"
-            },
-            {
-                'render': function (data, type, row) {
-                    return '<button type="button" class="btn btn-primary btn-sm">+</button>'
-                }
 
-                //<button type="button" class="btn btn-primary"></button>
-            },
             {
-                "data": "name"
-            }
+                data: "price",
+                className: 'text-right',
+                searchable: false,
+                render: $.fn.dataTable.render.number(',', '.', 0, '₱ ')
+            },
+
+            {
+                data: "seller",
+                className: 'text-center',
+                searchable: false,
+            },
+
+            {
+                orderable: false,
+                render: function (data, type, row) {
+                    let result = row.name + ' | ' + row.price + ' | ' + row.url
+                    return '<button type="button" class="btn btn-primary btn-sm"' +
+                        'onclick="copyTextToClipboard(\'' + result + '\')"' + '>' +
+                        '<i class="fa fa-copy"></i>' +
+                        '</button>'
+                }
+            },
         ]
     });
+
+    $('.lastUpdated').text(allData.date)
+
+    let x = document.querySelector("#datatable_wrapper > div:nth-child(1) > div:nth-child(1)")
 </script>
 
 </html>
