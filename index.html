@@ -25,12 +25,10 @@
     <script src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
 
     <script src="https://use.fontawesome.com/4f9d8cab91.js"></script>
-
-
 </head>
 
 <body class="my-4">
-    <div class="container mb-4">
+    <div class="container mb-1">
         <div class="d-none d-sm-block">
             <div class="col-12">
                 <span class="h2 align-middle">
@@ -65,31 +63,38 @@
                     <span class="lastUpdated">
 
                     </span>
-                </span>
             </div>
         </div>
+
+        <div class="container">
+            <span class="d-flex justify-content-center">
+                <i style="color:red; font-size:smaller">Note: Contact seller for inquiries.</i>
+            </span>
+        </div>
     </div>
-    <div class="container table-responsive">
-        <table class="table table-sm table-striped table-inverse" id="datatable">
-            <thead class="thead-inverse">
-                <tr>
-                    <th></th>
-                    <th>Item</th>
-                    <th>Cash</th>
-                    <th>Seller</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <th></th>
-                    <th>Item</th>
-                    <th>Cash</th>
-                    <th>Seller</th>
-                    <th></th>
-                </tr>
-            </tfoot>
-        </table>
+    <div class="container">
+        <div class="table-responsive p-1">
+            <table class="table table-sm table-striped table-inverse" id="datatable">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th></th>
+                        <th>Item</th>
+                        <th>Cash</th>
+                        <th>Seller</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th></th>
+                        <th>Item</th>
+                        <th>Cash</th>
+                        <th>Seller</th>
+                        <th></th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
     </div>
 
 </body>
@@ -121,12 +126,13 @@
             var allData = response
 
             $('#datatable').DataTable({
-                "order": [
+                order: [
                     [2, "asc"]
                 ],
-                "pageLength": 15,
-                "lengthChange": false,
-                "columnDefs": [
+                pageLength: 15,
+                pagingType: 'simple',
+                lengthChange: false,
+                columnDefs: [
 
                     {
                         className: 'align-middle',
@@ -139,8 +145,8 @@
                     },
 
                 ],
-                "data": allData.data,
-                "columns": [
+                data: allData.data,
+                columns: [
 
                     {
                         visible: false,
