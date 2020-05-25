@@ -1,5 +1,5 @@
 var allData ={
-    "date": "May 25 2020 - 16:03:09",
+    "date": "May 25 2020 - 17:10:12",
     "data": [
         {
             "category": "ACCESSORIES",
