@@ -1,362 +1,59 @@
-var allData = {
-    "date": "May 24 2020 - 20:11:42",
-    "data": [{
-            "category": "UPS & AVR",
-            "name": "Eco Power 220v/110v Avr",
-            "price": 260.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Eco%20Power%20220v/110v%20Avr",
-            "seller": "Easy PC",
-            "note": ""
-        },
+var allData ={
+    "date": "May 25 2020 - 16:03:09",
+    "data": [
         {
-            "category": "OPERATING SYSTEM",
-            "name": "Windows XP Pro SP2 32bit",
-            "price": 3800.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Windows%20XP%20Pro%20SP2%2032bit",
+            "category": "ACCESSORIES",
+            "name": "ABS Double Shot Regular Keycaps White OEM",
+            "price": 330.4,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ABS%20Double%20Shot%20Regular%20Keycaps%20White%20OEM",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Dvi I to Vga Adapter",
-            "price": 120.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dvi%20I%20to%20Vga%20Adapter",
+            "name": "Asus ROG Keycap Kit",
+            "price": 1400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Keycap%20Kit",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "HARD DISK",
-            "name": "Seagate 320gb Harddisk Drive",
-            "price": 795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20320gb%20Harddisk%20Drive",
+            "category": "ACCESSORIES",
+            "name": "Biostar DCBTC2R01BS300 Riser Card",
+            "price": 450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Biostar%20DCBTC2R01BS300%20Riser%20Card",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "HARD DISK",
-            "name": "Western Digital 1tb Harddisk Drive Blue",
-            "price": 2190.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%201tb%20Harddisk%20Drive%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "AMD Stock Heatsink Fan",
-            "price": 200.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Stock%20Heatsink%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD AND MOUSE",
-            "name": "A4Tech KRS-8372 Ps2 Keyboard and Mouse Black",
-            "price": 425.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-8372%20Ps2%20Keyboard%20and%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD AND MOUSE",
-            "name": "A4Tech KRS-8372 Usb Keyboard and Mouse Black",
-            "price": 445.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-8372%20Usb%20Keyboard%20and%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "TP-Link TL-SF1016D 16 Ports Switch Hub",
-            "price": 1050.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=TP-Link%20TL-SF1016D%2016%20Ports%20Switch%20Hub",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "WEB & DIGITAL CAMERA",
-            "name": "A4Tech PK-635G 16mp Webcam",
-            "price": 525.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20PK-635G%2016mp%20Webcam",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Deepcool Gamma Archer CPU Air Cooler",
-            "price": 270.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Gamma%20Archer%20CPU%20Air%20Cooler",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "A4Tech KRS-83 Ps2 Keyboard Black",
+            "category": "ACCESSORIES",
+            "name": "Canon GI 790 Ink Black",
             "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-83%20Ps2%20Keyboard%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "A4Tech OP-720 Usb Mouse Black",
-            "price": 160.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20OP-720%20Usb%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "A4Tech OP-720 Ps2 Mouse Black",
-            "price": 130.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20OP-720%20Ps2%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Black",
-            "price": 2995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%201tb%202.5%20External%20Hard%20Disk%20Drive%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Red",
-            "price": 2895.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%201tb%202.5%20External%20Hard%20Disk%20Drive%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Tp-Link TL-SG1016 16 Ports Gigabit Switch Hub",
-            "price": 3195.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-SG1016%2016%20Ports%20Gigabit%20Switch%20Hub",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Deepcool Z9 Silicon Syringe",
-            "price": 280.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Z9%20Silicon%20Syringe",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "A4Tech HS-19 ComfortFit Stereo Headset Black",
-            "price": 350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20HS-19%20ComfortFit%20Stereo%20Headset%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "A4Tech HS-26 ComfortFit Stereo Headset Black",
-            "price": 280.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20HS-26%20ComfortFit%20Stereo%20Headset%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "A4Tech HS-7P ComfortFit Stereo Headset Black",
-            "price": 350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20HS-7P%20ComfortFit%20Stereo%20Headset%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "WEB & DIGITAL CAMERA",
-            "name": "A4Tech PK-920H Full-HD Webcam",
-            "price": 995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20PK-920H%20Full-HD%20Webcam",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Deepcool Gammaxx 400 CPU Air Cooler Blue",
-            "price": 1150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Gammaxx%20400%20CPU%20Air%20Cooler%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Tp-Link TL-SF1024 24 Ports Switch Hub",
-            "price": 2150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-SF1024%2024%20Ports%20Switch%20Hub",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HARD DISK",
-            "name": "Western Digital 1tb Harddisk Drive Black",
-            "price": 4150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%201tb%20Harddisk%20Drive%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CABLE",
-            "name": "HDMI 1.5 Meter Cable",
-            "price": 170.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=HDMI%201.5%20Meter%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "Deepcool XFan Transparent 80mm Blue Led Chassis Fan",
-            "price": 140.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20XFan%20Transparent%2080mm%20Blue%20Led%20Chassis%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Deepcool Z3 Silicon Syringe",
-            "price": 120.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Z3%20Silicon%20Syringe",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Deepcool Z5 Silicon Syringe",
-            "price": 150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Z5%20Silicon%20Syringe",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "Deepcool Wind Blade 80mm Chassis Fan Blue Led",
-            "price": 160.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Wind%20Blade%2080mm%20Chassis%20Fan%20Blue%20Led",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "Deepcool XFAN 80mm L/R Transparent Chassis Fan Red Led",
-            "price": 135.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20XFAN%2080mm%20L/R%20Transparent%20Chassis%20Fan%20Red%20Led",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Corsair Vs450 450 watts Power Supply",
-            "price": 1850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20Vs450%20450%20watts%20Power%20Supply",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Tp-Link TG-3468 32bit Gigabit PCI Express Network Adapter",
-            "price": 495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TG-3468%2032bit%20Gigabit%20PCI%20Express%20Network%20Adapter",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "A4Tech OP-620D 2x Click Usb Mouse Black",
-            "price": 180.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20OP-620D%202x%20Click%20Usb%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "UPS & AVR",
-            "name": "iLogic Blazer 1000va Ups",
-            "price": 2450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=iLogic%20Blazer%201000va%20Ups",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "A4Tech Bloody B120 Turbo Illuminated Usb Gaming Keyboard",
-            "price": 1195.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20Bloody%20B120%20Turbo%20Illuminated%20Usb%20Gaming%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CABLE",
-            "name": "DVI-D 1.5 Meter Cable",
-            "price": 150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=DVI-D%201.5%20Meter%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Tp-Link TL-SG1024D 24 Ports Gigabit Switch Hub",
-            "price": 4250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-SG1024D%2024%20Ports%20Gigabit%20Switch%20Hub",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PRINTER & SCANNER",
-            "name": "Epson L120 Ink Tank Printer",
-            "price": 4795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20L120%20Ink%20Tank%20Printer",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Deepcool Ice Edge Mini FS v2.0 CPU Air Cooler",
-            "price": 380.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Ice%20Edge%20Mini%20FS%20v2.0%20CPU%20Air%20Cooler",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "A4Tech KRS-85 Ps2 Keyboard Black",
-            "price": 305.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-85%20Ps2%20Keyboard%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD AND MOUSE",
-            "name": "A4Tech KRS-8572 Ps2 Keyboard and Mouse Black",
-            "price": 415.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-8572%20Ps2%20Keyboard%20and%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD AND MOUSE",
-            "name": "A4Tech KRS-8572 Usb Keyboard and Mouse Black",
-            "price": 435.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-8572%20Usb%20Keyboard%20and%20Mouse%20Black",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20GI%20790%20Ink%20Black",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Jyc Crimping Tool",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Jyc%20Crimping%20Tool",
+            "name": "Canon GI 790 Ink Cyan",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20GI%20790%20Ink%20Cyan",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "MEMORY",
-            "name": "Team Elite 4gb 1x4 1600mhz Ddr3 with Heatspreader Memory",
-            "price": 975.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%204gb%201x4%201600mhz%20Ddr3%20with%20Heatspreader%20Memory",
+            "category": "ACCESSORIES",
+            "name": "Canon GI 790 Ink Magenta",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20GI%20790%20Ink%20Magenta",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Canon GI 790 Ink Yellow",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20GI%20790%20Ink%20Yellow",
             "seller": "Easy PC",
             "note": ""
         },
@@ -369,186 +66,74 @@ var allData = {
             "note": ""
         },
         {
-            "category": "MOTHERBOARD",
-            "name": "Gigabyte GA-F2A68HM-S1 Socket Fm2 Ddr3 Motherboard",
-            "price": 2400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20GA-F2A68HM-S1%20Socket%20Fm2%20Ddr3%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "AOC E970SWNL 18.5\" Led Monitor",
-            "price": 2995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20E970SWNL%2018.5\"%20Led%20Monitor",
+            "category": "ACCESSORIES",
+            "name": "CoolerMaster ATX 24 Pin 90\u00b0 Adapter",
+            "price": 825.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=CoolerMaster%20ATX%2024%20Pin%2090\u00b0%20Adapter",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Rj-45 for Cat6",
-            "price": 8.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rj-45%20for%20Cat6",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "AOC M2060SWD 19.5\" Led Monitor",
-            "price": 4150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20M2060SWD%2019.5\"%20Led%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "MSI A68HM-E33 v2 Socket Fm2 Ddr3 Motherboard",
-            "price": 2380.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20A68HM-E33%20v2%20Socket%20Fm2%20Ddr3%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Team Elite 8gb 1x8 1600mhz Ddr3 with Heatspreader Memory",
-            "price": 1825.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%208gb%201x8%201600mhz%20Ddr3%20with%20Heatspreader%20Memory",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "A4Tech G3-280N Wireless Optical Mouse Gray",
-            "price": 265.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20G3-280N%20Wireless%20Optical%20Mouse%20Gray",
+            "name": "CoolerMaster ATX24 Adapter with Capacitor",
+            "price": 1045.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=CoolerMaster%20ATX24%20Adapter%20with%20Capacitor",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Oubao Crimping Tool",
-            "price": 150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Oubao%20Crimping%20Tool",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ALL IN ONE",
-            "name": "Viewpaker E241EMG 23.6\" All In One Led Gaming Monitor",
-            "price": 9350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Viewpaker%20E241EMG%2023.6\"%20All%20In%20One%20Led%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Deepcool Gammaxx 200T CPU Air Cooler",
+            "name": "Deepcool EC300-24P-BK ATX 24 Pin 300mm Black Sleeved Cable",
             "price": 550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Gammaxx%20200T%20CPU%20Air%20Cooler",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "Asus VC239H 23 Inches Led Monitor",
-            "price": 6995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20VC239H%2023%20Inches%20Led%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "BenQ VZ2350HM 23\" IPS Monitor",
-            "price": 6450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20VZ2350HM%2023\"%20IPS%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "OPERATING SYSTEM",
-            "name": "Windows 10 Home KW9-00139 64bit Operating System",
-            "price": 6395.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Windows%2010%20Home%20KW9-00139%2064bit%20Operating%20System",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Tp-Link TL-WR840N Wireless N Router",
-            "price": 850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-WR840N%20Wireless%20N%20Router",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "MSI Interceptor DS B1 Optical Gaming Mouse",
-            "price": 1250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20Interceptor%20DS%20B1%20Optical%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "RAKK 400 watts Power Supply",
-            "price": 500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20400%20watts%20Power%20Supply",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Intel Stock CPU Air Cooler",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Stock%20CPU%20Air%20Cooler",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ANTIVIRUS",
-            "name": "ESET Mobile Security for Android 1 User 1 Year Subscription Antivirus",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ESET%20Mobile%20Security%20for%20Android%201%20User%201%20Year%20Subscription%20Antivirus",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "RAKK Daguob Illuminated Gaming Headset White",
-            "price": 360.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Daguob%20Illuminated%20Gaming%20Headset%20White",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "RECORDER",
-            "name": "Cp Plus 16ch CPERH1602P1 Hdx Dvr with HDMI",
-            "price": 7400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Cp%20Plus%2016ch%20CPERH1602P1%20Hdx%20Dvr%20with%20HDMI",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-24P-BK%20ATX%2024%20Pin%20300mm%20Black%20Sleeved%20Cable",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "RAKK Daguob Cushion Foam",
-            "price": 40.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Daguob%20Cushion%20Foam",
+            "name": "Deepcool EC300-24P-RD ATX 24 Pin 300mm Red Sleeved Cable",
+            "price": 550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-24P-RD%20ATX%2024%20Pin%20300mm%20Red%20Sleeved%20Cable",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "POWER SUPPLY",
-            "name": "Trigon Power Supply 700w Power Supply",
-            "price": 370.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Trigon%20Power%20Supply%20700w%20Power%20Supply",
+            "category": "ACCESSORIES",
+            "name": "Deepcool EC300-CPU8P-BK CPU 8 Pin 300mm Black Sleeved Cable",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-CPU8P-BK%20CPU%208%20Pin%20300mm%20Black%20Sleeved%20Cable",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "HARD DISK",
-            "name": "Western Digital 2tb Harddisk Drive Blue",
-            "price": 2950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%202tb%20Harddisk%20Drive%20Blue",
+            "category": "ACCESSORIES",
+            "name": "Deepcool EC300-CPU8P-RD CPU 8 Pin 300mm Red Sleeved Cable",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-CPU8P-RD%20CPU%208%20Pin%20300mm%20Red%20Sleeved%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Deepcool EC300-PCI-E-BK PCI-E 6+2 300mm Black Sleeved Cable",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-PCI-E-BK%20PCI-E%206+2%20300mm%20Black%20Sleeved%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Deepcool EC300-PCI-E-RD PCI-E 6+2 300mm Red Sleeved Cable",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-PCI-E-RD%20PCI-E%206+2%20300mm%20Red%20Sleeved%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Deepcool GH-01 A-RGB Graphics Card Holder",
+            "price": 715.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20GH-01%20A-RGB%20Graphics%20Card%20Holder",
             "seller": "Easy PC",
             "note": ""
         },
@@ -562,601 +147,41 @@ var allData = {
         },
         {
             "category": "ACCESSORIES",
-            "name": "Rj-45 8p8cr",
-            "price": 10.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rj-45%208p8cr",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GRAPHIC CARD",
-            "name": "Palit GTX 1050 Ti Storm X 4gb 128bit Ddr5 Gaming Videocard",
-            "price": 6995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Palit%20GTX%201050%20Ti%20Storm%20X%204gb%20128bit%20Ddr5%20Gaming%20Videocard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GRAPHIC CARD",
-            "name": "Palit Gtx 1050 Storm X Videocard 2gb 128bit Ddr5",
-            "price": 8150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Palit%20Gtx%201050%20Storm%20X%20Videocard%202gb%20128bit%20Ddr5",
+            "name": "Dvi I to Vga Adapter",
+            "price": 120.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dvi%20I%20to%20Vga%20Adapter",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "F-05 Wall Mount",
-            "price": 150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=F-05%20Wall%20Mount",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Illuminated V2 BVR Gaming Keyboard",
-            "price": 495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Illuminated%20V2%20BVR%20Gaming%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Illuminated V2 GCB Gaming Keyboard",
-            "price": 495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Illuminated%20V2%20GCB%20Gaming%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Illuminated V2 ROY Gaming Keyboard",
-            "price": 495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Illuminated%20V2%20ROY%20Gaming%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CABLE",
-            "name": "Ad-Link Cat6e 100 Meters Utp Cable Blue",
-            "price": 850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat6e%20100%20Meters%20Utp%20Cable%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Intelligent 700 watts Power Supply",
-            "price": 390.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intelligent%20700%20watts%20Power%20Supply",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR INTEL",
-            "name": "Intel Pentium G4560 Kaby Lake Socket 1151 3.5ghz Processor",
-            "price": 3150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Pentium%20G4560%20Kaby%20Lake%20Socket%201151%203.5ghz%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "Gigabyte H110M-H Socket 1151 Ddr4 Motherboard",
-            "price": 3250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20H110M-H%20Socket%201151%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Blue",
-            "price": 2995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%201tb%202.5%20External%20Hard%20Disk%20Drive%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Western Digital My Passport 2tb 2.5 External Hard Disk Drive Black",
-            "price": 4295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%202tb%202.5%20External%20Hard%20Disk%20Drive%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Western Digital My Passport 4tb 2.5 External Hard Disk Drive Black",
-            "price": 8450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%204tb%202.5%20External%20Hard%20Disk%20Drive%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "UPS & AVR",
-            "name": "iLogic Blazer 720va Ups",
-            "price": 1450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=iLogic%20Blazer%20720va%20Ups",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CABLE",
-            "name": "Ad-Link Cat6e 305 Meters Utp Cable Blue",
-            "price": 2100.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat6e%20305%20Meters%20Utp%20Cable%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "ASUS VP228NE 21.5\" Led Monitor",
-            "price": 5650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ASUS%20VP228NE%2021.5\"%20Led%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Sari RGB Usb Gaming Keyboard",
-            "price": 695.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Sari%20RGB%20Usb%20Gaming%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "BenQ GL2070 19.5 Inches Led Monitor",
-            "price": 3900.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20GL2070%2019.5%20Inches%20Led%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "RAKK Aporo RGB Usb Gaming Mouse",
-            "price": 695.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Aporo%20RGB%20Usb%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "Western Digital Solid State Drive 120gb Green SATA 2.5",
-            "price": 1300.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20Solid%20State%20Drive%20120gb%20Green%20SATA%202.5",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "A4Tech Bloody ZL50 Sniper Laser Gaming Mouse Usb",
-            "price": 1650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20Bloody%20ZL50%20Sniper%20Laser%20Gaming%20Mouse%20Usb",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "Gigabyte H110-D3A Motherboard Socket 1151 Ddr4",
-            "price": 4400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20H110-D3A%20Motherboard%20Socket%201151%20Ddr4",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "Sandisk Plus Solid State Drive 120gb SATA 2.5",
-            "price": 1295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20Plus%20Solid%20State%20Drive%20120gb%20SATA%202.5",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Rakk Hamis XT Ergonomic Keyboard Rest",
-            "price": 395.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Hamis%20XT%20Ergonomic%20Keyboard%20Rest",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "RAKK Ounos X 120mm Eclipse Chassis Fan Red Led",
+            "name": "Epson C13T00V100 Black Ink",
             "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ounos%20X%20120mm%20Eclipse%20Chassis%20Fan%20Red%20Led",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "RAKK Ounos X 120mm Eclipse Chassis Fan Green Led",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ounos%20X%20120mm%20Eclipse%20Chassis%20Fan%20Green%20Led",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20C13T00V100%20Black%20Ink",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Rubber Grommets",
-            "price": 70.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rubber%20Grommets",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Seasonic Prime 750 watts Fully Modular Platinum Power Supply",
-            "price": 8650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20Prime%20750%20watts%20Fully%20Modular%20Platinum%20Power%20Supply",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CABLE",
-            "name": "Ad-Link Cat5 100 Meters Utp Cable Gray",
-            "price": 550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat5%20100%20Meters%20Utp%20Cable%20Gray",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CABLE",
-            "name": "Ad-Link Cat5 305 Meters Utp Cable Gray",
-            "price": 1150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat5%20305%20Meters%20Utp%20Cable%20Gray",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "Rakk Kimat XT.LE RGB Mechanical Gaming Keyboard",
-            "price": 1795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Kimat%20XT.LE%20RGB%20Mechanical%20Gaming%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Kimat XT.2 Blue RGB Mechanical Gaming Keyboard",
-            "price": 2695.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Kimat%20XT.2%20Blue%20RGB%20Mechanical%20Gaming%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR INTEL",
-            "name": "Intel Core i5 8400 Coffee Lake Processor Socket 1151 2.8ghz",
-            "price": 10495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Core%20i5%208400%20Coffee%20Lake%20Processor%20Socket%201151%202.8ghz",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "RAKK Maris X 120mm Chassis Fan RGB",
-            "price": 400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Maris%20X%20120mm%20Chassis%20Fan%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Xtyle Mini 750 watts Power Supply",
-            "price": 370.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Xtyle%20Mini%20750%20watts%20Power%20Supply",
+            "name": "Epson C13T00V200 Cyan Ink",
+            "price": 270.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20C13T00V200%20Cyan%20Ink",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Stainless Steel Wire Keycap Removal Tool",
-            "price": 150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Stainless%20Steel%20Wire%20Keycap%20Removal%20Tool",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "RAKK Alti Illuminated RGY Gaming Mouse",
-            "price": 350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Alti%20Illuminated%20RGY%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "RAKK Alti Illuminated BVR Gaming Mouse",
-            "price": 350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Alti%20Illuminated%20BVR%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "RAKK Karul Illuminated RGB Gaming Headset Bulk",
-            "price": 795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Karul%20Illuminated%20RGB%20Gaming%20Headset%20Bulk",
+            "name": "Epson C13T00V300 Magenta Ink",
+            "price": 270.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20C13T00V300%20Magenta%20Ink",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Outemu 3 Pin Mechanical Keyboard Switch Brown",
-            "price": 25.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Outemu%203%20Pin%20Mechanical%20Keyboard%20Switch%20Brown",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Outemu 3 Pin Mechanical Keyboard Switch Blue",
-            "price": 25.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Outemu%203%20Pin%20Mechanical%20Keyboard%20Switch%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Team Elite Plus 4gb 1x4 2400mhz Ddr4 Memory Black Gold",
-            "price": 1179.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20Plus%204gb%201x4%202400mhz%20Ddr4%20Memory%20Black%20Gold",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Team Elite Plus 4gb 1x4 2400mhz Ddr4 Memory Black Red",
-            "price": 1179.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20Plus%204gb%201x4%202400mhz%20Ddr4%20Memory%20Black%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Team Elite Plus 8gb 1x8 2400mhz Ddr4 Memory Black Red",
-            "price": 1850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20Plus%208gb%201x8%202400mhz%20Ddr4%20Memory%20Black%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Biostar DCBTC2R01BS300 Riser Card",
-            "price": 450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Biostar%20DCBTC2R01BS300%20Riser%20Card",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "RAKK Karul Illuminated Red Gaming Headset Bulk",
-            "price": 550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Karul%20Illuminated%20Red%20Gaming%20Headset%20Bulk",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "RAKK Karul Illuminated Green Gaming Headset Bulk",
-            "price": 550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Karul%20Illuminated%20Green%20Gaming%20Headset%20Bulk",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "RAKK Karul Illuminated Blue Gaming Headset Bulk",
-            "price": 550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Karul%20Illuminated%20Blue%20Gaming%20Headset%20Bulk",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Rakk Karul Cushion Foam",
-            "price": 50.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Karul%20Cushion%20Foam",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "Rakk IMA Macro Gaming Mouse",
-            "price": 1095.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20IMA%20Macro%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "Gigabyte GA-A320M-S2H Am4 Ddr4 Motherboard",
-            "price": 2895.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20GA-A320M-S2H%20Am4%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "Benq GW2470HL 23.8 Inches Led Monitor",
-            "price": 7250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Benq%20GW2470HL%2023.8%20Inches%20Led%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "Benq GW2480 23.8\" IPS Monitor",
-            "price": 6650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Benq%20GW2480%2023.8\"%20IPS%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR AMD",
-            "name": "AMD Ryzen 3 2200g Socket Am4 3.5ghz with Radeon Vega 8 Processor",
-            "price": 4350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%203%202200g%20Socket%20Am4%203.5ghz%20with%20Radeon%20Vega%208%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PRINTER & SCANNER",
-            "name": "Epson L1300 A3 Ink Tank Printer",
-            "price": 18650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20L1300%20A3%20Ink%20Tank%20Printer",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Rakk Hawani Sparepart Tempered Glass Side Panel",
-            "price": 500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Hawani%20Sparepart%20Tempered%20Glass%20Side%20Panel",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Raidmax RX-500XT 500 watts Power Supply",
-            "price": 1395.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Raidmax%20RX-500XT%20500%20watts%20Power%20Supply",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Tp-Link TL-WR940N Wireless N Router",
-            "price": 1095.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-WR940N%20Wireless%20N%20Router",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Silicon Power 8gb 1x8 Memory 2400mhz Ddr4",
-            "price": 4545.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Silicon%20Power%208gb%201x8%20Memory%202400mhz%20Ddr4",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "Gigabyte H310M-DS2 Socket 1151 Ddr4 Motherboard",
-            "price": 3695.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20H310M-DS2%20Socket%201151%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "Rakk Kali Wireless Low Profile Mechanical Keyboard",
-            "price": 2895.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Kali%20Wireless%20Low%20Profile%20Mechanical%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR AMD",
-            "name": "AMD Ryzen 5 2600 Socket Am4 3.4ghz with Wraith Stealth Cooler Processor",
-            "price": 6490.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%205%202600%20Socket%20Am4%203.4ghz%20with%20Wraith%20Stealth%20Cooler%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Deepcool Gammaxx 400 CPU Air Cooler Red",
-            "price": 1075.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Gammaxx%20400%20CPU%20Air%20Cooler%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "Adata SU800 Solid State Drive 256gb SATA 2.5",
-            "price": 2500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Adata%20SU800%20Solid%20State%20Drive%20256gb%20SATA%202.5",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Kingston Data Traveler DT100G3 16gb Usb 3.0 Flashdrive",
-            "price": 200.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20Data%20Traveler%20DT100G3%2016gb%20Usb%203.0%20Flashdrive",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Kingston Data Traveler DT100G3 32gb Usb 3.0 Flashdrive",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20Data%20Traveler%20DT100G3%2032gb%20Usb%203.0%20Flashdrive",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "Asus P502 ROG Gladius II RGB Gaming Mouse",
-            "price": 4295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20P502%20ROG%20Gladius%20II%20RGB%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "Asus ROG Pugio RGB Gaming Mouse",
-            "price": 3195.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Pugio%20RGB%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GAMING SURFACE",
-            "name": "Asus Cerberus Gaming Mousepad",
-            "price": 795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20Cerberus%20Gaming%20Mousepad",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "Kingston HyperX Alloy Elite RGB Blue Switch Mechanical Gaming Keyboard",
-            "price": 8325.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20HyperX%20Alloy%20Elite%20RGB%20Blue%20Switch%20Mechanical%20Gaming%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PRINTER & SCANNER",
-            "name": "Canon Pixma G1010 Refillable Ink Tank Printer",
-            "price": 5175.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20Pixma%20G1010%20Refillable%20Ink%20Tank%20Printer",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PRINTER & SCANNER",
-            "name": "Canon Pixma G2010 Refillable Ink Tank AIO Printer",
-            "price": 7550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20Pixma%20G2010%20Refillable%20Ink%20Tank%20AIO%20Printer",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PRINTER & SCANNER",
-            "name": "Canon Pixma G4010 Refillable Ink Tank Wireless AIO with Fax Printer",
-            "price": 12530.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20Pixma%20G4010%20Refillable%20Ink%20Tank%20Wireless%20AIO%20with%20Fax%20Printer",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PRINTER & SCANNER",
-            "name": "Epson L6160 WiFi Duplex All in One Ink Tank Printer",
-            "price": 13950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20L6160%20WiFi%20Duplex%20All%20in%20One%20Ink%20Tank%20Printer",
+            "name": "Epson C13T00V400 Yellow Ink",
+            "price": 270.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20C13T00V400%20Yellow%20Ink",
             "seller": "Easy PC",
             "note": ""
         },
@@ -1194,233 +219,17 @@ var allData = {
         },
         {
             "category": "ACCESSORIES",
-            "name": "Canon GI 790 Ink Black",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20GI%20790%20Ink%20Black",
+            "name": "F-05 Wall Mount",
+            "price": 150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=F-05%20Wall%20Mount",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Canon GI 790 Ink Cyan",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20GI%20790%20Ink%20Cyan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Canon GI 790 Ink Magenta",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20GI%20790%20Ink%20Magenta",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Canon GI 790 Ink Yellow",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20GI%20790%20Ink%20Yellow",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "Aoc E2470SWH 23.6 Inches Led Monitor",
-            "price": 6900.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Aoc%20E2470SWH%2023.6%20Inches%20Led%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "Odyssey 165-3 Mini Atx PC Case Black",
-            "price": 850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Odyssey%20165-3%20Mini%20Atx%20PC%20Case%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "SpecterPro SP27SZ 27\" IPS Monitor",
-            "price": 7995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=SpecterPro%20SP27SZ%2027\"%20IPS%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GAMING SURFACE",
-            "name": "Rakk Walna 2 RGB Mousepad",
-            "price": 895.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Walna%202%20RGB%20Mousepad",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Western Digital My Passport 4tb 2.5 External Hard Disk Drive Red",
-            "price": 7850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%204tb%202.5%20External%20Hard%20Disk%20Drive%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "SteelSeries Rival 110 RGB Gaming Mouse Black",
-            "price": 1950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=SteelSeries%20Rival%20110%20RGB%20Gaming%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PRINTER & SCANNER",
-            "name": "Epson L1800 A3 Photo Ink Tank Printer",
-            "price": 24795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20L1800%20A3%20Photo%20Ink%20Tank%20Printer",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "Caseless Tray Black",
-            "price": 120.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Caseless%20Tray%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Samsung Evo Plus 32gb MicroSD Card with SD Adapter",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Samsung%20Evo%20Plus%2032gb%20MicroSD%20Card%20with%20SD%20Adapter",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Samsung Evo Plus 64gb MicroSD Card with SD Adapter",
-            "price": 525.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Samsung%20Evo%20Plus%2064gb%20MicroSD%20Card%20with%20SD%20Adapter",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "Deepcool RF120mm Chassis Fan RGB Kit",
-            "price": 1650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20RF120mm%20Chassis%20Fan%20RGB%20Kit",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "TABLE",
-            "name": "Rakk iCafe Modular DIY Table 3x80cm Wood",
-            "price": 7500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20iCafe%20Modular%20DIY%20Table%203x80cm%20Wood",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "HKC M24B6 24\" Borderless Monitor",
-            "price": 5095.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=HKC%20M24B6%2024\"%20Borderless%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Kasda KW-9522 4G/LTE Mobile Wi-Fi Hotspot",
-            "price": 2750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kasda%20KW-9522%204G/LTE%20Mobile%20Wi-Fi%20Hotspot",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "Abko Spider Spectrum 120mm Chassis Fan RGB",
-            "price": 460.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20Spectrum%20120mm%20Chassis%20Fan%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "Abko Spider 120mm Chassis Fan White Led",
-            "price": 350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20120mm%20Chassis%20Fan%20White%20Led",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "Abko Spider 120mm Chassis Fan Blue Led",
-            "price": 350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20120mm%20Chassis%20Fan%20Blue%20Led",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "Neutron 2815 Mini Atx Case Blue",
-            "price": 850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Neutron%202815%20Mini%20Atx%20Case%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "Neutron 2817 Mini Atx PC Case Black Red",
-            "price": 850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Neutron%202817%20Mini%20Atx%20PC%20Case%20Black%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "Memory",
-            "name": "Team Elite Night Hawk 16gb 2x8 3200mhz Ddr4 RGB Memory White",
-            "price": 5650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20Night%20Hawk%2016gb%202x8%203200mhz%20Ddr4%20RGB%20Memory%20White",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "Memory",
-            "name": "Team Elite Night Hawk 16gb 2x8 3200mhz Ddr4 RGB Memory Black",
-            "price": 5650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20Night%20Hawk%2016gb%202x8%203200mhz%20Ddr4%20RGB%20Memory%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Transcend Storejet Slim Portable 1tb 2.5 Usb 3.0 External Hard Drive Blue",
-            "price": 2925.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Transcend%20Storejet%20Slim%20Portable%201tb%202.5%20Usb%203.0%20External%20Hard%20Drive%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Kingmax 4gb 1x4 1600mhz Ddr3 Value Memory",
-            "price": 1895.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingmax%204gb%201x4%201600mhz%20Ddr3%20Value%20Memory",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "Crucial MX300 Solid State Drive 525gb SATA 2.5",
-            "price": 5250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Crucial%20MX300%20Solid%20State%20Drive%20525gb%20SATA%202.5",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "Motherboard",
-            "name": "MSI B350 Pro-Vd Plus Motherboard Socket AM4 Pcie Ddr4",
-            "price": 3795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20B350%20Pro-Vd%20Plus%20Motherboard%20Socket%20AM4%20Pcie%20Ddr4",
+            "name": "Fantech HG10 Foam",
+            "price": 170.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20HG10%20Foam",
             "seller": "Easy PC",
             "note": ""
         },
@@ -1433,106 +242,426 @@ var allData = {
             "note": ""
         },
         {
-            "category": "SOLID STATE DRIVE",
-            "name": "Gigabyte Solid State Drive 120gb SATA 2.5",
-            "price": 1400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20Solid%20State%20Drive%20120gb%20SATA%202.5",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Deepcool Fryzen CPU Air Cooler RGB",
-            "price": 4550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Fryzen%20CPU%20Air%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "NZXT Kraken X42 140mm CPU Liquid Cooler RGB",
-            "price": 6495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Kraken%20X42%20140mm%20CPU%20Liquid%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "Corsair ML120 PRO Premium Magnetic Levitation Chasis Fan Led White",
-            "price": 1265.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20PRO%20Premium%20Magnetic%20Levitation%20Chasis%20Fan%20Led%20White",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "Display",
-            "name": "Asus ROG PG258Q 25\" G Sync Gaming Monitor",
-            "price": 35300.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20PG258Q%2025\"%20G%20Sync%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "Display",
-            "name": "Asus ROG PG27VQ 27\" G Sync Gaming Monitor",
-            "price": 45850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20PG27VQ%2027\"%20G%20Sync%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PRINTER & SCANNER",
-            "name": "Epson EcoTank L3110 AIO Ink Tank Printer",
-            "price": 7495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20EcoTank%20L3110%20AIO%20Ink%20Tank%20Printer",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
             "category": "ACCESSORIES",
-            "name": "Epson C13T00V100 Black Ink",
+            "name": "Jyc Crimping Tool",
             "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20C13T00V100%20Black%20Ink",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Jyc%20Crimping%20Tool",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Epson C13T00V200 Cyan Ink",
-            "price": 270.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20C13T00V200%20Cyan%20Ink",
+            "name": "North Bayou AVA1500-60-1P 32\"-65\" Mobile TV Cart",
+            "price": 4695.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20AVA1500-60-1P%2032\"-65\"%20Mobile%20TV%20Cart",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Epson C13T00V300 Magenta Ink",
-            "price": 270.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20C13T00V300%20Magenta%20Ink",
+            "name": "North Bayou F195A Dual Monitor Desk Mount",
+            "price": 4995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20F195A%20Dual%20Monitor%20Desk%20Mount",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Epson C13T00V400 Yellow Ink",
-            "price": 270.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20C13T00V400%20Yellow%20Ink",
+            "name": "North Bayou FB-17 Sit-Stand Laptop Workstation",
+            "price": 3995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20FB-17%20Sit-Stand%20Laptop%20Workstation",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "CHASSIS FAN",
-            "name": "RAKK Spectra 2 120mm Single Fan",
+            "category": "ACCESSORIES",
+            "name": "North Bayou FC-35 Sit-Stand Desk Station",
+            "price": 4250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20FC-35%20Sit-Stand%20Desk%20Station",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "North Bayou NB-767-L600 TV Wall Bracket",
+            "price": 1450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20NB-767-L600%20TV%20Wall%20Bracket",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "North Bayou NBC1-F Wall Mount",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20NBC1-F%20Wall%20Mount",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "North Bayou NBT560-15 Ceilling Mount",
+            "price": 1350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20NBT560-15%20Ceilling%20Mount",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "North Bayou NBT817-60 Universal Projector",
+            "price": 795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20NBT817-60%20Universal%20Projector",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "North Bayou P4 Cantilever Wall Mount",
+            "price": 695.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20P4%20Cantilever%20Wall%20Mount",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CB-11MLEX Individually Sleeved Cable",
+            "price": 265.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-11MLEX%20Individually%20Sleeved%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CB-11MLEX Individually Sleeved SATA Power Extension Cable",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-11MLEX%20Individually%20Sleeved%20SATA%20Power%20Extension%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CB-11SATA Premium Sleeved 4-Pin molex to 1 SATA Power Extension Cable",
+            "price": 265.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-11SATA%20Premium%20Sleeved%204-Pin%20molex%20to%201%20SATA%20Power%20Extension%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CB-3F600 Individually Sleeved 3-Pin Fan Extension Premium Cable",
+            "price": 255.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-3F600%20Individually%20Sleeved%203-Pin%20Fan%20Extension%20Premium%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CB-6V 6-Pin Video Card Individual Sleeved Extension Cable",
+            "price": 255.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-6V%206-Pin%20Video%20Card%20Individual%20Sleeved%20Extension%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CB-6V-45 6-Pin PCI 8-P6- Video extension cable",
+            "price": 400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-6V-45%206-Pin%20PCI%208-P6-%20Video%20extension%20cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CB-8V Individually Sleeved 6-Pin to 6+2-Pin VGA Extension Cable",
+            "price": 255.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-8V%20Individually%20Sleeved%206-Pin%20to%206+2-Pin%20VGA%20Extension%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CB-8V-45 Individually Sleeved 8-Pin Video Extension Premium",
+            "price": 400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-8V-45%20Individually%20Sleeved%208-Pin%20Video%20Extension%20Premium",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CB-SATA-11D Individually Sleeved SATA DATA Extension Premium Cable",
+            "price": 255.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-SATA-11D%20Individually%20Sleeved%20SATA%20DATA%20Extension%20Premium%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CB-SATA-44P 4x Mixed Length Braided SATA Device Cables",
+            "price": 510.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-SATA-44P%204x%20Mixed%20Length%20Braided%20SATA%20Device%20Cables",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CBW-3F 3-Pin Fan White Sleeved Extension Cable",
+            "price": 160.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-3F%203-Pin%20Fan%20White%20Sleeved%20Extension%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CBW-3F600 Individually Sleeved 3-Pin Fan Extension Premium Cable",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-3F600%20Individually%20Sleeved%203-Pin%20Fan%20Extension%20Premium%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CBW-42SATA 4-Pin Molex to 2 SATA cable",
+            "price": 245.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-42SATA%204-Pin%20Molex%20to%202%20SATA%20cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CBW-43SATA 4-Pin Molex to 3 SATA cable",
+            "price": 290.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-43SATA%204-Pin%20Molex%20to%203%20SATA%20cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CBW-6V-45 6-Pin PCI Express VGA extension cable",
             "price": 450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Spectra%202%20120mm%20Single%20Fan",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-6V-45%206-Pin%20PCI%20Express%20VGA%20extension%20cable",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "ACCESSORIES",
-            "name": "Rakk Switch V2 Red",
-            "price": 350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Switch%20V2%20Red",
+            "name": "NZXT CBW-8V-45 Individually Sleeved 8-Pin Video Extension Premium",
+            "price": 450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-8V-45%20Individually%20Sleeved%208-Pin%20Video%20Extension%20Premium",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CBW-SATA-11D Individually Sleeved SATA DATA Extension Premium Cable",
+            "price": 270.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-SATA-11D%20Individually%20Sleeved%20SATA%20DATA%20Extension%20Premium%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT CBW-SATA-11P Individually Sleeved SATA Power Extension",
+            "price": 195.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-SATA-11P%20Individually%20Sleeved%20SATA%20Power%20Extension",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Grid+ V3 AC-GRDP3-M1 Fan Controller",
+            "price": 2365.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Grid+%20V3%20AC-GRDP3-M1%20Fan%20Controller",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Hue 2 AH-2PCCA-01 Cable Comb",
+            "price": 1410.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20AH-2PCCA-01%20Cable%20Comb",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Hue 2 AH-2SA30-D1 LED Strips",
+            "price": 1210.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20AH-2SA30-D1%20LED%20Strips",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Hue 2 Ambient AC-HUEHU-A1 RGB 21\"-26\" Lightning Kit",
+            "price": 4730.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20Ambient%20AC-HUEHU-A1%20RGB%2021\"-26\"%20Lightning%20Kit",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Hue 2 Ambient AC-HUEHU-B1 RGB 27\"-35\" Lightning Kit",
+            "price": 4810.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20Ambient%20AC-HUEHU-B1%20RGB%2027\"-35\"%20Lightning%20Kit",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Hue 2 Under Glow AH-2UGKD-B1 200mm",
+            "price": 1495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20Under%20Glow%20AH-2UGKD-B1%20200mm",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Hue 2 Under Glow AH-2UGKK-A1 300mm",
+            "price": 1695.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20Under%20Glow%20AH-2UGKK-A1%20300mm",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Puck BA-PCKRT-BL Blue",
+            "price": 825.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Puck%20BA-PCKRT-BL%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Puck BA-PCKRT-PP Purple",
+            "price": 825.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Puck%20BA-PCKRT-PP%20Purple",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Puck BA-PCKRT-RD Red",
+            "price": 825.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Puck%20BA-PCKRT-RD%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Puck BA-PUCKR-W1 White",
+            "price": 825.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Puck%20BA-PUCKR-W1%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Sentry 3 Fan Controller",
+            "price": 1995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Sentry%203%20Fan%20Controller",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Sentry Mesh Fan Controller",
+            "price": 1125.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Sentry%20Mesh%20Fan%20Controller",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "NZXT Sentry Mix 2 Fan Controller",
+            "price": 1430.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Sentry%20Mix%202%20Fan%20Controller",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Oubao Crimping Tool",
+            "price": 150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Oubao%20Crimping%20Tool",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Outemu 3 Pin Mechanical Keyboard Switch Blue",
+            "price": 25.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Outemu%203%20Pin%20Mechanical%20Keyboard%20Switch%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Outemu 3 Pin Mechanical Keyboard Switch Brown",
+            "price": 25.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Outemu%203%20Pin%20Mechanical%20Keyboard%20Switch%20Brown",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Phanteks PH-CB-CMBO-WT 24Pin/8Pin PCIE-E 500mm Extension Cable Kit",
+            "price": 1478.4,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Phanteks%20PH-CB-CMBO-WT%2024Pin/8Pin%20PCIE-E%20500mm%20Extension%20Cable%20Kit",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "PwS03+ External Power Switch and Usb Hub Desktop",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=PwS03+%20External%20Power%20Switch%20and%20Usb%20Hub%20Desktop",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "QT100 10\"- 26\" Wallmount",
+            "price": 150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=QT100%2010\"-%2026\"%20Wallmount",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "RAKK Daguob Cushion Foam",
+            "price": 40.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Daguob%20Cushion%20Foam",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Rakk Hamis XT Ergonomic Keyboard Rest",
+            "price": 395.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Hamis%20XT%20Ergonomic%20Keyboard%20Rest",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Rakk Hawani Sparepart Tempered Glass Side Panel",
+            "price": 500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Hawani%20Sparepart%20Tempered%20Glass%20Side%20Panel",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "RAKK Ilis Removable Magnetic Cover White",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ilis%20Removable%20Magnetic%20Cover%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Rakk Karul Cushion Foam",
+            "price": 50.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Karul%20Cushion%20Foam",
             "seller": "Easy PC",
             "note": ""
         },
@@ -1541,6 +670,14 @@ var allData = {
             "name": "Rakk Switch V2 Black",
             "price": 350.0,
             "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Switch%20V2%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Rakk Switch V2 Red",
+            "price": 350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Switch%20V2%20Red",
             "seller": "Easy PC",
             "note": ""
         },
@@ -1561,34 +698,738 @@ var allData = {
             "note": ""
         },
         {
-            "category": "NETWORK DEVICE",
-            "name": "Tp-Link EAP225 AC1350 Wireless MU-MIMO Gigabit Ceiling Mount Access Point",
-            "price": 4900.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20EAP225%20AC1350%20Wireless%20MU-MIMO%20Gigabit%20Ceiling%20Mount%20Access%20Point",
+            "category": "ACCESSORIES",
+            "name": "Razer Base Station Chroma Headset Stand Black",
+            "price": 3435.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Razer%20Base%20Station%20Chroma%20Headset%20Stand%20Black",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "pc case",
-            "name": "Gamemax H601BR Mini Atx Gaming PC Case Black Red",
-            "price": 1350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gamemax%20H601BR%20Mini%20Atx%20Gaming%20PC%20Case%20Black%20Red",
+            "category": "ACCESSORIES",
+            "name": "Razer Base Station Chroma Quartz Pink Edition Headset Stand",
+            "price": 3435.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Razer%20Base%20Station%20Chroma%20Quartz%20Pink%20Edition%20Headset%20Stand",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "KEYBOARD",
-            "name": "Corsair Strafe MK.2 CS-CH-9104110-NA RGB Cherry MX Red Mechanical Gaming Keyboard",
-            "price": 7420.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20Strafe%20MK.2%20CS-CH-9104110-NA%20RGB%20Cherry%20MX%20Red%20Mechanical%20Gaming%20Keyboard",
+            "category": "ACCESSORIES",
+            "name": "Rj-45 8p8cr",
+            "price": 10.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rj-45%208p8cr",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "MOUSE",
-            "name": "Kingston Hyperx Pulsefire Surge RGB Gaming Mouse",
-            "price": 3995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20Hyperx%20Pulsefire%20Surge%20RGB%20Gaming%20Mouse",
+            "category": "ACCESSORIES",
+            "name": "Rj-45 for Cat6",
+            "price": 8.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rj-45%20for%20Cat6",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Rubber Grommets",
+            "price": 70.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rubber%20Grommets",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ACCESSORIES",
+            "name": "Stainless Steel Wire Keycap Removal Tool",
+            "price": 150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Stainless%20Steel%20Wire%20Keycap%20Removal%20Tool",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ALL IN ONE",
+            "name": "Viewpaker E241EMG 23.6\" All In One Led Gaming Monitor",
+            "price": 9350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Viewpaker%20E241EMG%2023.6\"%20All%20In%20One%20Led%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "ANTIVIRUS",
+            "name": "ESET Mobile Security for Android 1 User 1 Year Subscription Antivirus",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ESET%20Mobile%20Security%20for%20Android%201%20User%201%20Year%20Subscription%20Antivirus",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "BUNDLE",
+            "name": "Corsair CS-CH-9226315-NA 4-in-1 Gaming Bundle",
+            "price": 5712.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20CS-CH-9226315-NA%204-in-1%20Gaming%20Bundle",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "BUNDLE",
+            "name": "Corsair CS-CH-9226415-NA 3-in-1 Gaming Bundle",
+            "price": 4200.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20CS-CH-9226415-NA%203-in-1%20Gaming%20Bundle",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CABLE",
+            "name": "Ad-Link Cat FTP Outdoor 305 Meters Utp Cable",
+            "price": 3400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat%20FTP%20Outdoor%20305%20Meters%20Utp%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CABLE",
+            "name": "Ad-Link Cat5 100 Meters Utp Cable Gray",
+            "price": 550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat5%20100%20Meters%20Utp%20Cable%20Gray",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CABLE",
+            "name": "Ad-Link Cat5 305 Meters Utp Cable Gray",
+            "price": 1150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat5%20305%20Meters%20Utp%20Cable%20Gray",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CABLE",
+            "name": "Ad-Link Cat6 Outdoor 305 Meters Utp Cable",
+            "price": 2350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat6%20Outdoor%20305%20Meters%20Utp%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CABLE",
+            "name": "Ad-Link Cat6 Purecopper 305 Meters Utp Cable",
+            "price": 4650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat6%20Purecopper%20305%20Meters%20Utp%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CABLE",
+            "name": "Ad-Link Cat6e 100 Meters Utp Cable Blue",
+            "price": 850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat6e%20100%20Meters%20Utp%20Cable%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CABLE",
+            "name": "Ad-Link Cat6e 305 Meters Utp Cable Blue",
+            "price": 2100.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat6e%20305%20Meters%20Utp%20Cable%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CABLE",
+            "name": "Ad-Link Hdmi 1.8m Pure Copper Blue Cable",
+            "price": 150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Hdmi%201.8m%20Pure%20Copper%20Blue%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CABLE",
+            "name": "DVI-D 1.5 Meter Cable",
+            "price": 150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=DVI-D%201.5%20Meter%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CABLE",
+            "name": "HDMI 1.5 Meter Cable",
+            "price": 170.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=HDMI%201.5%20Meter%20Cable",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHAIR",
+            "name": "C-NL365 Black Office Chair",
+            "price": 2350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=C-NL365%20Black%20Office%20Chair",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "Abko Spider 120mm Chassis Fan Blue Led",
+            "price": 350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20120mm%20Chassis%20Fan%20Blue%20Led",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "Abko Spider 120mm Chassis Fan White Led",
+            "price": 350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20120mm%20Chassis%20Fan%20White%20Led",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "Abko Spider Spectrum 120mm Chassis Fan RGB",
+            "price": 460.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20Spectrum%20120mm%20Chassis%20Fan%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "Corsair ML120 PRO Premium Magnetic Levitation Chasis Fan Led White",
+            "price": 1265.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20PRO%20Premium%20Magnetic%20Levitation%20Chasis%20Fan%20Led%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "Deepcool CF120mm Chassis Fan RGB",
+            "price": 825.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20CF120mm%20Chassis%20Fan%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "Deepcool MF120s RGB Led Chassis Fan",
+            "price": 3950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20MF120s%20RGB%20Led%20Chassis%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "Deepcool RF120mm Chassis Fan RGB Kit",
+            "price": 1650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20RF120mm%20Chassis%20Fan%20RGB%20Kit",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "Deepcool Wind Blade 80mm Chassis Fan Blue Led",
+            "price": 160.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Wind%20Blade%2080mm%20Chassis%20Fan%20Blue%20Led",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "Deepcool XFAN 80mm L/R Transparent Chassis Fan Red Led",
+            "price": 135.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20XFAN%2080mm%20L/R%20Transparent%20Chassis%20Fan%20Red%20Led",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "Deepcool XFan Transparent 80mm Blue Led Chassis Fan",
+            "price": 140.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20XFan%20Transparent%2080mm%20Blue%20Led%20Chassis%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "RAKK Maris X 120mm Chassis Fan RGB",
+            "price": 400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Maris%20X%20120mm%20Chassis%20Fan%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "RAKK Ounos X 120mm Eclipse Chassis Fan Green Led",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ounos%20X%20120mm%20Eclipse%20Chassis%20Fan%20Green%20Led",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "RAKK Ounos X 120mm Eclipse Chassis Fan Red Led",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ounos%20X%20120mm%20Eclipse%20Chassis%20Fan%20Red%20Led",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CHASSIS FAN",
+            "name": "RAKK Spectra 2 120mm Single Fan",
+            "price": 450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Spectra%202%20120mm%20Single%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "AMD Stock Heatsink Fan",
+            "price": 200.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Stock%20Heatsink%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU Cooling",
+            "name": "BeQuiet Dark Rock Pro 4 120mm CPU Air Cooler",
+            "price": 4500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuiet%20Dark%20Rock%20Pro%204%20120mm%20CPU%20Air%20Cooler",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Coolermaster Hyper 212 CPU Air Cooler Black / Red",
+            "price": 2000.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Coolermaster%20Hyper%20212%20CPU%20Air%20Cooler%20Black%20/%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Coolermaster Hyper 212 CPU Air Cooler Red / Red",
+            "price": 2000.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Coolermaster%20Hyper%20212%20CPU%20Air%20Cooler%20Red%20/%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Coolermaster Master Liquid ML120R CPU Liquid Cooler RGB",
+            "price": 3795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Coolermaster%20Master%20Liquid%20ML120R%20CPU%20Liquid%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Dark Flash Darkvoid CPU Air Cooler RGB",
+            "price": 350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20Darkvoid%20CPU%20Air%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Dark Flash Icy T120 CPU Liquid Cooler RGB",
+            "price": 2325.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20Icy%20T120%20CPU%20Liquid%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Dark Flash Icy T240 CPU Liquid Cooler RGB",
+            "price": 3050.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20Icy%20T240%20CPU%20Liquid%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Dark Flash L6 CPU Air Cooler RGB",
+            "price": 850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20L6%20CPU%20Air%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Dark Flash Talon CPU Air Cooler RGB",
+            "price": 1050.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20Talon%20CPU%20Air%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Deepcool Fryzen CPU Air Cooler RGB",
+            "price": 4550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Fryzen%20CPU%20Air%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Deepcool Gamma Archer CPU Air Cooler",
+            "price": 270.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Gamma%20Archer%20CPU%20Air%20Cooler",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Deepcool Gammaxx 200T CPU Air Cooler",
+            "price": 550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Gammaxx%20200T%20CPU%20Air%20Cooler",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Deepcool Gammaxx 400 CPU Air Cooler Blue",
+            "price": 1150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Gammaxx%20400%20CPU%20Air%20Cooler%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Deepcool Gammaxx 400 CPU Air Cooler Red",
+            "price": 1075.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Gammaxx%20400%20CPU%20Air%20Cooler%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Deepcool Gammaxx GTE V2 Air Cooler",
+            "price": 1277.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Gammaxx%20GTE%20V2%20Air%20Cooler",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Deepcool Ice Edge Mini FS v2.0 CPU Air Cooler",
+            "price": 380.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Ice%20Edge%20Mini%20FS%20v2.0%20CPU%20Air%20Cooler",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Deepcool Z3 Silicon Syringe",
+            "price": 120.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Z3%20Silicon%20Syringe",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Deepcool Z5 Silicon Syringe",
+            "price": 150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Z5%20Silicon%20Syringe",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Deepcool Z9 Silicon Syringe",
+            "price": 280.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Z9%20Silicon%20Syringe",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Fryst Almace CPU Air Cooler RGB",
+            "price": 370.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fryst%20Almace%20CPU%20Air%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Fryst Galatine CPU Air Cooler RGB",
+            "price": 495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fryst%20Galatine%20CPU%20Air%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Fryst Lobera CPU Air Cooler RGB",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fryst%20Lobera%20CPU%20Air%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Intel Stock CPU Air Cooler",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Stock%20CPU%20Air%20Cooler",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Noctua NH-D15 140mm Air Cooler Fan",
+            "price": 4280.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Noctua%20NH-D15%20140mm%20Air%20Cooler%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "NZXT Kraken X42 140mm CPU Liquid Cooler RGB",
+            "price": 6495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Kraken%20X42%20140mm%20CPU%20Liquid%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Silverstone SST-PF120-ARGB Liquid Cooler RGB",
+            "price": 4210.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Silverstone%20SST-PF120-ARGB%20Liquid%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "CPU COOLING",
+            "name": "Silverstone SST-PF360-ARGB Liquid Cooler RGB",
+            "price": 6600.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Silverstone%20SST-PF360-ARGB%20Liquid%20Cooler%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Acer ED323QUR 31.5\" 144hz Curved Gaming Monitor",
+            "price": 25500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Acer%20ED323QUR%2031.5\"%20144hz%20Curved%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Acer Predator XB241H 24\" 144Hz G Sync Gaming Monitor",
+            "price": 24495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Acer%20Predator%20XB241H%2024\"%20144Hz%20G%20Sync%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "AOC 22B1H 21.5 HDMI Led Monitor",
+            "price": 4850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%2022B1H%2021.5%20HDMI%20Led%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "AOC Agon AG271QG 27\" 165Hz 2K IPS G-Sync Gaming Monitor",
+            "price": 36345.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20Agon%20AG271QG%2027\"%20165Hz%202K%20IPS%20G-Sync%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "AOC Agon C27G1 27\" 144Hz Curved Freesync Gaming Monitor",
+            "price": 16190.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20Agon%20C27G1%2027\"%20144Hz%20Curved%20Freesync%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "AOC Agon C32G1 32\" 144Hz Curved Freesync Gaming Monitor",
+            "price": 20770.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20Agon%20C32G1%2032\"%20144Hz%20Curved%20Freesync%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "AOC C24B1H 23.6\" Curved FHD LED Monitor",
+            "price": 7650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20C24B1H%2023.6\"%20Curved%20FHD%20LED%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "AOC C27B1H 27\" Curved FHD LED Monitor",
+            "price": 11850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20C27B1H%2027\"%20Curved%20FHD%20LED%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Aoc E2470SWH 23.6 Inches Led Monitor",
+            "price": 6900.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Aoc%20E2470SWH%2023.6%20Inches%20Led%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "AOC E970SWNL 18.5\" Led Monitor",
+            "price": 2995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20E970SWNL%2018.5\"%20Led%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Aoc G2790PX 27\" 144Hz FreeSync Gaming Monitor",
+            "price": 15995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Aoc%20G2790PX%2027\"%20144Hz%20FreeSync%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "AOC M2060SWD 19.5\" Led Monitor",
+            "price": 4150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20M2060SWD%2019.5\"%20Led%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Display",
+            "name": "Asus ROG PG258Q 25\" G Sync Gaming Monitor",
+            "price": 35300.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20PG258Q%2025\"%20G%20Sync%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Display",
+            "name": "Asus ROG PG27VQ 27\" G Sync Gaming Monitor",
+            "price": 45850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20PG27VQ%2027\"%20G%20Sync%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Asus ROG Strix XG438Q 43\" 120Hz 4K FreeSync Gaming Monitor",
+            "price": 67090.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Strix%20XG438Q%2043\"%20120Hz%204K%20FreeSync%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Asus ROG Swift PG278QE 27\" 165Hz 2K 1ms OC G-Sync Gaming Monitor",
+            "price": 36205.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Swift%20PG278QE%2027\"%20165Hz%202K%201ms%20OC%20G-Sync%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Asus VC239H 23 Inches Led Monitor",
+            "price": 6995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20VC239H%2023%20Inches%20Led%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "ASUS VP228NE 21.5\" Led Monitor",
+            "price": 5650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ASUS%20VP228NE%2021.5\"%20Led%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "BenQ GL2070 19.5 Inches Led Monitor",
+            "price": 3900.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20GL2070%2019.5%20Inches%20Led%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Benq GW2470HL 23.8 Inches Led Monitor",
+            "price": 7250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Benq%20GW2470HL%2023.8%20Inches%20Led%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Benq GW2480 23.8\" IPS Monitor",
+            "price": 6650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Benq%20GW2480%2023.8\"%20IPS%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "BenQ VZ2350HM 23\" IPS Monitor",
+            "price": 6450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20VZ2350HM%2023\"%20IPS%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "HKC M21B6 21\" Borderless Monitor Black",
+            "price": 4750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=HKC%20M21B6%2021\"%20Borderless%20Monitor%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "HKC M24B6 24\" Borderless Monitor",
+            "price": 5095.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=HKC%20M24B6%2024\"%20Borderless%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "HKC M27A6F-HDMI 27\" Led Monitor Black",
+            "price": 8995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=HKC%20M27A6F-HDMI%2027\"%20Led%20Monitor%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Nvision IN24C25 24\" Curved Gaming Monitor White",
+            "price": 4750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Nvision%20IN24C25%2024\"%20Curved%20Gaming%20Monitor%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "Nvision XC24A 24\" 75Hz Curved Gaming Monitor Black",
+            "price": 4220.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Nvision%20XC24A%2024\"%2075Hz%20Curved%20Gaming%20Monitor%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "SpecterPro G27SL 27\" IPS 75Hz Freesync Gaming Monitor",
+            "price": 7318.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=SpecterPro%20G27SL%2027\"%20IPS%2075Hz%20Freesync%20Gaming%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "DISPLAY",
+            "name": "SpecterPro SP27SZ 27\" IPS Monitor",
+            "price": 7995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=SpecterPro%20SP27SZ%2027\"%20IPS%20Monitor",
             "seller": "Easy PC",
             "note": ""
         },
@@ -1609,6 +1450,14 @@ var allData = {
             "note": ""
         },
         {
+            "category": "DISPLAY",
+            "name": "Viewsonic VA2261-2 21.5\" Led Monitor",
+            "price": 4250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Viewsonic%20VA2261-2%2021.5\"%20Led%20Monitor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
             "category": "Display",
             "name": "Viewsonic VA2261H-9 21.5\" Led Monitor",
             "price": 4850.0,
@@ -1617,114 +1466,154 @@ var allData = {
             "note": ""
         },
         {
-            "category": "Motherboard",
-            "name": "MSI B450M Mortar Titanium Socket Am4 Ddr4 Motherboard",
-            "price": 5885.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20B450M%20Mortar%20Titanium%20Socket%20Am4%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Ilis Outemu Blue RGB Mechanical Keyboard",
-            "price": 1995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ilis%20Outemu%20Blue%20RGB%20Mechanical%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Ilis Gateron Yellow RGB Mechanical Keyboard",
-            "price": 1795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ilis%20Gateron%20Yellow%20RGB%20Mechanical%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "RAKK Ilis Removable Magnetic Cover White",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ilis%20Removable%20Magnetic%20Cover%20White",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Coolermaster Master Liquid ML120R CPU Liquid Cooler RGB",
-            "price": 3795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Coolermaster%20Master%20Liquid%20ML120R%20CPU%20Liquid%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "Memory",
-            "name": "Kingston HyperX Predator 8gb 1x8 3200mhz Ddr4 RGB Memory",
-            "price": 2695.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20HyperX%20Predator%208gb%201x8%203200mhz%20Ddr4%20RGB%20Memory",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
             "category": "DISPLAY",
-            "name": "Acer Predator XB241H 24\" 144Hz G Sync Gaming Monitor",
-            "price": 24495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Acer%20Predator%20XB241H%2024\"%20144Hz%20G%20Sync%20Gaming%20Monitor",
+            "name": "ViewSonic VX3276-2K-MHD 32\" Frameless IPS Monitor",
+            "price": 16250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ViewSonic%20VX3276-2K-MHD%2032\"%20Frameless%20IPS%20Monitor",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "KEYBOARD",
-            "name": "Gigabyte Aorus K9 RGB Optical Gaming Keyboard",
-            "price": 7040.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20Aorus%20K9%20RGB%20Optical%20Gaming%20Keyboard",
+            "category": "EARPHONES",
+            "name": "JBL Everest 110GA Wireless In-ear Headphones Gun Metal",
+            "price": 4395.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Everest%20110GA%20Wireless%20In-ear%20Headphones%20Gun%20Metal",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "Memory",
-            "name": "G.Skill Aegis 8gb 1x8 2400mhz Ddr4 Memory",
-            "price": 3750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=G.Skill%20Aegis%208gb%201x8%202400mhz%20Ddr4%20Memory",
+            "category": "EARPHONES",
+            "name": "JBL T110BT Wireless In-ear Headphones",
+            "price": 1750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20T110BT%20Wireless%20In-ear%20Headphones",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "GAMING SURFACE",
-            "name": "Razer Invicta Mercury Mouse Mat",
-            "price": 3950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Razer%20Invicta%20Mercury%20Mouse%20Mat",
+            "category": "EARPHONES",
+            "name": "JBL T450BT Wireless On-ear Headphones Black",
+            "price": 2640.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20T450BT%20Wireless%20On-ear%20Headphones%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EARPHONES",
+            "name": "JBL Tune 120TWS Wireless In-ear Headphones Black",
+            "price": 5280.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Tune%20120TWS%20Wireless%20In-ear%20Headphones%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EARPHONES",
+            "name": "JBL Tune 205BT Earbud Headphones",
+            "price": 1935.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Tune%20205BT%20Earbud%20Headphones",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EARPHONES",
+            "name": "JBL Tune 210 In-ear Headphones",
+            "price": 880.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Tune%20210%20In-ear%20Headphones",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Seagate Fast 250gb Type C Extermal Solid State Drive",
-            "price": 5500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Fast%20250gb%20Type%20C%20Extermal%20Solid%20State%20Drive",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "Asus ROG Delta 7.1 RGB Gaming Headset",
-            "price": 8995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Delta%207.1%20RGB%20Gaming%20Headset",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "PwS03+ External Power Switch and Usb Hub Desktop",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=PwS03+%20External%20Power%20Switch%20and%20Usb%20Hub%20Desktop",
+            "name": "Apacer AH25AB 16gb Usb 3.1 Flashdrive Black Red",
+            "price": 150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Apacer%20AH25AB%2016gb%20Usb%203.1%20Flashdrive%20Black%20Red",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Sandisk Ultra 32gb Usb 3.0 Flashdrive",
+            "name": "Kingston Data Traveler DT100G3 16gb Usb 3.0 Flashdrive",
+            "price": 200.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20Data%20Traveler%20DT100G3%2016gb%20Usb%203.0%20Flashdrive",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Kingston Data Traveler DT100G3 32gb Usb 3.0 Flashdrive",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20Data%20Traveler%20DT100G3%2032gb%20Usb%203.0%20Flashdrive",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Samsung Evo Plus 32gb MicroSD Card with SD Adapter",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Samsung%20Evo%20Plus%2032gb%20MicroSD%20Card%20with%20SD%20Adapter",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Samsung Evo Plus 64gb MicroSD Card with SD Adapter",
+            "price": 525.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Samsung%20Evo%20Plus%2064gb%20MicroSD%20Card%20with%20SD%20Adapter",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Samsung T5 MU-PA250BWW 250GB External SSD USB 3.1",
+            "price": 4215.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Samsung%20T5%20MU-PA250BWW%20250GB%20External%20SSD%20USB%203.1",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Sandisk SDCZ48-032G-U46B Ultra 32gb Flashdrive Blue",
             "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20Ultra%2032gb%20Usb%203.0%20Flashdrive",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ48-032G-U46B%20Ultra%2032gb%20Flashdrive%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Sandisk SDCZ50-016G-B35 Cruzer Blade 16gb Flashdrive",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50-016G-B35%20Cruzer%20Blade%2016gb%20Flashdrive",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Sandisk SDCZ50-032G-B35 Cruzer Blade 32gb Flashdrive",
+            "price": 220.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50-032G-B35%20Cruzer%20Blade%2032gb%20Flashdrive",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Sandisk SDCZ50C-016G-B35GE Cruzer Blade 16gb Flashdrive Green",
+            "price": 180.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50C-016G-B35GE%20Cruzer%20Blade%2016gb%20Flashdrive%20Green",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Sandisk SDCZ50C-016G-B35PE Cruzer Blade 16gb Flashdrive Pink",
+            "price": 185.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50C-016G-B35PE%20Cruzer%20Blade%2016gb%20Flashdrive%20Pink",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Sandisk SDSQUAR-064G-GN6MA Ultra 64gb MicroSD",
+            "price": 750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDSQUAR-064G-GN6MA%20Ultra%2064gb%20MicroSD",
             "seller": "Easy PC",
             "note": ""
         },
@@ -1746,49 +1635,297 @@ var allData = {
         },
         {
             "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Sandisk SDSQUAR-064G-GN6MA Ultra 64gb MicroSD",
-            "price": 750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDSQUAR-064G-GN6MA%20Ultra%2064gb%20MicroSD",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Sandisk SDCZ50-016G-B35 Cruzer Blade 16gb Flashdrive",
+            "name": "Sandisk Ultra 32gb Usb 3.0 Flashdrive",
             "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50-016G-B35%20Cruzer%20Blade%2016gb%20Flashdrive",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20Ultra%2032gb%20Usb%203.0%20Flashdrive",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Sandisk SDCZ50-032G-B35 Cruzer Blade 32gb Flashdrive",
-            "price": 220.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50-032G-B35%20Cruzer%20Blade%2032gb%20Flashdrive",
+            "name": "Seagate Fast 250gb Type C Extermal Solid State Drive",
+            "price": 5500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Fast%20250gb%20Type%20C%20Extermal%20Solid%20State%20Drive",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "Motherboard",
-            "name": "Asus EX-H310M-V3 Socket 1151 Pcie Ddr4 Motherboard",
-            "price": 3395.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20EX-H310M-V3%20Socket%201151%20Pcie%20Ddr4%20Motherboard",
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Team C171 32gb Flashdrive Black",
+            "price": 270.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20C171%2032gb%20Flashdrive%20Black",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "PROCESSOR AMD",
-            "name": "AMD Kaveri A8-7680 Socket Fm2+ 3.5ghz Processor",
-            "price": 1995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Kaveri%20A8-7680%20Socket%20Fm2+%203.5ghz%20Processor",
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Toshiba Canvio Basics 1tb 2.5 External Hard Disk Drive Black",
+            "price": 2495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Toshiba%20Canvio%20Basics%201tb%202.5%20External%20Hard%20Disk%20Drive%20Black",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "KEYBOARD",
-            "name": "Fantech MK885 RGB Optical Switch Gaming Keyboard",
-            "price": 2795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20MK885%20RGB%20Optical%20Switch%20Gaming%20Keyboard",
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Transcend Storejet Slim Portable 1tb 2.5 Usb 3.0 External Hard Drive Blue",
+            "price": 2925.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Transcend%20Storejet%20Slim%20Portable%201tb%202.5%20Usb%203.0%20External%20Hard%20Drive%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Black",
+            "price": 2995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%201tb%202.5%20External%20Hard%20Disk%20Drive%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Blue",
+            "price": 2995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%201tb%202.5%20External%20Hard%20Disk%20Drive%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Red",
+            "price": 2895.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%201tb%202.5%20External%20Hard%20Disk%20Drive%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Western Digital My Passport 2tb 2.5 External Hard Disk Drive Black",
+            "price": 4295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%202tb%202.5%20External%20Hard%20Disk%20Drive%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Western Digital My Passport 4tb 2.5 External Hard Disk Drive Black",
+            "price": 8450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%204tb%202.5%20External%20Hard%20Disk%20Drive%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "EXTERNAL STORAGE DEVICES",
+            "name": "Western Digital My Passport 4tb 2.5 External Hard Disk Drive Red",
+            "price": 7850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%204tb%202.5%20External%20Hard%20Disk%20Drive%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GAMING SURFACE",
+            "name": "Asus Cerberus Gaming Mousepad",
+            "price": 795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20Cerberus%20Gaming%20Mousepad",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GAMING SURFACE",
+            "name": "Asus ROG Balteus RGB Gaming Mousepad",
+            "price": 3995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Balteus%20RGB%20Gaming%20Mousepad",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GAMING SURFACE",
+            "name": "Glorious Model O Minus Gaming Mouse Black",
+            "price": 2777.6,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Glorious%20Model%20O%20Minus%20Gaming%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GAMING SURFACE",
+            "name": "Glorious Stitched Cloth 3XL Mousepad",
+            "price": 2452.8,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Glorious%20Stitched%20Cloth%203XL%20Mousepad",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GAMING SURFACE",
+            "name": "MSI Sistorm Gaming Mousepad",
+            "price": 1430.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20Sistorm%20Gaming%20Mousepad",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GAMING SURFACE",
+            "name": "Rakk Walna 2 RGB Mousepad",
+            "price": 895.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Walna%202%20RGB%20Mousepad",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GAMING SURFACE",
+            "name": "Razer Invicta Mercury Mouse Mat",
+            "price": 3950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Razer%20Invicta%20Mercury%20Mouse%20Mat",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GLASSES",
+            "name": "Bluecalm COL9 Anti-Blue Light Eye Glasses",
+            "price": 499.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Bluecalm%20COL9%20Anti-Blue%20Light%20Eye%20Glasses",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GRAPHIC CARD",
+            "name": "Asrock RX 570 Phantom Gaming 4gb 256bit Ddr5 Gaming Videocard",
+            "price": 5950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asrock%20RX%20570%20Phantom%20Gaming%204gb%20256bit%20Ddr5%20Gaming%20Videocard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GRAPHIC CARD",
+            "name": "Asus ROG Strix Gtx 1060 Gaming Videocard 6gb 192bit GDdr5",
+            "price": 16995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Strix%20Gtx%201060%20Gaming%20Videocard%206gb%20192bit%20GDdr5",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GRAPHIC CARD",
+            "name": "Galax GTX 1050 Ti 1-Click OC 4gb 128bit Ddr5 Gaming Videocard",
+            "price": 5850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Galax%20GTX%201050%20Ti%201-Click%20OC%204gb%20128bit%20Ddr5%20Gaming%20Videocard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GRAPHIC CARD",
+            "name": "Gigabyte RTX 2060 Super Gaming OC 8gb 256bit GDdr6 Gaming Videocard White",
+            "price": 24000.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20RTX%202060%20Super%20Gaming%20OC%208gb%20256bit%20GDdr6%20Gaming%20Videocard%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GRAPHIC CARD",
+            "name": "Palit Gtx 1050 Storm X Videocard 2gb 128bit Ddr5",
+            "price": 8150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Palit%20Gtx%201050%20Storm%20X%20Videocard%202gb%20128bit%20Ddr5",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GRAPHIC CARD",
+            "name": "Palit GTX 1050 Ti Storm X 4gb 128bit Ddr5 Gaming Videocard",
+            "price": 6995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Palit%20GTX%201050%20Ti%20Storm%20X%204gb%20128bit%20Ddr5%20Gaming%20Videocard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GRAPHIC CARD",
+            "name": "Zotac Geforce GTX1060 Mini Videocard ZT-P10610A-10L 3GB GDDR5",
+            "price": 11550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Zotac%20Geforce%20GTX1060%20Mini%20Videocard%20ZT-P10610A-10L%203GB%20GDDR5",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "GRAPHIC CARD",
+            "name": "Zotac RTX2070 AMP Extreme Videocard 8gb 256bit GDdr6",
+            "price": 38500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Zotac%20RTX2070%20AMP%20Extreme%20Videocard%208gb%20256bit%20GDdr6",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HARD DISK",
+            "name": "Seagate 320gb Harddisk Drive",
+            "price": 795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20320gb%20Harddisk%20Drive",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HARD DISK",
+            "name": "Western Digital 1tb Harddisk Drive Black",
+            "price": 4150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%201tb%20Harddisk%20Drive%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HARD DISK",
+            "name": "Western Digital 1tb Harddisk Drive Blue",
+            "price": 2190.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%201tb%20Harddisk%20Drive%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HARD DISK",
+            "name": "Western Digital 2tb Harddisk Drive Blue",
+            "price": 2950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%202tb%20Harddisk%20Drive%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "A4Tech HS-19 ComfortFit Stereo Headset Black",
+            "price": 350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20HS-19%20ComfortFit%20Stereo%20Headset%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "A4Tech HS-26 ComfortFit Stereo Headset Black",
+            "price": 280.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20HS-26%20ComfortFit%20Stereo%20Headset%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "A4Tech HS-7P ComfortFit Stereo Headset Black",
+            "price": 350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20HS-7P%20ComfortFit%20Stereo%20Headset%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "Asus ROG Delta 7.1 RGB Gaming Headset",
+            "price": 8995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Delta%207.1%20RGB%20Gaming%20Headset",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "Asus ROG Delta Core Gaming Headset",
+            "price": 5940.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Delta%20Core%20Gaming%20Headset",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "Corsair Virtuoso RGB Wireless Gaming Headset White",
+            "price": 8450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20Virtuoso%20RGB%20Wireless%20Gaming%20Headset%20White",
             "seller": "Easy PC",
             "note": ""
         },
@@ -1825,1458 +1962,10 @@ var allData = {
             "note": ""
         },
         {
-            "category": "DISPLAY",
-            "name": "HKC M27A6F-HDMI 27\" Led Monitor Black",
-            "price": 8995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=HKC%20M27A6F-HDMI%2027\"%20Led%20Monitor%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Prolink PSE810 8-Port 10/100Mbps Ethernet Switch",
-            "price": 520.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Prolink%20PSE810%208-Port%2010/100Mbps%20Ethernet%20Switch",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Prolink PSE2410M 24-Port 10/100Mbps Ethernet Switch",
-            "price": 2150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Prolink%20PSE2410M%2024-Port%2010/100Mbps%20Ethernet%20Switch",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Prolink PSG2402 24-Port Gigabit Ethernet Switch",
-            "price": 4850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Prolink%20PSG2402%2024-Port%20Gigabit%20Ethernet%20Switch",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR INTEL",
-            "name": "Intel Core i5-9400f Coffee Lake Socket 1151 2.9Ghz 9m Processor",
-            "price": 8100.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Core%20i5-9400f%20Coffee%20Lake%20Socket%201151%202.9Ghz%209m%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GRAPHIC CARD",
-            "name": "Asus ROG Strix Gtx 1060 Gaming Videocard 6gb 192bit GDdr5",
-            "price": 16995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Strix%20Gtx%201060%20Gaming%20Videocard%206gb%20192bit%20GDdr5",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Team C171 32gb Flashdrive Black",
-            "price": 270.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20C171%2032gb%20Flashdrive%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "Motherboard",
-            "name": "Gigabyte B360N Gaming Wifi Motherboard Socket 1151 Pcie Ddr4",
-            "price": 6574.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20B360N%20Gaming%20Wifi%20Motherboard%20Socket%201151%20Pcie%20Ddr4",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD AND MOUSE",
-            "name": "Rapoo X120 Pro Keyboard and Mouse Usb Black",
-            "price": 395.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rapoo%20X120%20Pro%20Keyboard%20and%20Mouse%20Usb%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "OFFICE PRODUCTIVITY",
-            "name": "Microsoft Office 365 FPP QQ2-00807 Personal 1 user",
-            "price": 2750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Microsoft%20Office%20365%20FPP%20QQ2-00807%20Personal%201%20user",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "HKC M21B6 21\" Borderless Monitor Black",
-            "price": 4750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=HKC%20M21B6%2021\"%20Borderless%20Monitor%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "Viewsonic VA2261-2 21.5\" Led Monitor",
-            "price": 4250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Viewsonic%20VA2261-2%2021.5\"%20Led%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Tp-Link TL-MR6400 Wireless N Router 4G LTE 300mbps",
-            "price": 4995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-MR6400%20Wireless%20N%20Router%204G%20LTE%20300mbps",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GAMING SURFACE",
-            "name": "Asus ROG Balteus RGB Gaming Mousepad",
-            "price": 3995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Balteus%20RGB%20Gaming%20Mousepad",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Asus ROG Keycap Kit",
-            "price": 1400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Keycap%20Kit",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "Western Digital M.2 NVME Solid State Drive 250gb Black",
-            "price": 3360.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20M.2%20NVME%20Solid%20State%20Drive%20250gb%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Apacer AH25AB 16gb Usb 3.1 Flashdrive Black Red",
-            "price": 150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Apacer%20AH25AB%2016gb%20Usb%203.1%20Flashdrive%20Black%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "Phanteks Enthoo Evolv X Mid Tower Gaming PC Case Satin Black",
-            "price": 12350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Phanteks%20Enthoo%20Evolv%20X%20Mid%20Tower%20Gaming%20PC%20Case%20Satin%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "Fantech G13 Rhasta II RGB Gaming Mouse Black",
-            "price": 195.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20G13%20Rhasta%20II%20RGB%20Gaming%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "ViewSonic VX3276-2K-MHD 32\" Frameless IPS Monitor",
-            "price": 16250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ViewSonic%20VX3276-2K-MHD%2032\"%20Frameless%20IPS%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "Aoc G2790PX 27\" 144Hz FreeSync Gaming Monitor",
-            "price": 15995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Aoc%20G2790PX%2027\"%20144Hz%20FreeSync%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "Corsair Ironclaw CS-CH-9307011-AP RGB FPS/MOBA Gaming Mouse",
-            "price": 2995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20Ironclaw%20CS-CH-9307011-AP%20RGB%20FPS/MOBA%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CABLE",
-            "name": "Ad-Link Hdmi 1.8m Pure Copper Blue Cable",
-            "price": 150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Hdmi%201.8m%20Pure%20Copper%20Blue%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Adata XPG Spectrix D80 16gb 2x8 3200mhz Ddr4 Liquid Cooling Memory RGB",
-            "price": 10350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Adata%20XPG%20Spectrix%20D80%2016gb%202x8%203200mhz%20Ddr4%20Liquid%20Cooling%20Memory%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR INTEL",
-            "name": "Intel Core i3-9100f Coffee Lake Socket 1151 3.60Ghz 6m Processor",
-            "price": 4395.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Core%20i3-9100f%20Coffee%20Lake%20Socket%201151%203.60Ghz%206m%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Sandisk SDCZ50C-016G-B35GE Cruzer Blade 16gb Flashdrive Green",
-            "price": 180.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50C-016G-B35GE%20Cruzer%20Blade%2016gb%20Flashdrive%20Green",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Sandisk SDCZ50C-016G-B35PE Cruzer Blade 16gb Flashdrive Pink",
-            "price": 185.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50C-016G-B35PE%20Cruzer%20Blade%2016gb%20Flashdrive%20Pink",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Sandisk SDCZ48-032G-U46B Ultra 32gb Flashdrive Blue",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ48-032G-U46B%20Ultra%2032gb%20Flashdrive%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "OFFICE PRODUCTIVITY",
-            "name": "Microsoft Office 365 Home FFP 6GQ-00968 6 users",
-            "price": 3250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Microsoft%20Office%20365%20Home%20FFP%206GQ-00968%206%20users",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GRAPHIC CARD",
-            "name": "Zotac RTX2070 AMP Extreme Videocard 8gb 256bit GDdr6",
-            "price": 38500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Zotac%20RTX2070%20AMP%20Extreme%20Videocard%208gb%20256bit%20GDdr6",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "Acer ED323QUR 31.5\" 144hz Curved Gaming Monitor",
-            "price": 25500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Acer%20ED323QUR%2031.5\"%20144hz%20Curved%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "Rakk Dasig Illuminated Gaming Mouse",
-            "price": 495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Dasig%20Illuminated%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "Rakk Tandus 87 Keys RGB Mechanical Gaming Keyboard",
-            "price": 1395.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Tandus%2087%20Keys%20RGB%20Mechanical%20Gaming%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GRAPHIC CARD",
-            "name": "Zotac Geforce GTX1060 Mini Videocard ZT-P10610A-10L 3GB GDDR5",
-            "price": 11550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Zotac%20Geforce%20GTX1060%20Mini%20Videocard%20ZT-P10610A-10L%203GB%20GDDR5",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Fantech HG10 Foam",
-            "price": 170.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20HG10%20Foam",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "Asus ROG Gladius II Origin PNK Gaming Mouse",
-            "price": 4750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Gladius%20II%20Origin%20PNK%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "Motherboard",
-            "name": "Gigabyte H310M-H 2.0 Socket 1151 Ddr4 Motherboard",
-            "price": 3250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20H310M-H%202.0%20Socket%201151%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR AMD",
-            "name": "AMD Ryzen 3 3200g Socket Am4 3.6ghz with Radeon Vega 8 Processor",
-            "price": 5350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%203%203200g%20Socket%20Am4%203.6ghz%20with%20Radeon%20Vega%208%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR AMD",
-            "name": "AMD Ryzen 5 3600 Socket Am4 4.2ghz with Wraith Stealth Cooler Processor",
-            "price": 10950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%205%203600%20Socket%20Am4%204.2ghz%20with%20Wraith%20Stealth%20Cooler%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR AMD",
-            "name": "AMD Ryzen 5 3600x Socket Am4 4.4ghz with Wraith Spire Cooler Processor",
-            "price": 13500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%205%203600x%20Socket%20Am4%204.4ghz%20with%20Wraith%20Spire%20Cooler%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR AMD",
-            "name": "AMD Ryzen 7 3700x Socket Am4 3.6ghz with Wraith Prism RGB Cooler Processor",
-            "price": 18100.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%207%203700x%20Socket%20Am4%203.6ghz%20with%20Wraith%20Prism%20RGB%20Cooler%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "Gigabyte X570 Gaming X Socket Am4 Ddr4 Motherboard",
-            "price": 9650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20X570%20Gaming%20X%20Socket%20Am4%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Lam-Ang Lite Outemu Blue RGB Mechanical Keyboard",
-            "price": 1995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Lam-Ang%20Lite%20Outemu%20Blue%20RGB%20Mechanical%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Lam-Ang Lite Outemu Red RGB Mechanical Keyboard",
-            "price": 1995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Lam-Ang%20Lite%20Outemu%20Red%20RGB%20Mechanical%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Lam-Ang Pro RGB BareBone",
-            "price": 2195.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Lam-Ang%20Pro%20RGB%20BareBone",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR AMD",
-            "name": "AMD Ryzen 9 3900x Socket Am4 3.8ghz with Wraith Prism RGB Cooler Processor",
-            "price": 27995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%209%203900x%20Socket%20Am4%203.8ghz%20with%20Wraith%20Prism%20RGB%20Cooler%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PRINTER & SCANNER",
-            "name": "Epson L6190 Wi-Fi Duplex All-in-One Ink Tank Printer with ADF",
-            "price": 16995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20L6190%20Wi-Fi%20Duplex%20All-in-One%20Ink%20Tank%20Printer%20with%20ADF",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "Deepcool Matrexx30 Mini ITX Tower Pc Case Black",
-            "price": 1550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Matrexx30%20Mini%20ITX%20Tower%20Pc%20Case%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "Gigabyte GA-A320M-H Socket Am4 Ddr4 Motherboard",
-            "price": 2895.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20GA-A320M-H%20Socket%20Am4%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "Nvision IN24C25 24\" Curved Gaming Monitor White",
-            "price": 4750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Nvision%20IN24C25%2024\"%20Curved%20Gaming%20Monitor%20White",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Team Elite TForce Delta 16gb 2x8 3200mhz Ddr4 RGB Memory Black",
-            "price": 4895.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20TForce%20Delta%2016gb%202x8%203200mhz%20Ddr4%20RGB%20Memory%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD AND MOUSE",
-            "name": "A4Tech Bloody B1500 Blazing Gaming Keyboard and Mouse",
-            "price": 1295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20Bloody%20B1500%20Blazing%20Gaming%20Keyboard%20and%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Dark Flash Darkvoid CPU Air Cooler RGB",
-            "price": 350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20Darkvoid%20CPU%20Air%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Dark Flash L6 CPU Air Cooler RGB",
-            "price": 850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20L6%20CPU%20Air%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Dark Flash Talon CPU Air Cooler RGB",
-            "price": 1050.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20Talon%20CPU%20Air%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Seasonic Prime 850watts Fully Modular Power Supply Gold",
-            "price": 8150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20Prime%20850watts%20Fully%20Modular%20Power%20Supply%20Gold",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GRAPHIC CARD",
-            "name": "Asrock RX 570 Phantom Gaming 4gb 256bit Ddr5 Gaming Videocard",
-            "price": 5950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asrock%20RX%20570%20Phantom%20Gaming%204gb%20256bit%20Ddr5%20Gaming%20Videocard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Team Elite 8gb 1x8 1600mhz Ddr3 Sodimm Memory",
-            "price": 1845.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%208gb%201x8%201600mhz%20Ddr3%20Sodimm%20Memory",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "RAKK Ilis Outemu Red RGB Mechanical Keyboard",
-            "price": 1695.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ilis%20Outemu%20Red%20RGB%20Mechanical%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GLASSES",
-            "name": "Bluecalm COL9 Anti-Blue Light Eye Glasses",
-            "price": 499.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Bluecalm%20COL9%20Anti-Blue%20Light%20Eye%20Glasses",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "QT100 10\"- 26\" Wallmount",
-            "price": 150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=QT100%2010\"-%2026\"%20Wallmount",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Crucial Ballistix Tracer 32gb 2x16 3000mhz Ddr4 RGB Memory",
-            "price": 8950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Crucial%20Ballistix%20Tracer%2032gb%202x16%203000mhz%20Ddr4%20RGB%20Memory",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "Neutron Fit FC5R Mini Atx PC Case Black",
-            "price": 850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Neutron%20Fit%20FC5R%20Mini%20Atx%20PC%20Case%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PRINTER & SCANNER",
-            "name": "Canon Pixma G6070 Refillable Ink Tank Wireless AIO Printer",
-            "price": 16850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20Pixma%20G6070%20Refillable%20Ink%20Tank%20Wireless%20AIO%20Printer",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SPEAKER",
-            "name": "Fantech GS201 Hellscream Speaker Black",
-            "price": 325.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20GS201%20Hellscream%20Speaker%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Kingston HyperX Fury v2 4gb 1x4 2666mhz Ddr4 Memory Black",
-            "price": 1095.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20HyperX%20Fury%20v2%204gb%201x4%202666mhz%20Ddr4%20Memory%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "PNY CS900 120gb Solid State Drive SATA 2.5",
-            "price": 1085.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=PNY%20CS900%20120gb%20Solid%20State%20Drive%20SATA%202.5",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "PNY CS900 240gb Solid State Drive SATA 2.5",
-            "price": 2150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=PNY%20CS900%20240gb%20Solid%20State%20Drive%20SATA%202.5",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU Cooling",
-            "name": "BeQuiet Dark Rock Pro 4 120mm CPU Air Cooler",
-            "price": 4500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuiet%20Dark%20Rock%20Pro%204%20120mm%20CPU%20Air%20Cooler",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Dark Flash Icy T120 CPU Liquid Cooler RGB",
-            "price": 2325.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20Icy%20T120%20CPU%20Liquid%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Dark Flash Icy T240 CPU Liquid Cooler RGB",
-            "price": 3050.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20Icy%20T240%20CPU%20Liquid%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "ASUS EX-B365M-V5 Socket 1151 Ddr4 Motherboard",
-            "price": 3795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ASUS%20EX-B365M-V5%20Socket%201151%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "RAKK Kaptan RGB Gaming Mouse White",
-            "price": 1295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Kaptan%20RGB%20Gaming%20Mouse%20White",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "RAKK Kaptan RGB Gaming Mouse Black",
-            "price": 1195.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Kaptan%20RGB%20Gaming%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "LAPTOP",
-            "name": "Acer Nitro 5 AN515-54-56VR Intel i5-9300H/4GB/GTX 1650/1TB/Win 10 Laptop",
-            "price": 43200.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Acer%20Nitro%205%20AN515-54-56VR%20Intel%20i5-9300H/4GB/GTX%201650/1TB/Win%2010%20Laptop",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "Gigabyte GA-A320M-S2H V2 Socket Am4 Ddr4 Motherboard",
-            "price": 2895.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20GA-A320M-S2H%20V2%20Socket%20Am4%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "AOC C24B1H 23.6\" Curved FHD LED Monitor",
-            "price": 7650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20C24B1H%2023.6\"%20Curved%20FHD%20LED%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "AOC C27B1H 27\" Curved FHD LED Monitor",
-            "price": 11850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20C27B1H%2027\"%20Curved%20FHD%20LED%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "AOC Agon C27G1 27\" 144Hz Curved Freesync Gaming Monitor",
-            "price": 16190.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20Agon%20C27G1%2027\"%20144Hz%20Curved%20Freesync%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "AOC Agon AG271QG 27\" 165Hz 2K IPS G-Sync Gaming Monitor",
-            "price": 36345.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20Agon%20AG271QG%2027\"%20165Hz%202K%20IPS%20G-Sync%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "AOC Agon C32G1 32\" 144Hz Curved Freesync Gaming Monitor",
-            "price": 20770.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%20Agon%20C32G1%2032\"%20144Hz%20Curved%20Freesync%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
             "category": "HEADSET",
-            "name": "Corsair Virtuoso RGB Wireless Gaming Headset White",
-            "price": 8450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20Virtuoso%20RGB%20Wireless%20Gaming%20Headset%20White",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Coolermaster MWE650 V2 650watts Power Supply",
-            "price": 2750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Coolermaster%20MWE650%20V2%20650watts%20Power%20Supply",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "MSI A320M-A Pro Socket Am4 Pcie Ddr4 Motherboard",
-            "price": 2850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20A320M-A%20Pro%20Socket%20Am4%20Pcie%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "Deepcool MF120s RGB Led Chassis Fan",
-            "price": 3950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20MF120s%20RGB%20Led%20Chassis%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Asus ROG Strix 650 watts Fully Modular Gold Power Supply",
-            "price": 6580.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Strix%20650%20watts%20Fully%20Modular%20Gold%20Power%20Supply",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Seasonic S12III 550 watts 80 Plus Bronze Power Supply",
-            "price": 3050.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20S12III%20550%20watts%2080%20Plus%20Bronze%20Power%20Supply",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOTHERBOARD",
-            "name": "MSI B450M Pro-Vdh Max Socket Am4 Ddr4 Motherboard",
-            "price": 4650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20B450M%20Pro-Vdh%20Max%20Socket%20Am4%20Ddr4%20Motherboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PROCESSOR AMD",
-            "name": "AMD Ryzen 5 3500x Socket Am4 3.6ghz with Wraith Spire Cooler Processor",
-            "price": 7995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%205%203500x%20Socket%20Am4%203.6ghz%20with%20Wraith%20Spire%20Cooler%20Processor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MEMORY",
-            "name": "Team Elite TForce Delta 8gb 1x8 2666mhz Ddr4 RGB Memory White",
-            "price": 2200.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20TForce%20Delta%208gb%201x8%202666mhz%20Ddr4%20RGB%20Memory%20White",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "Western Digital Solid State Drive 1Tb Blue M.2 SATA",
-            "price": 7200.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20Solid%20State%20Drive%201Tb%20Blue%20M.2%20SATA",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "SpecterPro G27SL 27\" IPS 75Hz Freesync Gaming Monitor",
-            "price": 7318.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=SpecterPro%20G27SL%2027\"%20IPS%2075Hz%20Freesync%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "AOC 22B1H 21.5 HDMI Led Monitor",
-            "price": 4850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AOC%2022B1H%2021.5%20HDMI%20Led%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Samsung T5 MU-PA250BWW 250GB External SSD USB 3.1",
-            "price": 4215.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Samsung%20T5%20MU-PA250BWW%20250GB%20External%20SSD%20USB%203.1",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Noctua NH-D15 140mm Air Cooler Fan",
-            "price": 4280.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Noctua%20NH-D15%20140mm%20Air%20Cooler%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Silverstone SST-PF120-ARGB Liquid Cooler RGB",
-            "price": 4210.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Silverstone%20SST-PF120-ARGB%20Liquid%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Silverstone SST-PF360-ARGB Liquid Cooler RGB",
-            "price": 6600.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Silverstone%20SST-PF360-ARGB%20Liquid%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "Coolermaster Mastercase SL600M Mid Tower PC Case Black",
-            "price": 9900.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Coolermaster%20Mastercase%20SL600M%20Mid%20Tower%20PC%20Case%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "BeQuite Dark Base Pro 900 TG Full Tower PC Case Black",
-            "price": 14280.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Base%20Pro%20900%20TG%20Full%20Tower%20PC%20Case%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "BeQuite Dark Base Pro 900 TG Full Tower PC Case Silver",
-            "price": 14280.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Base%20Pro%20900%20TG%20Full%20Tower%20PC%20Case%20Silver",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "BeQuite Dark Base Pro 900 TG Full Tower PC Case Orange",
-            "price": 14280.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Base%20Pro%20900%20TG%20Full%20Tower%20PC%20Case%20Orange",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CHASSIS FAN",
-            "name": "Deepcool CF120mm Chassis Fan RGB",
-            "price": 825.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20CF120mm%20Chassis%20Fan%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "BeQuite Dark Power Pro 11 550w 80+ Semi Modular Power Supply Platinum",
-            "price": 8375.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Power%20Pro%2011%20550w%2080+%20Semi%20Modular%20Power%20Supply%20Platinum",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "BeQuite Dark Power Pro 11 650w 80+ Semi Modular Power Supply Platinum",
-            "price": 9265.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Power%20Pro%2011%20650w%2080+%20Semi%20Modular%20Power%20Supply%20Platinum",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "BeQuite Dark Power Pro 11 750w 80+ Semi Modular Power Supply Platinum",
-            "price": 9955.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Power%20Pro%2011%20750w%2080+%20Semi%20Modular%20Power%20Supply%20Platinum",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "BeQuiet Dark Power Pro 11 850 watts Semi Modular 80 Plus Platinum Power Supply",
-            "price": 10640.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuiet%20Dark%20Power%20Pro%2011%20850%20watts%20Semi%20Modular%2080%20Plus%20Platinum%20Power%20Supply",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "BeQuite Dark Power Pro 11 1000w 80+ Semi Modular Power Supply Platinum",
-            "price": 12290.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Power%20Pro%2011%201000w%2080+%20Semi%20Modular%20Power%20Supply%20Platinum",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "BeQuite Dark Power Pro 11 1200w 80+ Semi Modular Power Supply Platinum",
-            "price": 14345.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Power%20Pro%2011%201200w%2080+%20Semi%20Modular%20Power%20Supply%20Platinum",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "BeQuite Straight Power 10 800w 80+ Semi Modular Power Supply Gold",
-            "price": 7205.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Straight%20Power%2010%20800w%2080+%20Semi%20Modular%20Power%20Supply%20Gold",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Seasonic Prime 1000W Fully Modular Power Supply Platinum",
-            "price": 12155.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20Prime%201000W%20Fully%20Modular%20Power%20Supply%20Platinum",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Seasonic Prime 650 watts Fully Modular Gold Power Supply",
-            "price": 6370.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20Prime%20650%20watts%20Fully%20Modular%20Gold%20Power%20Supply",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "Seasonic Prime 1300W Fully Modular Power Supply Gold",
-            "price": 12740.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20Prime%201300W%20Fully%20Modular%20Power%20Supply%20Gold",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "POWER SUPPLY",
-            "name": "FSP Aurum PT 1200w 80+ Power Supply Fully Modular Platinum",
-            "price": 10155.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=FSP%20Aurum%20PT%201200w%2080+%20Power%20Supply%20Fully%20Modular%20Platinum",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "Asus ROG Strix XG438Q 43\" 120Hz 4K FreeSync Gaming Monitor",
-            "price": 67090.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Strix%20XG438Q%2043\"%20120Hz%204K%20FreeSync%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "DISPLAY",
-            "name": "Asus ROG Swift PG278QE 27\" 165Hz 2K 1ms OC G-Sync Gaming Monitor",
-            "price": 36205.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Swift%20PG278QE%2027\"%20165Hz%202K%201ms%20OC%20G-Sync%20Gaming%20Monitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "Asus ROG Delta Core Gaming Headset",
-            "price": 5940.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Delta%20Core%20Gaming%20Headset",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Asus RT-AC67U 600 + 1300Mbps 2 WAN Ai-Mesh Wireless Router",
-            "price": 11550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20RT-AC67U%20600%20+%201300Mbps%202%20WAN%20Ai-Mesh%20Wireless%20Router",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Asus Lyra Trio AC1750 Dual Band Mesh Wi-Fi System Gigabit Router",
-            "price": 15180.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20Lyra%20Trio%20AC1750%20Dual%20Band%20Mesh%20Wi-Fi%20System%20Gigabit%20Router",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Asus Blue Cave AC2600 Dual Band Wireless Router",
-            "price": 8305.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20Blue%20Cave%20AC2600%20Dual%20Band%20Wireless%20Router",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Asus BRT-AC828 Dual-WAN VPN Wireless Router",
-            "price": 15400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20BRT-AC828%20Dual-WAN%20VPN%20Wireless%20Router",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "NETWORK DEVICE",
-            "name": "Asus RT-AX92U Tri-Band Dual Pack Wireless Router",
-            "price": 25960.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20RT-AX92U%20Tri-Band%20Dual%20Pack%20Wireless%20Router",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GAMING SURFACE",
-            "name": "MSI Sistorm Gaming Mousepad",
-            "price": 1430.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20Sistorm%20Gaming%20Mousepad",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "CoolerMaster ATX 24 Pin 90\u00b0 Adapter",
-            "price": 825.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=CoolerMaster%20ATX%2024%20Pin%2090\u00b0%20Adapter",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "CoolerMaster ATX24 Adapter with Capacitor",
-            "price": 1045.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=CoolerMaster%20ATX24%20Adapter%20with%20Capacitor",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "CoolerMaster Sentinel III Gaming Mouse Black",
-            "price": 3190.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=CoolerMaster%20Sentinel%20III%20Gaming%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "BenQ Zowie EC2-B CSGO Gaming Mouse",
-            "price": 4105.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20Zowie%20EC2-B%20CSGO%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "BenQ Zowie ZA11 Gaming Mouse",
-            "price": 3025.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20Zowie%20ZA11%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "BenQ Zowie ZA13 Gaming Mouse",
-            "price": 3025.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20Zowie%20ZA13%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "BenQ Zowie Celeritas II Gaming Keyboard",
-            "price": 7770.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20Zowie%20Celeritas%20II%20Gaming%20Keyboard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SPEAKER",
-            "name": "F&D F5060X 5.1 Multimedia Bluetooth Speaker",
-            "price": 8245.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=F&D%20F5060X%205.1%20Multimedia%20Bluetooth%20Speaker",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "Logitech Astro A10 Gaming Headset Red",
-            "price": 3080.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Logitech%20Astro%20A10%20Gaming%20Headset%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "Logitech G403 RGB Gaming Mouse",
-            "price": 3045.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Logitech%20G403%20RGB%20Gaming%20Mouse",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Razer Base Station Chroma Quartz Pink Edition Headset Stand",
-            "price": 3435.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Razer%20Base%20Station%20Chroma%20Quartz%20Pink%20Edition%20Headset%20Stand",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Razer Base Station Chroma Headset Stand Black",
-            "price": 3435.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Razer%20Base%20Station%20Chroma%20Headset%20Stand%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Deepcool GH-01 A-RGB Graphics Card Holder",
-            "price": 715.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20GH-01%20A-RGB%20Graphics%20Card%20Holder",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Deepcool EC300-24P-RD ATX 24 Pin 300mm Red Sleeved Cable",
-            "price": 550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-24P-RD%20ATX%2024%20Pin%20300mm%20Red%20Sleeved%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Deepcool EC300-24P-BK ATX 24 Pin 300mm Black Sleeved Cable",
-            "price": 550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-24P-BK%20ATX%2024%20Pin%20300mm%20Black%20Sleeved%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Deepcool EC300-CPU8P-RD CPU 8 Pin 300mm Red Sleeved Cable",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-CPU8P-RD%20CPU%208%20Pin%20300mm%20Red%20Sleeved%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Deepcool EC300-CPU8P-BK CPU 8 Pin 300mm Black Sleeved Cable",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-CPU8P-BK%20CPU%208%20Pin%20300mm%20Black%20Sleeved%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Deepcool EC300-PCI-E-RD PCI-E 6+2 300mm Red Sleeved Cable",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-PCI-E-RD%20PCI-E%206+2%20300mm%20Red%20Sleeved%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Deepcool EC300-PCI-E-BK PCI-E 6+2 300mm Black Sleeved Cable",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20EC300-PCI-E-BK%20PCI-E%206+2%20300mm%20Black%20Sleeved%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Hue 2 Under Glow AH-2UGKD-B1 200mm",
-            "price": 1495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20Under%20Glow%20AH-2UGKD-B1%20200mm",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Hue 2 Under Glow AH-2UGKK-A1 300mm",
-            "price": 1695.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20Under%20Glow%20AH-2UGKK-A1%20300mm",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Hue 2 Ambient AC-HUEHU-A1 RGB 21\"-26\" Lightning Kit",
-            "price": 4730.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20Ambient%20AC-HUEHU-A1%20RGB%2021\"-26\"%20Lightning%20Kit",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Hue 2 Ambient AC-HUEHU-B1 RGB 27\"-35\" Lightning Kit",
-            "price": 4810.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20Ambient%20AC-HUEHU-B1%20RGB%2027\"-35\"%20Lightning%20Kit",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Hue 2 AH-2PCCA-01 Cable Comb",
-            "price": 1410.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20AH-2PCCA-01%20Cable%20Comb",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Hue 2 AH-2SA30-D1 LED Strips",
-            "price": 1210.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Hue%202%20AH-2SA30-D1%20LED%20Strips",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Puck BA-PUCKR-W1 White",
-            "price": 825.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Puck%20BA-PUCKR-W1%20White",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Puck BA-PCKRT-BL Blue",
-            "price": 825.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Puck%20BA-PCKRT-BL%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Puck BA-PCKRT-RD Red",
-            "price": 825.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Puck%20BA-PCKRT-RD%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Puck BA-PCKRT-PP Purple",
-            "price": 825.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Puck%20BA-PCKRT-PP%20Purple",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Grid+ V3 AC-GRDP3-M1 Fan Controller",
-            "price": 2365.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Grid+%20V3%20AC-GRDP3-M1%20Fan%20Controller",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Sentry Mesh Fan Controller",
-            "price": 1125.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Sentry%20Mesh%20Fan%20Controller",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Sentry 3 Fan Controller",
-            "price": 1995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Sentry%203%20Fan%20Controller",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT Sentry Mix 2 Fan Controller",
-            "price": 1430.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20Sentry%20Mix%202%20Fan%20Controller",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CB-6V 6-Pin Video Card Individual Sleeved Extension Cable",
-            "price": 255.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-6V%206-Pin%20Video%20Card%20Individual%20Sleeved%20Extension%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CB-8V Individually Sleeved 6-Pin to 6+2-Pin VGA Extension Cable",
-            "price": 255.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-8V%20Individually%20Sleeved%206-Pin%20to%206+2-Pin%20VGA%20Extension%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CB-3F600 Individually Sleeved 3-Pin Fan Extension Premium Cable",
-            "price": 255.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-3F600%20Individually%20Sleeved%203-Pin%20Fan%20Extension%20Premium%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CB-11SATA Premium Sleeved 4-Pin molex to 1 SATA Power Extension Cable",
-            "price": 265.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-11SATA%20Premium%20Sleeved%204-Pin%20molex%20to%201%20SATA%20Power%20Extension%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CB-11MLEX Individually Sleeved Cable",
-            "price": 265.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-11MLEX%20Individually%20Sleeved%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CB-6V-45 6-Pin PCI 8-P6- Video extension cable",
-            "price": 400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-6V-45%206-Pin%20PCI%208-P6-%20Video%20extension%20cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CB-8V-45 Individually Sleeved 8-Pin Video Extension Premium",
-            "price": 400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-8V-45%20Individually%20Sleeved%208-Pin%20Video%20Extension%20Premium",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CB-SATA-44P 4x Mixed Length Braided SATA Device Cables",
-            "price": 510.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-SATA-44P%204x%20Mixed%20Length%20Braided%20SATA%20Device%20Cables",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CB-SATA-11D Individually Sleeved SATA DATA Extension Premium Cable",
-            "price": 255.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-SATA-11D%20Individually%20Sleeved%20SATA%20DATA%20Extension%20Premium%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CBW-42SATA 4-Pin Molex to 2 SATA cable",
-            "price": 245.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-42SATA%204-Pin%20Molex%20to%202%20SATA%20cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CBW-43SATA 4-Pin Molex to 3 SATA cable",
-            "price": 290.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-43SATA%204-Pin%20Molex%20to%203%20SATA%20cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CBW-3F 3-Pin Fan White Sleeved Extension Cable",
-            "price": 160.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-3F%203-Pin%20Fan%20White%20Sleeved%20Extension%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CBW-3F600 Individually Sleeved 3-Pin Fan Extension Premium Cable",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-3F600%20Individually%20Sleeved%203-Pin%20Fan%20Extension%20Premium%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CB-11MLEX Individually Sleeved SATA Power Extension Cable",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CB-11MLEX%20Individually%20Sleeved%20SATA%20Power%20Extension%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CBW-6V-45 6-Pin PCI Express VGA extension cable",
-            "price": 450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-6V-45%206-Pin%20PCI%20Express%20VGA%20extension%20cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CBW-8V-45 Individually Sleeved 8-Pin Video Extension Premium",
-            "price": 450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-8V-45%20Individually%20Sleeved%208-Pin%20Video%20Extension%20Premium",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CBW-SATA-11P Individually Sleeved SATA Power Extension",
-            "price": 195.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-SATA-11P%20Individually%20Sleeved%20SATA%20Power%20Extension",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "NZXT CBW-SATA-11D Individually Sleeved SATA DATA Extension Premium Cable",
-            "price": 270.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=NZXT%20CBW-SATA-11D%20Individually%20Sleeved%20SATA%20DATA%20Extension%20Premium%20Cable",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "MOUSE",
-            "name": "Corsair M65 CS-CH-9309011-AP RGB Elite Tunable Gaming Mouse Black",
-            "price": 2950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20M65%20CS-CH-9309011-AP%20RGB%20Elite%20Tunable%20Gaming%20Mouse%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EARPHONES",
-            "name": "JBL T110BT Wireless In-ear Headphones",
-            "price": 1750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20T110BT%20Wireless%20In-ear%20Headphones",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EARPHONES",
-            "name": "JBL Tune 205BT Earbud Headphones",
-            "price": 1935.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Tune%20205BT%20Earbud%20Headphones",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EARPHONES",
-            "name": "JBL Tune 210 In-ear Headphones",
-            "price": 880.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Tune%20210%20In-ear%20Headphones",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "JBL T450 On-ear Headphones",
-            "price": 1495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20T450%20On-ear%20Headphones",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EARPHONES",
-            "name": "JBL T450BT Wireless On-ear Headphones Black",
-            "price": 2640.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20T450BT%20Wireless%20On-ear%20Headphones%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "HEADSET",
-            "name": "JBL Tune 600BT NC Wireless On-ear Headphones Black",
-            "price": 4840.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Tune%20600BT%20NC%20Wireless%20On-ear%20Headphones%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EARPHONES",
-            "name": "JBL Tune 120TWS Wireless In-ear Headphones Black",
-            "price": 5280.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Tune%20120TWS%20Wireless%20In-ear%20Headphones%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EARPHONES",
-            "name": "JBL Everest 110GA Wireless In-ear Headphones Gun Metal",
-            "price": 4395.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Everest%20110GA%20Wireless%20In-ear%20Headphones%20Gun%20Metal",
+            "name": "HyperX CloudX Stinger Core Gaming Headset",
+            "price": 5795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=HyperX%20CloudX%20Stinger%20Core%20Gaming%20Headset",
             "seller": "Easy PC",
             "note": ""
         },
@@ -3313,26 +2002,98 @@ var allData = {
             "note": ""
         },
         {
-            "category": "SPEAKER",
-            "name": "JBL Soundgrear Wearable Wireless Sound",
-            "price": 9680.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Soundgrear%20Wearable%20Wireless%20Sound",
+            "category": "HEADSET",
+            "name": "JBL T450 On-ear Headphones",
+            "price": 1495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20T450%20On-ear%20Headphones",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "SPEAKER",
-            "name": "JBL Soundgear BTA Wireless Portable Speaker",
-            "price": 13200.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Soundgear%20BTA%20Wireless%20Portable%20Speaker",
+            "category": "HEADSET",
+            "name": "JBL Tune 600BT NC Wireless On-ear Headphones Black",
+            "price": 4840.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Tune%20600BT%20NC%20Wireless%20On-ear%20Headphones%20Black",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "POWER SUPPLY",
-            "name": "Seasonic S12III 650 watts 80 Plus Bronze Power Supply",
-            "price": 3295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20S12III%20650%20watts%2080%20Plus%20Bronze%20Power%20Supply",
+            "category": "HEADSET",
+            "name": "Logitech Astro A10 Gaming Headset Red",
+            "price": 3080.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Logitech%20Astro%20A10%20Gaming%20Headset%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "RAKK Daguob Illuminated Gaming Headset White",
+            "price": 360.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Daguob%20Illuminated%20Gaming%20Headset%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "RAKK Karul Illuminated Blue Gaming Headset Bulk",
+            "price": 550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Karul%20Illuminated%20Blue%20Gaming%20Headset%20Bulk",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "RAKK Karul Illuminated Green Gaming Headset Bulk",
+            "price": 550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Karul%20Illuminated%20Green%20Gaming%20Headset%20Bulk",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "RAKK Karul Illuminated Red Gaming Headset Bulk",
+            "price": 550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Karul%20Illuminated%20Red%20Gaming%20Headset%20Bulk",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "RAKK Karul Illuminated RGB Gaming Headset Bulk",
+            "price": 795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Karul%20Illuminated%20RGB%20Gaming%20Headset%20Bulk",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "HEADSET",
+            "name": "Razer Nari Wireless Gaming Headset",
+            "price": 7570.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Razer%20Nari%20Wireless%20Gaming%20Headset",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "A4Tech Bloody B120 Turbo Illuminated Usb Gaming Keyboard",
+            "price": 1195.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20Bloody%20B120%20Turbo%20Illuminated%20Usb%20Gaming%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "A4Tech KRS-83 Ps2 Keyboard Black",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-83%20Ps2%20Keyboard%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "A4Tech KRS-85 Ps2 Keyboard Black",
+            "price": 305.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-85%20Ps2%20Keyboard%20Black",
             "seller": "Easy PC",
             "note": ""
         },
@@ -3345,58 +2106,242 @@ var allData = {
             "note": ""
         },
         {
-            "category": "MEMORY",
-            "name": "Adata 4gb 1x4 2666mhz Ddr4 Value Memory",
-            "price": 795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Adata%204gb%201x4%202666mhz%20Ddr4%20Value%20Memory",
+            "category": "KEYBOARD",
+            "name": "BenQ Zowie Celeritas II Gaming Keyboard",
+            "price": 7770.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20Zowie%20Celeritas%20II%20Gaming%20Keyboard",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "MEMORY",
-            "name": "Ramsta 4gb 1x4 2666mhz Ddr4 Memory",
-            "price": 850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ramsta%204gb%201x4%202666mhz%20Ddr4%20Memory",
+            "category": "KEYBOARD",
+            "name": "Corsair K95 CS-CH-9127014-NA RGB Platinum Mechanical Gaming Keyboard Cherry MX Speed",
+            "price": 9800.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20K95%20CS-CH-9127014-NA%20RGB%20Platinum%20Mechanical%20Gaming%20Keyboard%20Cherry%20MX%20Speed",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "DISPLAY",
-            "name": "Nvision XC24A 24\" 75Hz Curved Gaming Monitor Black",
-            "price": 4220.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Nvision%20XC24A%2024\"%2075Hz%20Curved%20Gaming%20Monitor%20Black",
+            "category": "KEYBOARD",
+            "name": "Corsair Strafe MK.2 CS-CH-9104110-NA RGB Cherry MX Red Mechanical Gaming Keyboard",
+            "price": 7420.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20Strafe%20MK.2%20CS-CH-9104110-NA%20RGB%20Cherry%20MX%20Red%20Mechanical%20Gaming%20Keyboard",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "MEMORY",
-            "name": "Avexir Core 16gb 2x8 3200mhz Ddr4 2c2a RGB Memory Titanium",
-            "price": 4400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Avexir%20Core%2016gb%202x8%203200mhz%20Ddr4%202c2a%20RGB%20Memory%20Titanium",
+            "category": "KEYBOARD",
+            "name": "Digi-one KB-8150 PS2 Keyboard",
+            "price": 180.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Digi-one%20KB-8150%20PS2%20Keyboard",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "MEMORY",
-            "name": "Avexir Core 8gb 1x8 2666mhz Ddr4 RGB Memory",
-            "price": 2050.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Avexir%20Core%208gb%201x8%202666mhz%20Ddr4%20RGB%20Memory",
+            "category": "KEYBOARD",
+            "name": "Fantech MK885 RGB Optical Switch Gaming Keyboard",
+            "price": 2795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20MK885%20RGB%20Optical%20Switch%20Gaming%20Keyboard",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "SPEAKER",
-            "name": "JBL Xtreme 2 Portable Bluetooth Speaker Black",
-            "price": 15995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Xtreme%202%20Portable%20Bluetooth%20Speaker%20Black",
+            "category": "KEYBOARD",
+            "name": "Gigabyte Aorus K9 RGB Optical Gaming Keyboard",
+            "price": 7040.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20Aorus%20K9%20RGB%20Optical%20Gaming%20Keyboard",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "SPEAKER",
-            "name": "JBL Boombox Portable Bluetooth Speaker Black",
-            "price": 22995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Boombox%20Portable%20Bluetooth%20Speaker%20Black",
+            "category": "KEYBOARD",
+            "name": "Kingston HyperX Alloy Elite RGB Blue Switch Mechanical Gaming Keyboard",
+            "price": 8325.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20HyperX%20Alloy%20Elite%20RGB%20Blue%20Switch%20Mechanical%20Gaming%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Ilis Gateron Yellow RGB Mechanical Keyboard",
+            "price": 1795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ilis%20Gateron%20Yellow%20RGB%20Mechanical%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Ilis Outemu Blue RGB Mechanical Keyboard",
+            "price": 1995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ilis%20Outemu%20Blue%20RGB%20Mechanical%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Ilis Outemu Red RGB Mechanical Keyboard",
+            "price": 1695.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Ilis%20Outemu%20Red%20RGB%20Mechanical%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Illuminated V2 BVR Gaming Keyboard",
+            "price": 495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Illuminated%20V2%20BVR%20Gaming%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Illuminated V2 GCB Gaming Keyboard",
+            "price": 495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Illuminated%20V2%20GCB%20Gaming%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Illuminated V2 ROY Gaming Keyboard",
+            "price": 495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Illuminated%20V2%20ROY%20Gaming%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "Rakk Kali Wireless Low Profile Mechanical Keyboard",
+            "price": 2895.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Kali%20Wireless%20Low%20Profile%20Mechanical%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Kimat XT.2 Blue RGB Mechanical Gaming Keyboard",
+            "price": 2695.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Kimat%20XT.2%20Blue%20RGB%20Mechanical%20Gaming%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "Rakk Kimat XT.LE RGB Mechanical Gaming Keyboard",
+            "price": 1795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Kimat%20XT.LE%20RGB%20Mechanical%20Gaming%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Lam-Ang Lite Outemu Blue RGB Mechanical Keyboard",
+            "price": 1995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Lam-Ang%20Lite%20Outemu%20Blue%20RGB%20Mechanical%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Lam-Ang Lite Outemu Red RGB Mechanical Keyboard",
+            "price": 1995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Lam-Ang%20Lite%20Outemu%20Red%20RGB%20Mechanical%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Lam-Ang Pro RGB BareBone",
+            "price": 2195.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Lam-Ang%20Pro%20RGB%20BareBone",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "RAKK Sari RGB Usb Gaming Keyboard",
+            "price": 695.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Sari%20RGB%20Usb%20Gaming%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD",
+            "name": "Rakk Tandus 87 Keys RGB Mechanical Gaming Keyboard",
+            "price": 1395.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Tandus%2087%20Keys%20RGB%20Mechanical%20Gaming%20Keyboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD AND MOUSE",
+            "name": "A4Tech Bloody B1500 Blazing Gaming Keyboard and Mouse",
+            "price": 1295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20Bloody%20B1500%20Blazing%20Gaming%20Keyboard%20and%20Mouse",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD AND MOUSE",
+            "name": "A4Tech KRS-8372 Ps2 Keyboard and Mouse Black",
+            "price": 425.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-8372%20Ps2%20Keyboard%20and%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD AND MOUSE",
+            "name": "A4Tech KRS-8372 Usb Keyboard and Mouse Black",
+            "price": 445.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-8372%20Usb%20Keyboard%20and%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD AND MOUSE",
+            "name": "A4Tech KRS-8572 Ps2 Keyboard and Mouse Black",
+            "price": 415.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-8572%20Ps2%20Keyboard%20and%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD AND MOUSE",
+            "name": "A4Tech KRS-8572 Usb Keyboard and Mouse Black",
+            "price": 435.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20KRS-8572%20Usb%20Keyboard%20and%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "KEYBOARD AND MOUSE",
+            "name": "Rapoo X120 Pro Keyboard and Mouse Usb Black",
+            "price": 395.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rapoo%20X120%20Pro%20Keyboard%20and%20Mouse%20Usb%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "LAPTOP",
+            "name": "Acer Aspire A315-42G-R1FE AMD Ryzen 3 3200U/Radeon 540X/4GB/1TB/Win 10",
+            "price": 23500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Acer%20Aspire%20A315-42G-R1FE%20AMD%20Ryzen%203%203200U/Radeon%20540X/4GB/1TB/Win%2010",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "LAPTOP",
+            "name": "Acer Aspire A514-52G-32K1 Intel i3-10110U/4GB/MX250/1TB+128GB NVMe SSD/Win 10 Laptop Black",
+            "price": 29500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Acer%20Aspire%20A514-52G-32K1%20Intel%20i3-10110U/4GB/MX250/1TB+128GB%20NVMe%20SSD/Win%2010%20Laptop%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "LAPTOP",
+            "name": "Acer Nitro 5 AN515-54-56VR Intel i5-9300H/4GB/GTX 1650/1TB/Win 10 Laptop",
+            "price": 43200.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Acer%20Nitro%205%20AN515-54-56VR%20Intel%20i5-9300H/4GB/GTX%201650/1TB/Win%2010%20Laptop",
             "seller": "Easy PC",
             "note": ""
         },
@@ -3417,6 +2362,430 @@ var allData = {
             "note": ""
         },
         {
+            "category": "MEMORY",
+            "name": "Adata 4gb 1x4 2666mhz Ddr4 Value Memory",
+            "price": 795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Adata%204gb%201x4%202666mhz%20Ddr4%20Value%20Memory",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Adata XPG Spectrix D80 16gb 2x8 3200mhz Ddr4 Liquid Cooling Memory RGB",
+            "price": 10350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Adata%20XPG%20Spectrix%20D80%2016gb%202x8%203200mhz%20Ddr4%20Liquid%20Cooling%20Memory%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Avexir Core 16gb 2x8 3200mhz Ddr4 2c2a RGB Memory Titanium",
+            "price": 4400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Avexir%20Core%2016gb%202x8%203200mhz%20Ddr4%202c2a%20RGB%20Memory%20Titanium",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Avexir Core 8gb 1x8 2666mhz Ddr4 RGB Memory",
+            "price": 2050.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Avexir%20Core%208gb%201x8%202666mhz%20Ddr4%20RGB%20Memory",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Crucial Ballistix Tracer 32gb 2x16 3000mhz Ddr4 RGB Memory",
+            "price": 8950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Crucial%20Ballistix%20Tracer%2032gb%202x16%203000mhz%20Ddr4%20RGB%20Memory",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Memory",
+            "name": "G.Skill Aegis 8gb 1x8 2400mhz Ddr4 Memory",
+            "price": 3750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=G.Skill%20Aegis%208gb%201x8%202400mhz%20Ddr4%20Memory",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Kingmax 4gb 1x4 1600mhz Ddr3 Value Memory",
+            "price": 1895.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingmax%204gb%201x4%201600mhz%20Ddr3%20Value%20Memory",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Kingston HyperX Fury v2 4gb 1x4 2666mhz Ddr4 Memory Black",
+            "price": 1095.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20HyperX%20Fury%20v2%204gb%201x4%202666mhz%20Ddr4%20Memory%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Memory",
+            "name": "Kingston HyperX Predator 8gb 1x8 3200mhz Ddr4 RGB Memory",
+            "price": 2695.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20HyperX%20Predator%208gb%201x8%203200mhz%20Ddr4%20RGB%20Memory",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "PNY XLR8 Gaming 1x8 3200mhz Ddr4 Memory Black",
+            "price": 2150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=PNY%20XLR8%20Gaming%201x8%203200mhz%20Ddr4%20Memory%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Ramsta 4gb 1x4 2666mhz Ddr4 Memory",
+            "price": 850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ramsta%204gb%201x4%202666mhz%20Ddr4%20Memory",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Silicon Power 8gb 1x8 Memory 2400mhz Ddr4",
+            "price": 4545.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Silicon%20Power%208gb%201x8%20Memory%202400mhz%20Ddr4",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Team Elite 4gb 1x4 1600mhz Ddr3 with Heatspreader Memory",
+            "price": 975.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%204gb%201x4%201600mhz%20Ddr3%20with%20Heatspreader%20Memory",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Team Elite 8gb 1x8 1600mhz Ddr3 Sodimm Memory",
+            "price": 1845.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%208gb%201x8%201600mhz%20Ddr3%20Sodimm%20Memory",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Team Elite 8gb 1x8 1600mhz Ddr3 with Heatspreader Memory",
+            "price": 1825.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%208gb%201x8%201600mhz%20Ddr3%20with%20Heatspreader%20Memory",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Memory",
+            "name": "Team Elite Night Hawk 16gb 2x8 3200mhz Ddr4 RGB Memory Black",
+            "price": 5650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20Night%20Hawk%2016gb%202x8%203200mhz%20Ddr4%20RGB%20Memory%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Memory",
+            "name": "Team Elite Night Hawk 16gb 2x8 3200mhz Ddr4 RGB Memory White",
+            "price": 5650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20Night%20Hawk%2016gb%202x8%203200mhz%20Ddr4%20RGB%20Memory%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Team Elite Plus 4gb 1x4 2400mhz Ddr4 Memory Black Gold",
+            "price": 1179.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20Plus%204gb%201x4%202400mhz%20Ddr4%20Memory%20Black%20Gold",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Team Elite Plus 4gb 1x4 2400mhz Ddr4 Memory Black Red",
+            "price": 1179.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20Plus%204gb%201x4%202400mhz%20Ddr4%20Memory%20Black%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Team Elite Plus 8gb 1x8 2400mhz Ddr4 Memory Black Red",
+            "price": 1850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20Plus%208gb%201x8%202400mhz%20Ddr4%20Memory%20Black%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Team Elite TForce Delta 16gb 2x8 3200mhz Ddr4 RGB Memory Black",
+            "price": 4895.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20TForce%20Delta%2016gb%202x8%203200mhz%20Ddr4%20RGB%20Memory%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MEMORY",
+            "name": "Team Elite TForce Delta 8gb 1x8 2666mhz Ddr4 RGB Memory White",
+            "price": 2200.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20Elite%20TForce%20Delta%208gb%201x8%202666mhz%20Ddr4%20RGB%20Memory%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "ASUS EX-B365M-V5 Socket 1151 Ddr4 Motherboard",
+            "price": 3795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ASUS%20EX-B365M-V5%20Socket%201151%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "Asus EX-H310M-V3 Socket 1151 Pcie Ddr4 Motherboard",
+            "price": 3395.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20EX-H310M-V3%20Socket%201151%20Pcie%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "ECS A320M-M3D v1.0A Socket Am4 DDr4 Motherboard",
+            "price": 2450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ECS%20A320M-M3D%20v1.0A%20Socket%20Am4%20DDr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "Gigabyte B360N Gaming Wifi Motherboard Socket 1151 Pcie Ddr4",
+            "price": 6574.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20B360N%20Gaming%20Wifi%20Motherboard%20Socket%201151%20Pcie%20Ddr4",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "Gigabyte GA-A320M-H Socket Am4 Ddr4 Motherboard",
+            "price": 2895.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20GA-A320M-H%20Socket%20Am4%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "Gigabyte GA-A320M-S2H Am4 Ddr4 Motherboard",
+            "price": 2895.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20GA-A320M-S2H%20Am4%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "Gigabyte GA-A320M-S2H V2 Socket Am4 Ddr4 Motherboard",
+            "price": 2895.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20GA-A320M-S2H%20V2%20Socket%20Am4%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "Gigabyte GA-F2A68HM-S1 Socket Fm2 Ddr3 Motherboard",
+            "price": 2400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20GA-F2A68HM-S1%20Socket%20Fm2%20Ddr3%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "Gigabyte H110-D3A Motherboard Socket 1151 Ddr4",
+            "price": 4400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20H110-D3A%20Motherboard%20Socket%201151%20Ddr4",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "Gigabyte H110M-H Socket 1151 Ddr4 Motherboard",
+            "price": 3250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20H110M-H%20Socket%201151%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "Gigabyte H310M-DS2 Socket 1151 Ddr4 Motherboard",
+            "price": 3695.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20H310M-DS2%20Socket%201151%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "Gigabyte H310M-H 2.0 Socket 1151 Ddr4 Motherboard",
+            "price": 3250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20H310M-H%202.0%20Socket%201151%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "Gigabyte X570 Gaming X Socket Am4 Ddr4 Motherboard",
+            "price": 9650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20X570%20Gaming%20X%20Socket%20Am4%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "MSI A320M-A Pro Socket Am4 Pcie Ddr4 Motherboard",
+            "price": 2850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20A320M-A%20Pro%20Socket%20Am4%20Pcie%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "MSI A68HM-E33 v2 Socket Fm2 Ddr3 Motherboard",
+            "price": 2380.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20A68HM-E33%20v2%20Socket%20Fm2%20Ddr3%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "MSI B350 Pro-Vd Plus Motherboard Socket AM4 Pcie Ddr4",
+            "price": 3795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20B350%20Pro-Vd%20Plus%20Motherboard%20Socket%20AM4%20Pcie%20Ddr4",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "MSI B450M Mortar Titanium Socket Am4 Ddr4 Motherboard",
+            "price": 5885.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20B450M%20Mortar%20Titanium%20Socket%20Am4%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "MSI B450M Pro-Vdh Max Socket Am4 Ddr4 Motherboard",
+            "price": 4650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20B450M%20Pro-Vdh%20Max%20Socket%20Am4%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOTHERBOARD",
+            "name": "MSI H310M Pro-VD Plus Socket 1151 Pcie Ddr4 Motherboard",
+            "price": 3180.8,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20H310M%20Pro-VD%20Plus%20Socket%201151%20Pcie%20Ddr4%20Motherboard",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "A4Tech Bloody ZL50 Sniper Laser Gaming Mouse Usb",
+            "price": 1650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20Bloody%20ZL50%20Sniper%20Laser%20Gaming%20Mouse%20Usb",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "A4Tech G3-280N Wireless Optical Mouse Gray",
+            "price": 265.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20G3-280N%20Wireless%20Optical%20Mouse%20Gray",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "A4Tech OP-620D 2x Click Usb Mouse Black",
+            "price": 180.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20OP-620D%202x%20Click%20Usb%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "A4Tech OP-720 Ps2 Mouse Black",
+            "price": 130.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20OP-720%20Ps2%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "A4Tech OP-720 Usb Mouse Black",
+            "price": 160.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20OP-720%20Usb%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "Asus P502 ROG Gladius II RGB Gaming Mouse",
+            "price": 4295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20P502%20ROG%20Gladius%20II%20RGB%20Gaming%20Mouse",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "Asus ROG Gladius II Origin PNK Gaming Mouse",
+            "price": 4750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Gladius%20II%20Origin%20PNK%20Gaming%20Mouse",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "Asus ROG Pugio RGB Gaming Mouse",
+            "price": 3195.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Pugio%20RGB%20Gaming%20Mouse",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "BenQ Zowie EC2-B CSGO Gaming Mouse",
+            "price": 4105.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20Zowie%20EC2-B%20CSGO%20Gaming%20Mouse",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "BenQ Zowie ZA11 Gaming Mouse",
+            "price": 3025.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20Zowie%20ZA11%20Gaming%20Mouse",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "BenQ Zowie ZA13 Gaming Mouse",
+            "price": 3025.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BenQ%20Zowie%20ZA13%20Gaming%20Mouse",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "CoolerMaster Sentinel III Gaming Mouse Black",
+            "price": 3190.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=CoolerMaster%20Sentinel%20III%20Gaming%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
             "category": "MOUSE",
             "name": "Corsair Glaive Pro CS-CH-9302211-AP RGB Gaming Mouse",
             "price": 3350.0,
@@ -3425,154 +2794,34 @@ var allData = {
             "note": ""
         },
         {
-            "category": "HEADSET",
-            "name": "HyperX CloudX Stinger Core Gaming Headset",
-            "price": 5795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=HyperX%20CloudX%20Stinger%20Core%20Gaming%20Headset",
+            "category": "MOUSE",
+            "name": "Corsair Ironclaw CS-CH-9307011-AP RGB FPS/MOBA Gaming Mouse",
+            "price": 2995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20Ironclaw%20CS-CH-9307011-AP%20RGB%20FPS/MOBA%20Gaming%20Mouse",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "CHAIR",
-            "name": "C-NL365 Black Office Chair",
-            "price": 2350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=C-NL365%20Black%20Office%20Chair",
+            "category": "MOUSE",
+            "name": "Corsair M65 CS-CH-9309011-AP RGB Elite Tunable Gaming Mouse Black",
+            "price": 2950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20M65%20CS-CH-9309011-AP%20RGB%20Elite%20Tunable%20Gaming%20Mouse%20Black",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "HEADSET",
-            "name": "Razer Nari Wireless Gaming Headset",
-            "price": 7570.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Razer%20Nari%20Wireless%20Gaming%20Headset",
+            "category": "MOUSE",
+            "name": "Fantech G13 Rhasta II RGB Gaming Mouse Black",
+            "price": 195.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20G13%20Rhasta%20II%20RGB%20Gaming%20Mouse%20Black",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "SOLID STATE DRIVE",
-            "name": "Klevv Cras C700 M.2 NVME Solid State Drive 240GB RGB",
-            "price": 3250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Klevv%20Cras%20C700%20M.2%20NVME%20Solid%20State%20Drive%20240GB%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Fryst Galatine CPU Air Cooler RGB",
-            "price": 495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fryst%20Galatine%20CPU%20Air%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Fryst Lobera CPU Air Cooler RGB",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fryst%20Lobera%20CPU%20Air%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Fryst Almace CPU Air Cooler RGB",
-            "price": 370.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fryst%20Almace%20CPU%20Air%20Cooler%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GRAPHIC CARD",
-            "name": "Galax GTX 1050 Ti 1-Click OC 4gb 128bit Ddr5 Gaming Videocard",
-            "price": 5850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Galax%20GTX%201050%20Ti%201-Click%20OC%204gb%20128bit%20Ddr5%20Gaming%20Videocard",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "Western Digital SN750 M.2 NVME Solid State Drive 500GB Black with heatsink",
-            "price": 6500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20SN750%20M.2%20NVME%20Solid%20State%20Drive%20500GB%20Black%20with%20heatsink",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "Adata SX 6000 Pro M.2 NVME Solid State Drive 512Gb",
-            "price": 4500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Adata%20SX%206000%20Pro%20M.2%20NVME%20Solid%20State%20Drive%20512Gb",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "GRAPHIC CARD",
-            "name": "Gigabyte RTX 2060 Super Gaming OC 8gb 256bit GDdr6 Gaming Videocard White",
-            "price": 24000.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20RTX%202060%20Super%20Gaming%20OC%208gb%20256bit%20GDdr6%20Gaming%20Videocard%20White",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "KEYBOARD",
-            "name": "Corsair K95 CS-CH-9127014-NA RGB Platinum Mechanical Gaming Keyboard Cherry MX Speed",
-            "price": 9800.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20K95%20CS-CH-9127014-NA%20RGB%20Platinum%20Mechanical%20Gaming%20Keyboard%20Cherry%20MX%20Speed",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "BUNDLE",
-            "name": "Corsair CS-CH-9226415-NA 3-in-1 Gaming Bundle",
-            "price": 4200.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20CS-CH-9226415-NA%203-in-1%20Gaming%20Bundle",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "BUNDLE",
-            "name": "Corsair CS-CH-9226315-NA 4-in-1 Gaming Bundle",
-            "price": 5712.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20CS-CH-9226315-NA%204-in-1%20Gaming%20Bundle",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "Rakk Sinaya Mid Tower Gaming PC Case Black",
-            "price": 2195.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Sinaya%20Mid%20Tower%20Gaming%20PC%20Case%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "ABS Double Shot Regular Keycaps White OEM",
-            "price": 330.4,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ABS%20Double%20Shot%20Regular%20Keycaps%20White%20OEM",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "ACCESSORIES",
-            "name": "Phanteks PH-CB-CMBO-WT 24Pin/8Pin PCIE-E 500mm Extension Cable Kit",
-            "price": 1478.4,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Phanteks%20PH-CB-CMBO-WT%2024Pin/8Pin%20PCIE-E%20500mm%20Extension%20Cable%20Kit",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Coolermaster Hyper 212 CPU Air Cooler Black / Red",
-            "price": 2000.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Coolermaster%20Hyper%20212%20CPU%20Air%20Cooler%20Black%20/%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "CPU COOLING",
-            "name": "Coolermaster Hyper 212 CPU Air Cooler Red / Red",
-            "price": 2000.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Coolermaster%20Hyper%20212%20CPU%20Air%20Cooler%20Red%20/%20Red",
+            "category": "MOUSE",
+            "name": "Glorious Model D Gaming Mouse Glossy Black",
+            "price": 2956.8,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Glorious%20Model%20D%20Gaming%20Mouse%20Glossy%20Black",
             "seller": "Easy PC",
             "note": ""
         },
@@ -3586,73 +2835,49 @@ var allData = {
         },
         {
             "category": "MOUSE",
-            "name": "Glorious Model D Gaming Mouse Glossy Black",
-            "price": 2956.8,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Glorious%20Model%20D%20Gaming%20Mouse%20Glossy%20Black",
+            "name": "Kingston Hyperx Pulsefire Surge RGB Gaming Mouse",
+            "price": 3995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kingston%20Hyperx%20Pulsefire%20Surge%20RGB%20Gaming%20Mouse",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "GAMING SURFACE",
-            "name": "Glorious Stitched Cloth 3XL Mousepad",
-            "price": 2452.8,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Glorious%20Stitched%20Cloth%203XL%20Mousepad",
+            "category": "MOUSE",
+            "name": "Logitech G403 RGB Gaming Mouse",
+            "price": 3045.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Logitech%20G403%20RGB%20Gaming%20Mouse",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "MOTHERBOARD",
-            "name": "MSI H310M Pro-VD Plus Socket 1151 Pcie Ddr4 Motherboard",
-            "price": 3180.8,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20H310M%20Pro-VD%20Plus%20Socket%201151%20Pcie%20Ddr4%20Motherboard",
+            "category": "MOUSE",
+            "name": "MSI Interceptor DS B1 Optical Gaming Mouse",
+            "price": 1250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=MSI%20Interceptor%20DS%20B1%20Optical%20Gaming%20Mouse",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "GAMING SURFACE",
-            "name": "Glorious Model O Minus Gaming Mouse Black",
-            "price": 2777.6,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Glorious%20Model%20O%20Minus%20Gaming%20Mouse%20Black",
+            "category": "MOUSE",
+            "name": "RAKK Alti Illuminated BVR Gaming Mouse",
+            "price": 350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Alti%20Illuminated%20BVR%20Gaming%20Mouse",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "PROCESSOR INTEL",
-            "name": "Intel Core i3-9100 Coffee Lake Socket 1151 3.60Ghz 6m Processor",
-            "price": 7050.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Core%20i3-9100%20Coffee%20Lake%20Socket%201151%203.60Ghz%206m%20Processor",
+            "category": "MOUSE",
+            "name": "RAKK Alti Illuminated RGY Gaming Mouse",
+            "price": 350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Alti%20Illuminated%20RGY%20Gaming%20Mouse",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "LAPTOP",
-            "name": "Acer Aspire A315-42G-R1FE AMD Ryzen 3 3200U/Radeon 540X/4GB/1TB/Win 10",
-            "price": 23500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Acer%20Aspire%20A315-42G-R1FE%20AMD%20Ryzen%203%203200U/Radeon%20540X/4GB/1TB/Win%2010",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SOLID STATE DRIVE",
-            "name": "Western Digital Solid State Drive 2TB Blue SATA 2.5",
-            "price": 15850.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20Solid%20State%20Drive%202TB%20Blue%20SATA%202.5",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "EXTERNAL STORAGE DEVICES",
-            "name": "Toshiba Canvio Basics 1tb 2.5 External Hard Disk Drive Black",
-            "price": 2495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Toshiba%20Canvio%20Basics%201tb%202.5%20External%20Hard%20Disk%20Drive%20Black",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "PC CASE",
-            "name": "Trigon TBZ-233 Micro Atx PC Case Black",
-            "price": 400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Trigon%20TBZ-233%20Micro%20Atx%20PC%20Case%20Black",
+            "category": "MOUSE",
+            "name": "RAKK Aporo RGB Usb Gaming Mouse",
+            "price": 695.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Aporo%20RGB%20Usb%20Gaming%20Mouse",
             "seller": "Easy PC",
             "note": ""
         },
@@ -3665,18 +2890,426 @@ var allData = {
             "note": ""
         },
         {
-            "category": "MOTHERBOARD",
-            "name": "ECS A320M-M3D v1.0A Socket Am4 DDr4 Motherboard",
-            "price": 2450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=ECS%20A320M-M3D%20v1.0A%20Socket%20Am4%20DDr4%20Motherboard",
+            "category": "MOUSE",
+            "name": "Rakk Dasig Illuminated Gaming Mouse",
+            "price": 495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Dasig%20Illuminated%20Gaming%20Mouse",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "LAPTOP",
-            "name": "Acer Aspire A514-52G-32K1 Intel i3-10110U/4GB/MX250/1TB+128GB NVMe SSD/Win 10 Laptop Black",
-            "price": 29500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Acer%20Aspire%20A514-52G-32K1%20Intel%20i3-10110U/4GB/MX250/1TB+128GB%20NVMe%20SSD/Win%2010%20Laptop%20Black",
+            "category": "MOUSE",
+            "name": "Rakk IMA Macro Gaming Mouse",
+            "price": 1095.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20IMA%20Macro%20Gaming%20Mouse",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "RAKK Kaptan RGB Gaming Mouse Black",
+            "price": 1195.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Kaptan%20RGB%20Gaming%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "RAKK Kaptan RGB Gaming Mouse White",
+            "price": 1295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Kaptan%20RGB%20Gaming%20Mouse%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "MOUSE",
+            "name": "SteelSeries Rival 110 RGB Gaming Mouse Black",
+            "price": 1950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=SteelSeries%20Rival%20110%20RGB%20Gaming%20Mouse%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Asus Blue Cave AC2600 Dual Band Wireless Router",
+            "price": 8305.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20Blue%20Cave%20AC2600%20Dual%20Band%20Wireless%20Router",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Asus BRT-AC828 Dual-WAN VPN Wireless Router",
+            "price": 15400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20BRT-AC828%20Dual-WAN%20VPN%20Wireless%20Router",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Asus Lyra Trio AC1750 Dual Band Mesh Wi-Fi System Gigabit Router",
+            "price": 15180.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20Lyra%20Trio%20AC1750%20Dual%20Band%20Mesh%20Wi-Fi%20System%20Gigabit%20Router",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Asus RT-AC67U 600 + 1300Mbps 2 WAN Ai-Mesh Wireless Router",
+            "price": 11550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20RT-AC67U%20600%20+%201300Mbps%202%20WAN%20Ai-Mesh%20Wireless%20Router",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Asus RT-AX92U Tri-Band Dual Pack Wireless Router",
+            "price": 25960.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20RT-AX92U%20Tri-Band%20Dual%20Pack%20Wireless%20Router",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Kasda KW-9522 4G/LTE Mobile Wi-Fi Hotspot",
+            "price": 2750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Kasda%20KW-9522%204G/LTE%20Mobile%20Wi-Fi%20Hotspot",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Prolink PSE2410M 24-Port 10/100Mbps Ethernet Switch",
+            "price": 2150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Prolink%20PSE2410M%2024-Port%2010/100Mbps%20Ethernet%20Switch",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Prolink PSE810 8-Port 10/100Mbps Ethernet Switch",
+            "price": 520.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Prolink%20PSE810%208-Port%2010/100Mbps%20Ethernet%20Switch",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Prolink PSG2402 24-Port Gigabit Ethernet Switch",
+            "price": 4850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Prolink%20PSG2402%2024-Port%20Gigabit%20Ethernet%20Switch",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Tp-Link EAP225 AC1350 Wireless MU-MIMO Gigabit Ceiling Mount Access Point",
+            "price": 4900.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20EAP225%20AC1350%20Wireless%20MU-MIMO%20Gigabit%20Ceiling%20Mount%20Access%20Point",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Tp-Link TG-3468 32bit Gigabit PCI Express Network Adapter",
+            "price": 495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TG-3468%2032bit%20Gigabit%20PCI%20Express%20Network%20Adapter",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Tp-Link TL-MR6400 Wireless N Router 4G LTE 300mbps",
+            "price": 4995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-MR6400%20Wireless%20N%20Router%204G%20LTE%20300mbps",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "TP-Link TL-SF1016D 16 Ports Switch Hub",
+            "price": 1050.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=TP-Link%20TL-SF1016D%2016%20Ports%20Switch%20Hub",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Tp-Link TL-SF1024 24 Ports Switch Hub",
+            "price": 2150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-SF1024%2024%20Ports%20Switch%20Hub",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Tp-Link TL-SG1016 16 Ports Gigabit Switch Hub",
+            "price": 3195.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-SG1016%2016%20Ports%20Gigabit%20Switch%20Hub",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Tp-Link TL-SG1024D 24 Ports Gigabit Switch Hub",
+            "price": 4250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-SG1024D%2024%20Ports%20Gigabit%20Switch%20Hub",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Tp-Link TL-WR840N Wireless N Router",
+            "price": 850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-WR840N%20Wireless%20N%20Router",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "NETWORK DEVICE",
+            "name": "Tp-Link TL-WR940N Wireless N Router",
+            "price": 1095.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Tp-Link%20TL-WR940N%20Wireless%20N%20Router",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "OFFICE PRODUCTIVITY",
+            "name": "Microsoft Office 365 FPP QQ2-00807 Personal 1 user",
+            "price": 2750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Microsoft%20Office%20365%20FPP%20QQ2-00807%20Personal%201%20user",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "OFFICE PRODUCTIVITY",
+            "name": "Microsoft Office 365 Home FFP 6GQ-00968 6 users",
+            "price": 3250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Microsoft%20Office%20365%20Home%20FFP%206GQ-00968%206%20users",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "OPERATING SYSTEM",
+            "name": "Windows 10 Home KW9-00139 64bit Operating System",
+            "price": 6395.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Windows%2010%20Home%20KW9-00139%2064bit%20Operating%20System",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "OPERATING SYSTEM",
+            "name": "Windows XP Pro SP2 32bit",
+            "price": 3800.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Windows%20XP%20Pro%20SP2%2032bit",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "BeQuite Dark Base Pro 900 TG Full Tower PC Case Black",
+            "price": 14280.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Base%20Pro%20900%20TG%20Full%20Tower%20PC%20Case%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "BeQuite Dark Base Pro 900 TG Full Tower PC Case Orange",
+            "price": 14280.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Base%20Pro%20900%20TG%20Full%20Tower%20PC%20Case%20Orange",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "BeQuite Dark Base Pro 900 TG Full Tower PC Case Silver",
+            "price": 14280.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Base%20Pro%20900%20TG%20Full%20Tower%20PC%20Case%20Silver",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Caseless Tray Black",
+            "price": 120.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Caseless%20Tray%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Coolermaster Mastercase SL600M Mid Tower PC Case Black",
+            "price": 9900.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Coolermaster%20Mastercase%20SL600M%20Mid%20Tower%20PC%20Case%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Deepcool Matrexx30 Mini ITX Tower Pc Case Black",
+            "price": 1550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Matrexx30%20Mini%20ITX%20Tower%20Pc%20Case%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Deepcool Matrexx30 SI Micro ATX Tower Pc Case Black",
+            "price": 1500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Matrexx30%20SI%20Micro%20ATX%20Tower%20Pc%20Case%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Fantech Pulse CG71 RGB Mid Tower Case White",
+            "price": 1650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20Pulse%20CG71%20RGB%20Mid%20Tower%20Case%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Fantech Strike CG72 RGB Mid Tower Case Black",
+            "price": 1550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20Strike%20CG72%20RGB%20Mid%20Tower%20Case%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "pc case",
+            "name": "Gamemax H601BR Mini Atx Gaming PC Case Black Red",
+            "price": 1350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gamemax%20H601BR%20Mini%20Atx%20Gaming%20PC%20Case%20Black%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Neutron 2815 Mini Atx Case Blue",
+            "price": 850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Neutron%202815%20Mini%20Atx%20Case%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Neutron 2817 Mini Atx PC Case Black Red",
+            "price": 850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Neutron%202817%20Mini%20Atx%20PC%20Case%20Black%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Neutron Fit FC5R Mini Atx PC Case Black",
+            "price": 850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Neutron%20Fit%20FC5R%20Mini%20Atx%20PC%20Case%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Odyssey 165-3 Mini Atx PC Case Black",
+            "price": 850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Odyssey%20165-3%20Mini%20Atx%20PC%20Case%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Phanteks Enthoo Evolv X Mid Tower Gaming PC Case Satin Black",
+            "price": 12350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Phanteks%20Enthoo%20Evolv%20X%20Mid%20Tower%20Gaming%20PC%20Case%20Satin%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Rakk Sinaya Mid Tower Gaming PC Case Black",
+            "price": 2195.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Sinaya%20Mid%20Tower%20Gaming%20PC%20Case%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PC CASE",
+            "name": "Trigon TBZ-233 Micro Atx PC Case Black",
+            "price": 400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Trigon%20TBZ-233%20Micro%20Atx%20PC%20Case%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "POWER SUPPLY",
+            "name": "Asus ROG Strix 650 watts Fully Modular Gold Power Supply",
+            "price": 6580.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Asus%20ROG%20Strix%20650%20watts%20Fully%20Modular%20Gold%20Power%20Supply",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "POWER SUPPLY",
+            "name": "BeQuiet Dark Power Pro 11 850 watts Semi Modular 80 Plus Platinum Power Supply",
+            "price": 10640.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuiet%20Dark%20Power%20Pro%2011%20850%20watts%20Semi%20Modular%2080%20Plus%20Platinum%20Power%20Supply",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "POWER SUPPLY",
+            "name": "BeQuite Dark Power Pro 11 1000w 80+ Semi Modular Power Supply Platinum",
+            "price": 12290.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Power%20Pro%2011%201000w%2080+%20Semi%20Modular%20Power%20Supply%20Platinum",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "POWER SUPPLY",
+            "name": "BeQuite Dark Power Pro 11 1200w 80+ Semi Modular Power Supply Platinum",
+            "price": 14345.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Power%20Pro%2011%201200w%2080+%20Semi%20Modular%20Power%20Supply%20Platinum",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "POWER SUPPLY",
+            "name": "BeQuite Dark Power Pro 11 550w 80+ Semi Modular Power Supply Platinum",
+            "price": 8375.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Power%20Pro%2011%20550w%2080+%20Semi%20Modular%20Power%20Supply%20Platinum",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "POWER SUPPLY",
+            "name": "BeQuite Dark Power Pro 11 650w 80+ Semi Modular Power Supply Platinum",
+            "price": 9265.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Power%20Pro%2011%20650w%2080+%20Semi%20Modular%20Power%20Supply%20Platinum",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "POWER SUPPLY",
+            "name": "BeQuite Dark Power Pro 11 750w 80+ Semi Modular Power Supply Platinum",
+            "price": 9955.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Dark%20Power%20Pro%2011%20750w%2080+%20Semi%20Modular%20Power%20Supply%20Platinum",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "POWER SUPPLY",
+            "name": "BeQuite Straight Power 10 800w 80+ Semi Modular Power Supply Gold",
+            "price": 7205.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=BeQuite%20Straight%20Power%2010%20800w%2080+%20Semi%20Modular%20Power%20Supply%20Gold",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "POWER SUPPLY",
+            "name": "Coolermaster MWE650 V2 650watts Power Supply",
+            "price": 2750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Coolermaster%20MWE650%20V2%20650watts%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
@@ -3705,130 +3338,314 @@ var allData = {
             "note": ""
         },
         {
-            "category": "MEMORY",
-            "name": "PNY XLR8 Gaming 1x8 3200mhz Ddr4 Memory Black",
-            "price": 2150.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=PNY%20XLR8%20Gaming%201x8%203200mhz%20Ddr4%20Memory%20Black",
+            "category": "POWER SUPPLY",
+            "name": "Corsair Vs450 450 watts Power Supply",
+            "price": 1850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20Vs450%20450%20watts%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "KEYBOARD",
-            "name": "Digi-one KB-8150 PS2 Keyboard",
-            "price": 180.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Digi-one%20KB-8150%20PS2%20Keyboard",
+            "category": "POWER SUPPLY",
+            "name": "FSP Aurum PT 1200w 80+ Power Supply Fully Modular Platinum",
+            "price": 10155.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=FSP%20Aurum%20PT%201200w%2080+%20Power%20Supply%20Fully%20Modular%20Platinum",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "CPU COOLING",
-            "name": "Deepcool Gammaxx GTE V2 Air Cooler",
-            "price": 1277.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Gammaxx%20GTE%20V2%20Air%20Cooler",
+            "category": "POWER SUPPLY",
+            "name": "Intelligent 700 watts Power Supply",
+            "price": 390.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intelligent%20700%20watts%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "ACCESSORIES",
-            "name": "North Bayou AVA1500-60-1P 32\"-65\" Mobile TV Cart",
-            "price": 4695.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20AVA1500-60-1P%2032\"-65\"%20Mobile%20TV%20Cart",
+            "category": "POWER SUPPLY",
+            "name": "Raidmax RX-500XT 500 watts Power Supply",
+            "price": 1395.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Raidmax%20RX-500XT%20500%20watts%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "ACCESSORIES",
-            "name": "North Bayou FC-35 Sit-Stand Desk Station",
-            "price": 4250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20FC-35%20Sit-Stand%20Desk%20Station",
+            "category": "POWER SUPPLY",
+            "name": "RAKK 400 watts Power Supply",
+            "price": 500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20400%20watts%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "ACCESSORIES",
-            "name": "North Bayou FB-17 Sit-Stand Laptop Workstation",
-            "price": 3995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20FB-17%20Sit-Stand%20Laptop%20Workstation",
+            "category": "POWER SUPPLY",
+            "name": "Seasonic Prime 1000W Fully Modular Power Supply Platinum",
+            "price": 12155.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20Prime%201000W%20Fully%20Modular%20Power%20Supply%20Platinum",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "ACCESSORIES",
-            "name": "North Bayou NB-767-L600 TV Wall Bracket",
-            "price": 1450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20NB-767-L600%20TV%20Wall%20Bracket",
+            "category": "POWER SUPPLY",
+            "name": "Seasonic Prime 1300W Fully Modular Power Supply Gold",
+            "price": 12740.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20Prime%201300W%20Fully%20Modular%20Power%20Supply%20Gold",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "ACCESSORIES",
-            "name": "North Bayou NBC1-F Wall Mount",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20NBC1-F%20Wall%20Mount",
+            "category": "POWER SUPPLY",
+            "name": "Seasonic Prime 650 watts Fully Modular Gold Power Supply",
+            "price": 6370.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20Prime%20650%20watts%20Fully%20Modular%20Gold%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "ACCESSORIES",
-            "name": "North Bayou NBT560-15 Ceilling Mount",
-            "price": 1350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20NBT560-15%20Ceilling%20Mount",
+            "category": "POWER SUPPLY",
+            "name": "Seasonic Prime 750 watts Fully Modular Platinum Power Supply",
+            "price": 8650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20Prime%20750%20watts%20Fully%20Modular%20Platinum%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "ACCESSORIES",
-            "name": "North Bayou P4 Cantilever Wall Mount",
-            "price": 695.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20P4%20Cantilever%20Wall%20Mount",
+            "category": "POWER SUPPLY",
+            "name": "Seasonic Prime 850watts Fully Modular Power Supply Gold",
+            "price": 8150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20Prime%20850watts%20Fully%20Modular%20Power%20Supply%20Gold",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "ACCESSORIES",
-            "name": "North Bayou NBT817-60 Universal Projector",
-            "price": 795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20NBT817-60%20Universal%20Projector",
+            "category": "POWER SUPPLY",
+            "name": "Seasonic S12III 550 watts 80 Plus Bronze Power Supply",
+            "price": 3050.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20S12III%20550%20watts%2080%20Plus%20Bronze%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "ACCESSORIES",
-            "name": "North Bayou F195A Dual Monitor Desk Mount",
-            "price": 4995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=North%20Bayou%20F195A%20Dual%20Monitor%20Desk%20Mount",
+            "category": "POWER SUPPLY",
+            "name": "Seasonic S12III 650 watts 80 Plus Bronze Power Supply",
+            "price": 3295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seasonic%20S12III%20650%20watts%2080%20Plus%20Bronze%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "CABLE",
-            "name": "Ad-Link Cat6 Outdoor 305 Meters Utp Cable",
-            "price": 2350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat6%20Outdoor%20305%20Meters%20Utp%20Cable",
+            "category": "POWER SUPPLY",
+            "name": "Trigon Power Supply 700w Power Supply",
+            "price": 370.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Trigon%20Power%20Supply%20700w%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "CABLE",
-            "name": "Ad-Link Cat6 Purecopper 305 Meters Utp Cable",
-            "price": 4650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat6%20Purecopper%20305%20Meters%20Utp%20Cable",
+            "category": "POWER SUPPLY",
+            "name": "Xtyle Mini 750 watts Power Supply",
+            "price": 370.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Xtyle%20Mini%20750%20watts%20Power%20Supply",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "CABLE",
-            "name": "Ad-Link Cat FTP Outdoor 305 Meters Utp Cable",
-            "price": 3400.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Ad-Link%20Cat%20FTP%20Outdoor%20305%20Meters%20Utp%20Cable",
+            "category": "PRINTER & SCANNER",
+            "name": "Canon Pixma G1010 Refillable Ink Tank Printer",
+            "price": 5175.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20Pixma%20G1010%20Refillable%20Ink%20Tank%20Printer",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "PC CASE",
-            "name": "Deepcool Matrexx30 SI Micro ATX Tower Pc Case Black",
-            "price": 1500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Matrexx30%20SI%20Micro%20ATX%20Tower%20Pc%20Case%20Black",
+            "category": "PRINTER & SCANNER",
+            "name": "Canon Pixma G2010 Refillable Ink Tank AIO Printer",
+            "price": 7550.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20Pixma%20G2010%20Refillable%20Ink%20Tank%20AIO%20Printer",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PRINTER & SCANNER",
+            "name": "Canon Pixma G4010 Refillable Ink Tank Wireless AIO with Fax Printer",
+            "price": 12530.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20Pixma%20G4010%20Refillable%20Ink%20Tank%20Wireless%20AIO%20with%20Fax%20Printer",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PRINTER & SCANNER",
+            "name": "Canon Pixma G6070 Refillable Ink Tank Wireless AIO Printer",
+            "price": 16850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Canon%20Pixma%20G6070%20Refillable%20Ink%20Tank%20Wireless%20AIO%20Printer",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PRINTER & SCANNER",
+            "name": "Epson EcoTank L3110 AIO Ink Tank Printer",
+            "price": 7495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20EcoTank%20L3110%20AIO%20Ink%20Tank%20Printer",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PRINTER & SCANNER",
+            "name": "Epson L120 Ink Tank Printer",
+            "price": 4795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20L120%20Ink%20Tank%20Printer",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PRINTER & SCANNER",
+            "name": "Epson L1300 A3 Ink Tank Printer",
+            "price": 18650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20L1300%20A3%20Ink%20Tank%20Printer",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PRINTER & SCANNER",
+            "name": "Epson L1800 A3 Photo Ink Tank Printer",
+            "price": 24795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20L1800%20A3%20Photo%20Ink%20Tank%20Printer",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PRINTER & SCANNER",
+            "name": "Epson L6160 WiFi Duplex All in One Ink Tank Printer",
+            "price": 13950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20L6160%20WiFi%20Duplex%20All%20in%20One%20Ink%20Tank%20Printer",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PRINTER & SCANNER",
+            "name": "Epson L6190 Wi-Fi Duplex All-in-One Ink Tank Printer with ADF",
+            "price": 16995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Epson%20L6190%20Wi-Fi%20Duplex%20All-in-One%20Ink%20Tank%20Printer%20with%20ADF",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR AMD",
+            "name": "AMD Kaveri A8-7680 Socket Fm2+ 3.5ghz Processor",
+            "price": 1995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Kaveri%20A8-7680%20Socket%20Fm2+%203.5ghz%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR AMD",
+            "name": "AMD Ryzen 3 2200g Socket Am4 3.5ghz with Radeon Vega 8 Processor",
+            "price": 4350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%203%202200g%20Socket%20Am4%203.5ghz%20with%20Radeon%20Vega%208%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR AMD",
+            "name": "AMD Ryzen 3 3200g Socket Am4 3.6ghz with Radeon Vega 8 Processor",
+            "price": 5350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%203%203200g%20Socket%20Am4%203.6ghz%20with%20Radeon%20Vega%208%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR AMD",
+            "name": "AMD Ryzen 5 2600 Socket Am4 3.4ghz with Wraith Stealth Cooler Processor",
+            "price": 6490.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%205%202600%20Socket%20Am4%203.4ghz%20with%20Wraith%20Stealth%20Cooler%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR AMD",
+            "name": "AMD Ryzen 5 3500x Socket Am4 3.6ghz with Wraith Spire Cooler Processor",
+            "price": 7995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%205%203500x%20Socket%20Am4%203.6ghz%20with%20Wraith%20Spire%20Cooler%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR AMD",
+            "name": "AMD Ryzen 5 3600 Socket Am4 4.2ghz with Wraith Stealth Cooler Processor",
+            "price": 10950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%205%203600%20Socket%20Am4%204.2ghz%20with%20Wraith%20Stealth%20Cooler%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR AMD",
+            "name": "AMD Ryzen 5 3600x Socket Am4 4.4ghz with Wraith Spire Cooler Processor",
+            "price": 13500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%205%203600x%20Socket%20Am4%204.4ghz%20with%20Wraith%20Spire%20Cooler%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR AMD",
+            "name": "AMD Ryzen 7 3700x Socket Am4 3.6ghz with Wraith Prism RGB Cooler Processor",
+            "price": 18100.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%207%203700x%20Socket%20Am4%203.6ghz%20with%20Wraith%20Prism%20RGB%20Cooler%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR AMD",
+            "name": "AMD Ryzen 9 3900x Socket Am4 3.8ghz with Wraith Prism RGB Cooler Processor",
+            "price": 27995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=AMD%20Ryzen%209%203900x%20Socket%20Am4%203.8ghz%20with%20Wraith%20Prism%20RGB%20Cooler%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR INTEL",
+            "name": "Intel Core i3-9100 Coffee Lake Socket 1151 3.60Ghz 6m Processor",
+            "price": 7050.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Core%20i3-9100%20Coffee%20Lake%20Socket%201151%203.60Ghz%206m%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR INTEL",
+            "name": "Intel Core i3-9100f Coffee Lake Socket 1151 3.60Ghz 6m Processor",
+            "price": 4395.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Core%20i3-9100f%20Coffee%20Lake%20Socket%201151%203.60Ghz%206m%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR INTEL",
+            "name": "Intel Core i5 8400 Coffee Lake Processor Socket 1151 2.8ghz",
+            "price": 10495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Core%20i5%208400%20Coffee%20Lake%20Processor%20Socket%201151%202.8ghz",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR INTEL",
+            "name": "Intel Core i5-9400f Coffee Lake Socket 1151 2.9Ghz 9m Processor",
+            "price": 8100.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Core%20i5-9400f%20Coffee%20Lake%20Socket%201151%202.9Ghz%209m%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "PROCESSOR INTEL",
+            "name": "Intel Pentium G4560 Kaby Lake Socket 1151 3.5ghz Processor",
+            "price": 3150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Intel%20Pentium%20G4560%20Kaby%20Lake%20Socket%201151%203.5ghz%20Processor",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "RECORDER",
+            "name": "Cp Plus 16ch CPERH1602P1 Hdx Dvr with HDMI",
+            "price": 7400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Cp%20Plus%2016ch%20CPERH1602P1%20Hdx%20Dvr%20with%20HDMI",
             "seller": "Easy PC",
             "note": ""
         },
@@ -3841,18 +3658,154 @@ var allData = {
             "note": ""
         },
         {
-            "category": "PC CASE",
-            "name": "Fantech Pulse CG71 RGB Mid Tower Case White",
-            "price": 1650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20Pulse%20CG71%20RGB%20Mid%20Tower%20Case%20White",
+            "category": "SOLID STATE DRIVE",
+            "name": "Adata SU800 Solid State Drive 256gb SATA 2.5",
+            "price": 2500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Adata%20SU800%20Solid%20State%20Drive%20256gb%20SATA%202.5",
             "seller": "Easy PC",
             "note": ""
         },
         {
-            "category": "PC CASE",
-            "name": "Fantech Strike CG72 RGB Mid Tower Case Black",
-            "price": 1550.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20Strike%20CG72%20RGB%20Mid%20Tower%20Case%20Black",
+            "category": "SOLID STATE DRIVE",
+            "name": "Adata SX 6000 Pro M.2 NVME Solid State Drive 512Gb",
+            "price": 4500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Adata%20SX%206000%20Pro%20M.2%20NVME%20Solid%20State%20Drive%20512Gb",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "Crucial MX300 Solid State Drive 525gb SATA 2.5",
+            "price": 5250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Crucial%20MX300%20Solid%20State%20Drive%20525gb%20SATA%202.5",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "Gigabyte Solid State Drive 120gb SATA 2.5",
+            "price": 1400.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Gigabyte%20Solid%20State%20Drive%20120gb%20SATA%202.5",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "Klevv Cras C700 M.2 NVME Solid State Drive 240GB RGB",
+            "price": 3250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Klevv%20Cras%20C700%20M.2%20NVME%20Solid%20State%20Drive%20240GB%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "PNY CS900 120gb Solid State Drive SATA 2.5",
+            "price": 1085.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=PNY%20CS900%20120gb%20Solid%20State%20Drive%20SATA%202.5",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "PNY CS900 240gb Solid State Drive SATA 2.5",
+            "price": 2150.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=PNY%20CS900%20240gb%20Solid%20State%20Drive%20SATA%202.5",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "Sandisk Plus Solid State Drive 120gb SATA 2.5",
+            "price": 1295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20Plus%20Solid%20State%20Drive%20120gb%20SATA%202.5",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "Western Digital M.2 NVME Solid State Drive 250gb Black",
+            "price": 3360.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20M.2%20NVME%20Solid%20State%20Drive%20250gb%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "Western Digital SN750 M.2 NVME Solid State Drive 500GB Black with heatsink",
+            "price": 6500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20SN750%20M.2%20NVME%20Solid%20State%20Drive%20500GB%20Black%20with%20heatsink",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "Western Digital Solid State Drive 120gb Green SATA 2.5",
+            "price": 1300.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20Solid%20State%20Drive%20120gb%20Green%20SATA%202.5",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "Western Digital Solid State Drive 1Tb Blue M.2 SATA",
+            "price": 7200.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20Solid%20State%20Drive%201Tb%20Blue%20M.2%20SATA",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SOLID STATE DRIVE",
+            "name": "Western Digital Solid State Drive 2TB Blue SATA 2.5",
+            "price": 15850.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20Solid%20State%20Drive%202TB%20Blue%20SATA%202.5",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SPEAKER",
+            "name": "F&D F5060X 5.1 Multimedia Bluetooth Speaker",
+            "price": 8245.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=F&D%20F5060X%205.1%20Multimedia%20Bluetooth%20Speaker",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SPEAKER",
+            "name": "Fantech GS201 Hellscream Speaker Black",
+            "price": 325.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Fantech%20GS201%20Hellscream%20Speaker%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SPEAKER",
+            "name": "JBL Boombox Portable Bluetooth Speaker Black",
+            "price": 22995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Boombox%20Portable%20Bluetooth%20Speaker%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SPEAKER",
+            "name": "JBL Soundgear BTA Wireless Portable Speaker",
+            "price": 13200.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Soundgear%20BTA%20Wireless%20Portable%20Speaker",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SPEAKER",
+            "name": "JBL Soundgrear Wearable Wireless Sound",
+            "price": 9680.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Soundgrear%20Wearable%20Wireless%20Sound",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SPEAKER",
+            "name": "JBL Xtreme 2 Portable Bluetooth Speaker Black",
+            "price": 15995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=JBL%20Xtreme%202%20Portable%20Bluetooth%20Speaker%20Black",
             "seller": "Easy PC",
             "note": ""
         },
@@ -3898,25 +3851,17 @@ var allData = {
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Sandisk SDSQXA2-064G-GN6MA Extreme MicroSD 64gb",
-            "price": 995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDSQXA2-064G-GN6MA%20Extreme%20MicroSD%2064gb",
+            "name": "Sandisk SDCZ48-032G-U46B Ultra Flashdrive 32gb Blue",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ48-032G-U46B%20Ultra%20Flashdrive%2032gb%20Blue",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Sandisk SDSQXAF-032G-GN6MA Extreme MircroSD 32gb",
-            "price": 650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDSQXAF-032G-GN6MA%20Extreme%20MircroSD%2032gb",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "STORAGE DEVICES",
-            "name": "Sandisk SDSQUAR-064G-GN6MA Ultra MicroSD 64gb",
-            "price": 750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDSQUAR-064G-GN6MA%20Ultra%20MicroSD%2064gb",
+            "name": "Sandisk SDCZ48-128G-U46 Ultra 128GB Flashdrive 3.0",
+            "price": 895.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ48-128G-U46%20Ultra%20128GB%20Flashdrive%203.0",
             "seller": "Easy PC",
             "note": ""
         },
@@ -3938,17 +3883,17 @@ var allData = {
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Sandisk SDCZ50C-016G-B35GE Cruzer Blade 16gb Green",
+            "name": "Sandisk SDCZ50C-016G-B35BE Cruzer Blade 16gb Blue",
             "price": 180.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50C-016G-B35GE%20Cruzer%20Blade%2016gb%20Green",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50C-016G-B35BE%20Cruzer%20Blade%2016gb%20Blue",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Sandisk SDCZ50C-016G-B35BE Cruzer Blade 16gb Blue",
+            "name": "Sandisk SDCZ50C-016G-B35GE Cruzer Blade 16gb Green",
             "price": 180.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50C-016G-B35BE%20Cruzer%20Blade%2016gb%20Blue",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ50C-016G-B35GE%20Cruzer%20Blade%2016gb%20Green",
             "seller": "Easy PC",
             "note": ""
         },
@@ -3970,22 +3915,6 @@ var allData = {
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Sandisk SDCZ48-032G-U46B Ultra Flashdrive 32gb Blue",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ48-032G-U46B%20Ultra%20Flashdrive%2032gb%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "STORAGE DEVICES",
-            "name": "Sandisk SDCZ48-128G-U46 Ultra 128GB Flashdrive 3.0",
-            "price": 895.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ48-128G-U46%20Ultra%20128GB%20Flashdrive%203.0",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "STORAGE DEVICES",
             "name": "Sandisk SDCZ57-032G-B35B Cruzer Dial 32gb Flashdrive Blue",
             "price": 250.0,
             "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDCZ57-032G-B35B%20Cruzer%20Dial%2032gb%20Flashdrive%20Blue",
@@ -3994,9 +3923,25 @@ var allData = {
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Seagate Backup Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Silver",
-            "price": 2795.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%201tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Silver",
+            "name": "Sandisk SDSQUAR-064G-GN6MA Ultra MicroSD 64gb",
+            "price": 750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDSQUAR-064G-GN6MA%20Ultra%20MicroSD%2064gb",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "STORAGE DEVICES",
+            "name": "Sandisk SDSQXA2-064G-GN6MA Extreme MicroSD 64gb",
+            "price": 995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDSQXA2-064G-GN6MA%20Extreme%20MicroSD%2064gb",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "STORAGE DEVICES",
+            "name": "Sandisk SDSQXAF-032G-GN6MA Extreme MircroSD 32gb",
+            "price": 650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Sandisk%20SDSQXAF-032G-GN6MA%20Extreme%20MircroSD%2032gb",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4010,9 +3955,41 @@ var allData = {
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Seagate Backup Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Silver",
-            "price": 4750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%202tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Silver",
+            "name": "Seagate Backup Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Blue",
+            "price": 2950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%201tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "STORAGE DEVICES",
+            "name": "Seagate Backup Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Gold",
+            "price": 2750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%201tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Gold",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "STORAGE DEVICES",
+            "name": "Seagate Backup Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Silver",
+            "price": 2795.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%201tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Silver",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "STORAGE DEVICES",
+            "name": "Seagate Backup Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Black",
+            "price": 4495.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%202tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Black",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "STORAGE DEVICES",
+            "name": "Seagate Backup Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Champagne Gold",
+            "price": 4250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%202tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Champagne%20Gold",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4026,9 +4003,9 @@ var allData = {
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Seagate Backup Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Black",
-            "price": 4495.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%202tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Black",
+            "name": "Seagate Backup Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Silver",
+            "price": 4750.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%202tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Silver",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4050,30 +4027,6 @@ var allData = {
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Seagate Backup Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Champagne Gold",
-            "price": 4250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%202tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Champagne%20Gold",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "STORAGE DEVICES",
-            "name": "Seagate Backup Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Gold",
-            "price": 2750.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%201tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Gold",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "STORAGE DEVICES",
-            "name": "Seagate Backup Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Blue",
-            "price": 2950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Seagate%20Backup%20Slim%20Portable%201tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "STORAGE DEVICES",
             "name": "Team C171 Flashdrive 32gb Black",
             "price": 270.0,
             "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Team%20C171%20Flashdrive%2032gb%20Black",
@@ -4082,17 +4035,17 @@ var allData = {
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Transcend Storejet Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Purple",
+            "name": "Transcend Storejet Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Blue",
             "price": 2925.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Transcend%20Storejet%20Slim%20Portable%201tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Purple",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Transcend%20Storejet%20Slim%20Portable%201tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Blue",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Transcend Storejet Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Blue",
+            "name": "Transcend Storejet Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Purple",
             "price": 2925.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Transcend%20Storejet%20Slim%20Portable%201tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Blue",
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Transcend%20Storejet%20Slim%20Portable%201tb%202.5%20Usb3.0%20External%20Hard%20Drive%20Purple",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4114,17 +4067,17 @@ var allData = {
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Red",
-            "price": 2895.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%201tb%202.5%20External%20Hard%20Disk%20Drive%20Red",
+            "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Blue",
+            "price": 2995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%201tb%202.5%20External%20Hard%20Disk%20Drive%20Blue",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "STORAGE DEVICES",
-            "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Blue",
-            "price": 2995.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%201tb%202.5%20External%20Hard%20Disk%20Drive%20Blue",
+            "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Red",
+            "price": 2895.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Western%20Digital%20My%20Passport%201tb%202.5%20External%20Hard%20Disk%20Drive%20Red",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4154,17 +4107,17 @@ var allData = {
         },
         {
             "category": "SYSTEM COOLING",
-            "name": "Abko Spider Spectrum 120mm 3in1 w/control hub Chasis Fan RGB",
-            "price": 1800.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20Spectrum%20120mm%203in1%20w/control%20hub%20Chasis%20Fan%20RGB",
+            "name": "Abko Spider 120mm Chasis Fan Blue",
+            "price": 350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20120mm%20Chasis%20Fan%20Blue",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "SYSTEM COOLING",
-            "name": "Abko Spider Spectrum 120mm Chasis Fan RGB",
-            "price": 460.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20Spectrum%20120mm%20Chasis%20Fan%20RGB",
+            "name": "Abko Spider 120mm Chasis Fan Green",
+            "price": 350.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20120mm%20Chasis%20Fan%20Green",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4186,65 +4139,17 @@ var allData = {
         },
         {
             "category": "SYSTEM COOLING",
-            "name": "Abko Spider 120mm Chasis Fan Blue",
-            "price": 350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20120mm%20Chasis%20Fan%20Blue",
+            "name": "Abko Spider Spectrum 120mm 3in1 w/control hub Chasis Fan RGB",
+            "price": 1800.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20Spectrum%20120mm%203in1%20w/control%20hub%20Chasis%20Fan%20RGB",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "SYSTEM COOLING",
-            "name": "Abko Spider 120mm Chasis Fan Green",
-            "price": 350.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20120mm%20Chasis%20Fan%20Green",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Deepcool MF120s RGB Led Chassis Fan",
-            "price": 3950.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20MF120s%20RGB%20Led%20Chassis%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Corsair ML120 120mm with Lightning Node Pro Tri Pack Chasis Fan RGB",
-            "price": 5916.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20120mm%20with%20Lightning%20Node%20Pro%20Tri%20Pack%20Chasis%20Fan%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Corsair ML120 120mm Chasis Fan RGB",
-            "price": 1635.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20120mm%20Chasis%20Fan%20RGB",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Corsair ML120 PRO Premium Magnetic Levitation Chasis Fan Led Red",
-            "price": 1265.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20PRO%20Premium%20Magnetic%20Levitation%20Chasis%20Fan%20Led%20Red",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Corsair ML120 PRO Premium Magnetic Levitation Chasis Fan Led Blue",
-            "price": 1265.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20PRO%20Premium%20Magnetic%20Levitation%20Chasis%20Fan%20Led%20Blue",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Corsair ML120 PRO Premium Magnetic Levitation Chasis Fan Led White",
-            "price": 1265.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20PRO%20Premium%20Magnetic%20Levitation%20Chasis%20Fan%20Led%20White",
+            "name": "Abko Spider Spectrum 120mm Chasis Fan RGB",
+            "price": 460.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Abko%20Spider%20Spectrum%20120mm%20Chasis%20Fan%20RGB",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4258,6 +4163,46 @@ var allData = {
         },
         {
             "category": "SYSTEM COOLING",
+            "name": "Corsair ML120 120mm Chasis Fan RGB",
+            "price": 1635.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20120mm%20Chasis%20Fan%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Corsair ML120 120mm with Lightning Node Pro Tri Pack Chasis Fan RGB",
+            "price": 5916.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20120mm%20with%20Lightning%20Node%20Pro%20Tri%20Pack%20Chasis%20Fan%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Corsair ML120 PRO Premium Magnetic Levitation Chasis Fan Led Blue",
+            "price": 1265.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20PRO%20Premium%20Magnetic%20Levitation%20Chasis%20Fan%20Led%20Blue",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Corsair ML120 PRO Premium Magnetic Levitation Chasis Fan Led Red",
+            "price": 1265.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20PRO%20Premium%20Magnetic%20Levitation%20Chasis%20Fan%20Led%20Red",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Corsair ML120 PRO Premium Magnetic Levitation Chasis Fan Led White",
+            "price": 1265.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Corsair%20ML120%20PRO%20Premium%20Magnetic%20Levitation%20Chasis%20Fan%20Led%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
             "name": "Dark Flash Dr12 Pro 120mm 3in1 Chassis Fan with Control Hub and Remote Control RGB",
             "price": 995.0,
             "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Dark%20Flash%20Dr12%20Pro%20120mm%203in1%20Chassis%20Fan%20with%20Control%20Hub%20and%20Remote%20Control%20RGB",
@@ -4266,49 +4211,9 @@ var allData = {
         },
         {
             "category": "SYSTEM COOLING",
-            "name": "Deepcool XFan Transparent 80mm Blue Led Chassis Fan",
-            "price": 140.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20XFan%20Transparent%2080mm%20Blue%20Led%20Chassis%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Deepcool XFan Transparent 120mm Red Led Chassis Fan",
-            "price": 170.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20XFan%20Transparent%20120mm%20Red%20Led%20Chassis%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Deepcool XFan Transparent 80mm Red Led Chassis Fan",
-            "price": 135.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20XFan%20Transparent%2080mm%20Red%20Led%20Chassis%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Deepcool Wind Blade 120mm White Led Chassis Fan",
-            "price": 190.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Wind%20Blade%20120mm%20White%20Led%20Chassis%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Deepcool Wind Blade 120mm Red Led Chassis Fan",
-            "price": 180.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Wind%20Blade%20120mm%20Red%20Led%20Chassis%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Deepcool RF120mm Kit Chassis Fan RGB",
-            "price": 1650.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20RF120mm%20Kit%20Chassis%20Fan%20RGB",
+            "name": "Deepcool CF120mm Chassis Fan RGB",
+            "price": 825.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20CF120mm%20Chassis%20Fan%20RGB",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4322,9 +4227,57 @@ var allData = {
         },
         {
             "category": "SYSTEM COOLING",
-            "name": "Deepcool CF120mm Chassis Fan RGB",
-            "price": 825.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20CF120mm%20Chassis%20Fan%20RGB",
+            "name": "Deepcool MF120s RGB Led Chassis Fan",
+            "price": 3950.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20MF120s%20RGB%20Led%20Chassis%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Deepcool RF120mm Kit Chassis Fan RGB",
+            "price": 1650.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20RF120mm%20Kit%20Chassis%20Fan%20RGB",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Deepcool Wind Blade 120mm Red Led Chassis Fan",
+            "price": 180.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Wind%20Blade%20120mm%20Red%20Led%20Chassis%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Deepcool Wind Blade 120mm White Led Chassis Fan",
+            "price": 190.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20Wind%20Blade%20120mm%20White%20Led%20Chassis%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Deepcool XFan Transparent 120mm Red Led Chassis Fan",
+            "price": 170.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20XFan%20Transparent%20120mm%20Red%20Led%20Chassis%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Deepcool XFan Transparent 80mm Blue Led Chassis Fan",
+            "price": 140.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20XFan%20Transparent%2080mm%20Blue%20Led%20Chassis%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Deepcool XFan Transparent 80mm Red Led Chassis Fan",
+            "price": 135.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Deepcool%20XFan%20Transparent%2080mm%20Red%20Led%20Chassis%20Fan",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4370,6 +4323,22 @@ var allData = {
         },
         {
             "category": "SYSTEM COOLING",
+            "name": "Omega Nova 120mm Color Green Led Chassis Fan",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Omega%20Nova%20120mm%20Color%20Green%20Led%20Chassis%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Omega Nova 120mm Color Red Led Chassis Fan",
+            "price": 295.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Omega%20Nova%20120mm%20Color%20Red%20Led%20Chassis%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
             "name": "Omega Nova 120mm Ring RGB Led Chassis Fan",
             "price": 600.0,
             "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Omega%20Nova%20120mm%20Ring%20RGB%20Led%20Chassis%20Fan",
@@ -4386,49 +4355,17 @@ var allData = {
         },
         {
             "category": "SYSTEM COOLING",
-            "name": "Omega Nova 120mm Color Red Led Chassis Fan",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Omega%20Nova%20120mm%20Color%20Red%20Led%20Chassis%20Fan",
+            "name": "RAKK Maris Pro 120mm 3in1 with Lightning Kit RGB",
+            "price": 1695.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Maris%20Pro%20120mm%203in1%20with%20Lightning%20Kit%20RGB",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "SYSTEM COOLING",
-            "name": "Omega Nova 120mm Color Green Led Chassis Fan",
-            "price": 295.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Omega%20Nova%20120mm%20Color%20Green%20Led%20Chassis%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Rakk Ounos X 120mm Eclipse Red Led Fan",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Ounos%20X%20120mm%20Eclipse%20Red%20Led%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Rakk Ounos X 120mm Eclipse Blue Led Fan",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Ounos%20X%20120mm%20Eclipse%20Blue%20Led%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Rakk Ounos X 120mm Eclipse Green Led Fan",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Ounos%20X%20120mm%20Eclipse%20Green%20Led%20Fan",
-            "seller": "Easy PC",
-            "note": ""
-        },
-        {
-            "category": "SYSTEM COOLING",
-            "name": "Rakk Ounos X 120mm Eclipse White Led Fan",
-            "price": 250.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Ounos%20X%20120mm%20Eclipse%20White%20Led%20Fan",
+            "name": "RAKK Maris Pro 120mm Single Fan RGB",
+            "price": 450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Maris%20Pro%20120mm%20Single%20Fan%20RGB",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4450,17 +4387,33 @@ var allData = {
         },
         {
             "category": "SYSTEM COOLING",
-            "name": "RAKK Maris Pro 120mm 3in1 with Lightning Kit RGB",
-            "price": 1695.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Maris%20Pro%20120mm%203in1%20with%20Lightning%20Kit%20RGB",
+            "name": "Rakk Ounos X 120mm Eclipse Blue Led Fan",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Ounos%20X%20120mm%20Eclipse%20Blue%20Led%20Fan",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "SYSTEM COOLING",
-            "name": "RAKK Maris Pro 120mm Single Fan RGB",
-            "price": 450.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Maris%20Pro%20120mm%20Single%20Fan%20RGB",
+            "name": "Rakk Ounos X 120mm Eclipse Green Led Fan",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Ounos%20X%20120mm%20Eclipse%20Green%20Led%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Rakk Ounos X 120mm Eclipse Red Led Fan",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Ounos%20X%20120mm%20Eclipse%20Red%20Led%20Fan",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "SYSTEM COOLING",
+            "name": "Rakk Ounos X 120mm Eclipse White Led Fan",
+            "price": 250.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20Ounos%20X%20120mm%20Eclipse%20White%20Led%20Fan",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4498,17 +4451,17 @@ var allData = {
         },
         {
             "category": "TABLE",
-            "name": "RAKK Mabi XT Adjustable Gaming Desk White",
-            "price": 13500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Mabi%20XT%20Adjustable%20Gaming%20Desk%20White",
+            "name": "Rakk iCafe Modular DIY Table 3x80cm Wood",
+            "price": 7500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20iCafe%20Modular%20DIY%20Table%203x80cm%20Wood",
             "seller": "Easy PC",
             "note": ""
         },
         {
             "category": "TABLE",
-            "name": "RAKK Mabi XL Adjustable Gaming Desk White",
-            "price": 15500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Mabi%20XL%20Adjustable%20Gaming%20Desk%20White",
+            "name": "Rakk iCafe Modular DIY Table 3x80cm Wood",
+            "price": 7500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20iCafe%20Modular%20DIY%20Table%203x80cm%20Wood",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4522,9 +4475,17 @@ var allData = {
         },
         {
             "category": "TABLE",
-            "name": "Rakk iCafe Modular DIY Table 3x80cm Wood",
-            "price": 7500.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Rakk%20iCafe%20Modular%20DIY%20Table%203x80cm%20Wood",
+            "name": "RAKK Mabi XL Adjustable Gaming Desk White",
+            "price": 15500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Mabi%20XL%20Adjustable%20Gaming%20Desk%20White",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "TABLE",
+            "name": "RAKK Mabi XT Adjustable Gaming Desk White",
+            "price": 13500.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=RAKK%20Mabi%20XT%20Adjustable%20Gaming%20Desk%20White",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4538,6 +4499,14 @@ var allData = {
         },
         {
             "category": "UPS & AVR",
+            "name": "APC Back UPS BX625CIMS 325Watts 625va with AVR Universal Sockets",
+            "price": 3195.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=APC%20Back%20UPS%20BX625CIMS%20325Watts%20625va%20with%20AVR%20Universal%20Sockets",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "UPS & AVR",
             "name": "APC Back UPS BX650LIMS 325Watts 650va with AVR Universal Sockets",
             "price": 2625.0,
             "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=APC%20Back%20UPS%20BX650LIMS%20325Watts%20650va%20with%20AVR%20Universal%20Sockets",
@@ -4546,9 +4515,9 @@ var allData = {
         },
         {
             "category": "UPS & AVR",
-            "name": "APC Back UPS BX625CIMS 325Watts 625va with AVR Universal Sockets",
-            "price": 3195.0,
-            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=APC%20Back%20UPS%20BX625CIMS%20325Watts%20625va%20with%20AVR%20Universal%20Sockets",
+            "name": "Eco Power 220v/110v Avr",
+            "price": 260.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Eco%20Power%20220v/110v%20Avr",
             "seller": "Easy PC",
             "note": ""
         },
@@ -4578,9 +4547,41 @@ var allData = {
         },
         {
             "category": "UPS & AVR",
+            "name": "iLogic Blazer 1000va Ups",
+            "price": 2450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=iLogic%20Blazer%201000va%20Ups",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "UPS & AVR",
+            "name": "iLogic Blazer 720va Ups",
+            "price": 1450.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=iLogic%20Blazer%20720va%20Ups",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "UPS & AVR",
             "name": "Orion Ups 650va",
             "price": 1495.0,
             "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=Orion%20Ups%20650va",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "WEB & DIGITAL CAMERA",
+            "name": "A4Tech PK-635G 16mp Webcam",
+            "price": 525.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20PK-635G%2016mp%20Webcam",
+            "seller": "Easy PC",
+            "note": ""
+        },
+        {
+            "category": "WEB & DIGITAL CAMERA",
+            "name": "A4Tech PK-920H Full-HD Webcam",
+            "price": 995.0,
+            "url": "https://awesome-table.com/-LhGFViOHfXxEEY4ZxDX/view?filterB=A4Tech%20PK-920H%20Full-HD%20Webcam",
             "seller": "Easy PC",
             "note": ""
         },
@@ -35378,14 +35379,6 @@ var allData = {
         },
         {
             "category": "Motherboard",
-            "name": "Gigabyte GA-H81M-DS2 (LGA 1150)",
-            "price": 3050.0,
-            "url": "https://dynaquestpc.com/products/gigabyte-ga-h81m-ds2",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Motherboard",
             "name": "Gigabyte GA-X299 Aorus Gaming 3",
             "price": 17400.0,
             "url": "https://dynaquestpc.com/products/gigabyte-ga-x299-aorus-gaming-3",
@@ -35597,6 +35590,54 @@ var allData = {
             "name": "Gigabyte Z390I Aorus Pro Wifi",
             "price": 10520.0,
             "url": "https://dynaquestpc.com/products/gigabyte-z390i-aorus-pro-wifi",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "Gigabyte Z490 AORUS Elite AC (LGA1200)",
+            "price": 12980.0,
+            "url": "https://dynaquestpc.com/products/gigabyte-z490-aorus-elite-ac-lga1200",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "Gigabyte Z490 AORUS Master (LGA1200)",
+            "price": 20480.0,
+            "url": "https://dynaquestpc.com/products/gigabyte-z490-aorus-master-lga1200",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "Gigabyte Z490 AORUS Pro AX (LGA1200)",
+            "price": 15700.0,
+            "url": "https://dynaquestpc.com/products/gigabyte-z490-aorus-pro-ax-lga1200",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "Gigabyte Z490 AORUS Ultra (LGA1200) 4*ddr4",
+            "price": 17880.0,
+            "url": "https://dynaquestpc.com/products/gigabyte-z490-aorus-ultra-lga1200-4-ddr4",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "Gigabyte Z490 M (LGA1200)",
+            "price": 8250.0,
+            "url": "https://dynaquestpc.com/products/gigabyte-z490-m-lga1200",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "Gigabyte Z490I AORUS Ultra (LGA1200)",
+            "price": 14580.0,
+            "url": "https://dynaquestpc.com/products/gigabyte-z490i-aorus-ultra-lga1200",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -35989,14 +36030,6 @@ var allData = {
             "name": "MSI H370M Bazooka",
             "price": 5430.0,
             "url": "https://dynaquestpc.com/products/msi-h370m-bazooka",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Motherboard",
-            "name": "MSI H81M-P33",
-            "price": 2800.0,
-            "url": "https://dynaquestpc.com/products/msi-h81m-p33",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -37074,14 +37107,6 @@ var allData = {
         },
         {
             "category": "Graphics Card",
-            "name": "Palit GT 730 2GB GDDR5 64Bit (NE5T7300HD45-2081F)",
-            "price": 2850.0,
-            "url": "https://dynaquestpc.com/products/palit-gt-730-2gb-gddr5-64bit-ne5t7300hd45-2081f",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Graphics Card",
             "name": "Palit GTX 1650 Dual Fan 4gb (NE5165001BG1-1171D)",
             "price": 7790.0,
             "url": "https://dynaquestpc.com/products/palit-gtx-1650-dual-fan-4gb-ne5165001bg1-1171d",
@@ -37106,6 +37131,38 @@ var allData = {
         },
         {
             "category": "Graphics Card",
+            "name": "Palit GTX 1650 SUPER StormX 4GB NE6165S018G1-166F",
+            "price": 8160.0,
+            "url": "https://dynaquestpc.com/products/palit-gtx-1650-super-stormx-4gb-ne6165s018g1-166f",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Graphics Card",
+            "name": "Palit GTX 1650 SUPER StormX OC NE6165SS18G1-166F",
+            "price": 8580.0,
+            "url": "https://dynaquestpc.com/products/palit-gtx-1650-super-stormx-oc-ne6165ss18g1-166f",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Graphics Card",
+            "name": "Palit GTX 1660 SUPER Gaming Pro NE6166S018J9-1160A",
+            "price": 12000.0,
+            "url": "https://dynaquestpc.com/products/palit-gtx-1660-super-gaming-pro-ne6166s018j9-1160a",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Graphics Card",
+            "name": "Palit GTX 1660 SUPER StormX NE6166S018J9-161F",
+            "price": 11660.0,
+            "url": "https://dynaquestpc.com/products/palit-gtx-1660-super-stormx-ne6166s018j9-161f",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Graphics Card",
             "name": "Palit GTX 1660 Ti DUAL 6G (NE6166T018J9-1160A)",
             "price": 14570.0,
             "url": "https://dynaquestpc.com/products/palit-gtx-1660-ti-dual-6g-ne6166t018j9-1160a",
@@ -37122,17 +37179,17 @@ var allData = {
         },
         {
             "category": "Graphics Card",
-            "name": "Palit RTX 2060 Dual 6GB (NE62060018J9-1160A)",
-            "price": 17350.0,
-            "url": "https://dynaquestpc.com/products/palit-rtx-2060-dual-6gb-ne62060018j9-1160a",
+            "name": "Palit RTX 2060 SUPER Dual 8gb (NE6206S018P2-1160A)",
+            "price": 20500.0,
+            "url": "https://dynaquestpc.com/products/palit-rtx-2060-super-dual-8gb-ne6206s018p2-1160a",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Graphics Card",
-            "name": "Palit RTX 2060 SUPER Dual 8gb (NE6206S018P2-1160A)",
-            "price": 20500.0,
-            "url": "https://dynaquestpc.com/products/palit-rtx-2060-super-dual-8gb-ne6206s018p2-1160a",
+            "name": "Palit RTX 2060 SUPER Gaming Pro NE6206S019P2-1062A",
+            "price": 21640.0,
+            "url": "https://dynaquestpc.com/products/palit-rtx-2060-super-gaming-pro-ne6206s019p2-1062a",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -37747,7 +37804,7 @@ var allData = {
         {
             "category": "Memory",
             "name": "Gskill Ripjaws V 16GB Dual DDR4 3200Mhz CL16 (F4-3200C16D-16GVKB)",
-            "price": 4950.0,
+            "price": 5200.0,
             "url": "https://dynaquestpc.com/products/ripjaws-v-16gb-2x8gb-3200mhz-f4-3200c16d-16gvkb",
             "seller": "DynaQuest PC",
             "note": ""
@@ -37827,7 +37884,7 @@ var allData = {
         {
             "category": "Memory",
             "name": "Gskill Trident Z 8GB Dual DDR4 3200Mhz CL16 (F4-3200C16D-8GTZB)",
-            "price": 3100.0,
+            "price": 3200.0,
             "url": "https://dynaquestpc.com/products/gskill-trident-z-8gb-4gbx2-3200mhz-cl16-f4-3200c16d-8gtzb",
             "seller": "DynaQuest PC",
             "note": ""
@@ -37883,7 +37940,7 @@ var allData = {
         {
             "category": "Memory",
             "name": "GSkill Trident Z RGB 16GB Dual DDR4 3200Mhz CL16 (F4-3200C16D-16GTZR)",
-            "price": 5950.0,
+            "price": 6200.0,
             "url": "https://dynaquestpc.com/products/gskill-trident-z-rgb-16gb-2x8gb-3200mhz-cl16-f4-3200c16d-16gtzr",
             "seller": "DynaQuest PC",
             "note": ""
@@ -37939,7 +37996,7 @@ var allData = {
         {
             "category": "Memory",
             "name": "GSkill Trident Z Royal Gold 16GB Dual 3000Mhz DDR4 (F4-3000C16D-16GTRG)",
-            "price": 6650.0,
+            "price": 6900.0,
             "url": "https://dynaquestpc.com/products/gskill-trident-z-royal-gold-16gb-dual-3000mhz-ddr4-f4-3000c16d-16gtrg",
             "seller": "DynaQuest PC",
             "note": ""
@@ -37947,7 +38004,7 @@ var allData = {
         {
             "category": "Memory",
             "name": "GSkill Trident Z Royal Gold 16GB Dual 3200MHz DDR4 (F4-3200C16D-16GTRG)",
-            "price": 6900.0,
+            "price": 7250.0,
             "url": "https://dynaquestpc.com/products/gskill-trident-z-royal-gold-16gb-dual-3200mhz-ddr4-f4-3200c16d-16gtrg",
             "seller": "DynaQuest PC",
             "note": ""
@@ -37963,7 +38020,7 @@ var allData = {
         {
             "category": "Memory",
             "name": "GSkill Trident Z Royal Silver 16GB Dual 3000MHz DDR4 (F4-3000C16D-16GTRS)",
-            "price": 6490.0,
+            "price": 6750.0,
             "url": "https://dynaquestpc.com/products/gskill-trident-z-royal-silver-16gb-dual-3000mhz-ddr4-f4-3000c16d-16gtrs",
             "seller": "DynaQuest PC",
             "note": ""
@@ -37971,7 +38028,7 @@ var allData = {
         {
             "category": "Memory",
             "name": "GSkill Trident Z Royal Silver 16GB Dual 3200MHz DDR4 (F4-3200C16D-16GTRS)",
-            "price": 6750.0,
+            "price": 6850.0,
             "url": "https://dynaquestpc.com/products/gskill-trident-z-royal-silver-16gb-dual-3200mhz-ddr4-f4-3200c16d-16gtrs",
             "seller": "DynaQuest PC",
             "note": ""
@@ -39258,7 +39315,7 @@ var allData = {
         },
         {
             "category": "Power Supply",
-            "name": "Seasonic Focus GX-750 750watts 80+ Gold Full Modular SSR-750FX",
+            "name": "Seasonic Focus GX-750 750watts 80+ Gold Full Modular SSR-550FX",
             "price": 5820.0,
             "url": "https://dynaquestpc.com/products/seasonic-focus-gx-750-750watts-80-gold-full-modular",
             "seller": "DynaQuest PC",
@@ -42291,7 +42348,7 @@ var allData = {
         {
             "category": "Displays",
             "name": "Nvision GT27R18 27in 144Hz Gaming Curve Monitor",
-            "price": 9850.0,
+            "price": 10200.0,
             "url": "https://dynaquestpc.com/products/nvision-gt27r18-27-inches-144hz-gaming-curve-monitor",
             "seller": "DynaQuest PC",
             "note": ""
@@ -42299,7 +42356,7 @@ var allData = {
         {
             "category": "Displays",
             "name": "Nvision GT32R18 32in 144Hz Gaming Curve Monitor",
-            "price": 10800.0,
+            "price": 11500.0,
             "url": "https://dynaquestpc.com/products/nvision-gt32r18-32-inches-144hz-gaming-curve-monitor",
             "seller": "DynaQuest PC",
             "note": ""
@@ -52011,7 +52068,7 @@ var allData = {
         {
             "category": "Cooling Solutions",
             "name": "Deepcool Z3 Thermal Paste",
-            "price": 130.0,
+            "price": 180.0,
             "url": "https://dynaquestpc.com/products/deepcool-z3-thermal-paste",
             "seller": "DynaQuest PC",
             "note": ""
@@ -59917,6 +59974,38 @@ var allData = {
             "name": "Samsung LC24RG50FQEXXP Curved 23.5-inches Gaming Monitor",
             "price": 12400.0,
             "url": "https://pcx.com.ph/product/samsung-lc24rg50fqexxp-curved-23-5-inches-gaming-monitor/",
+            "seller": "PC Express",
+            "note": ""
+        },
+        {
+            "category": "Gaming Monitor",
+            "name": "AOC Q3279VWHF8/VWFD8  31.5-inches Gaming Monitor (White/Silver)",
+            "price": 23150.0,
+            "url": "https://pcx.com.ph/product/aoc-q3279vwhf8-vwfd8-31-5-inches-gaming-monitor-white-silver/",
+            "seller": "PC Express",
+            "note": ""
+        },
+        {
+            "category": "Gaming Monitor",
+            "name": "AOC G2790PX 27-inches Gaming Monitor (Black/Red)",
+            "price": 17900.0,
+            "url": "https://pcx.com.ph/product/aoc-g2790px-27-inches-gaming-monitor-black-red/",
+            "seller": "PC Express",
+            "note": ""
+        },
+        {
+            "category": "Gaming Monitor",
+            "name": "AOC C27G1 27-inches Gaming Monitor (Black)",
+            "price": 18400.0,
+            "url": "https://pcx.com.ph/product/aoc-c27g1-27-inches-gaming-monitor-black/",
+            "seller": "PC Express",
+            "note": ""
+        },
+        {
+            "category": "Gaming Monitor",
+            "name": "AOC G2590PX 24.5-inches Gaming Monitor (Black/Red)",
+            "price": 15200.0,
+            "url": "https://pcx.com.ph/product/aoc-g2590px-24-5-inches-gaming-monitor-black-red/",
             "seller": "PC Express",
             "note": ""
         },
