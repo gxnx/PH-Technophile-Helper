@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PH Technophile</title>
+    <title>PH Technophile Helper</title>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
@@ -69,8 +69,8 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <table class="table-sm table-striped table-inverse table-responsive" id="datatable">
+    <div class="container table-responsive">
+        <table class="table table-sm table-striped table-inverse" id="datatable">
             <thead class="thead-inverse">
                 <tr>
                     <th></th>
@@ -93,15 +93,7 @@
     </div>
 
 </body>
-
-<script src="data.js"></script>
 <script>
-    let ctr = 0
-    allData["data"].forEach(element => {
-        element['index'] = ctr
-        ctr++
-    });
-
     function copyTextToClipboard(text) {
         var textArea = document.createElement("textarea");
         textArea.classList.add('hiddenTextArea');
@@ -122,99 +114,95 @@
 
         document.body.removeChild(textArea);
     }
-
-    function addToListTable(index) {
-        let row = allData["data"][index]
-        element =
-            '<tr>' +
-            '<td>' + row['name'] + '</td>' +
-            '<td>' + row['price'] + '</td>' +
-            '<td>' + row['seller'] + '</td>' +
-            '<td>' + '' + '</td>' +
-            '<td>' + '' + '</td>' +
-            '</tr>'
-
-        $('#listTableBody').append(element);
-    }
 </script>
 <script>
-    $('#datatable').DataTable({
-        "order": [
-            [2, "asc"]
-        ],
-        "pageLength": 15,
-        "lengthChange": false,
-        "columnDefs": [
+    $(document).ready(function () {
+        $.getJSON("data.json", function (response) {
+            var allData = response
 
-            {
-                className: 'align-middle',
-                targets: '_all'
-            },
+            $('#datatable').DataTable({
+                "order": [
+                    [2, "asc"]
+                ],
+                "pageLength": 15,
+                "lengthChange": false,
+                "columnDefs": [
 
-            {
-                searchable: false,
-                targets: [1, 2, 3]
-            },
+                    {
+                        className: 'align-middle',
+                        targets: '_all'
+                    },
 
-        ],
-        "data": allData['data'],
-        "columns": [
+                    {
+                        searchable: false,
+                        targets: [1, 2, 3]
+                    },
 
-            {
-                visible: false,
-                render: function (data, type, row) {
-                    return row.name + " " + row.category
-                }
-            },
+                ],
+                "data": allData.data,
+                "columns": [
 
-
-            {
-                searchable: false,
-                render: function (data, type, row) {
-                    //return row.name;
-
-                    let returnString = '<div><a href="' + row.url + '" target="_blank">' + row.name +
-                        '</a></div>'
+                    {
+                        visible: false,
+                        render: function (data, type, row) {
+                            return row.name + " " + row.category
+                        }
+                    },
 
 
-                    if (row.note == undefined || row.note == '') {
-                        return returnString
-                    } else {
-                        return returnString + '<div style="color:red; font-size: x-small">' + row.note +
-                            '</div>'
-                    }
-                }
-            },
+                    {
+                        searchable: false,
+                        render: function (data, type, row) {
+                            //return row.name;
 
-            {
-                data: "price",
-                className: 'text-right',
-                searchable: false,
-                render: $.fn.dataTable.render.number(',', '.', 0, '₱ ')
-            },
+                            let returnString = '<div><a href="' + row.url +
+                                '" target="_blank">' +
+                                row.name +
+                                '</a></div>'
 
-            {
-                data: "seller",
-                className: 'text-center',
-                searchable: false,
-            },
 
-            {
-                orderable: false,
-                render: function (data, type, row) {
-                    let result = row.name + ' | ' + row.price + ' | ' + row.url
-                    return '<button type="button" class="btn btn-primary btn-sm"' +
-                        'onclick="copyTextToClipboard(\'' + result + '\')"' + '>' +
-                        '<i class="fa fa-copy"></i>' +
-                        '</button>'
-                }
-            },
-        ]
+                            if (row.note == undefined || row.note == '') {
+                                return returnString
+                            } else {
+                                return returnString +
+                                    '<div style="color:red; font-size: x-small">' + row
+                                    .note +
+                                    '</div>'
+                            }
+                        }
+                    },
+
+                    {
+                        data: "price",
+                        className: 'text-right',
+                        searchable: false,
+                        render: $.fn.dataTable.render.number(',', '.', 0, '₱ ')
+                    },
+
+                    {
+                        data: "seller",
+                        className: 'text-center',
+                        searchable: false,
+                    },
+
+                    {
+                        orderable: false,
+                        render: function (data, type, row) {
+                            let result = row.name + ' | ' + row.price + ' | ' + row.url
+                            return '<button type="button" class="btn btn-primary btn-sm"' +
+                                'onclick="copyTextToClipboard(\'' + result + '\')"' +
+                                '>' +
+                                '<i class="fa fa-copy"></i>' +
+                                '</button>'
+                        }
+                    },
+                ]
+            });
+
+            $('.lastUpdated').text(allData.date)
+        })
+        //let x = document.querySelector("#datatable_wrapper > div:nth-child(1) > div:nth-child(1)")
     });
-
-    $('.lastUpdated').text(allData.date)
-
-    let x = document.querySelector("#datatable_wrapper > div:nth-child(1) > div:nth-child(1)")
 </script>
 
 </html>
