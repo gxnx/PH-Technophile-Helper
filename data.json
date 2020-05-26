@@ -1,5 +1,5 @@
 {
-    "date": "May 25 2020 - 21:34:09",
+    "date": "May 26 2020 - 14:58:03",
     "data": [
         {
             "category": "ACCESSORIES",
@@ -33251,7 +33251,7 @@
         },
         {
             "category": "Chassis",
-            "name": "Fractal Design Arc Midi R2 Solid Side Panel",
+            "name": "Fractal Design Arc Midi R2 Solid Side Panel 3x140mm ARC-R2-BL",
             "price": 4390.0,
             "url": "https://dynaquestpc.com/products/casing-fractal-design-arc-midi-r2-solid-side-panel",
             "seller": "DynaQuest PC",
@@ -33259,201 +33259,57 @@
         },
         {
             "category": "Chassis",
-            "name": "Fractal Design Arc Midi R2 Windowed",
-            "price": 4690.0,
+            "name": "Fractal Design Arc Midi R2 Windowed 3x140mm ARC-R2-BL-W",
+            "price": 4900.0,
             "url": "https://dynaquestpc.com/products/fractal-design-arc-midi-r2-windowed",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Chassis",
-            "name": "Fractal Design Arc Mini R2 Windowed",
-            "price": 3980.0,
+            "name": "Fractal Design Arc Mini R2 Windowed 3x120mm ARC-MINI-R2-BL-W",
+            "price": 4050.0,
             "url": "https://dynaquestpc.com/products/fractal-design-arc-mini-r2-windowed",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Chassis",
-            "name": "Fractal Design CORE 1000 USB 3.0 Casing",
-            "price": 2590.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-core-1000-usb-3-0",
+            "name": "Fractal Design Arc XL Black Windowed 3x140mm ARC-XL-BL-W",
+            "price": 5990.0,
+            "url": "https://dynaquestpc.com/products/fractal-design-arc-xl-black-windowed-3x140mm-arc-xl-bl-w",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Chassis",
-            "name": "Fractal Design Core 1100 Casing",
-            "price": 1650.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-core-1100",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Core 500 ITX",
-            "price": 3990.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-core-500-itx",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define Meshify C Mini Tempered Glass",
-            "price": 6200.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-meshify-c-mini-tempered-glass",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define Meshify C Tempered Glass",
-            "price": 6250.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-meshify-c-tempered-glass",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define Meshify C Tempered Glass Light Tint",
-            "price": 6250.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-meshify-c-tempered-glass-light-tint",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define Mini C Tempered glass",
-            "price": 6200.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-mini-c-tempered-glass",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define Mini C Window",
-            "price": 5650.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-mini-c-window",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design DEFINE Mini Casing",
-            "price": 3990.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-mini",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design DEFINE R4 Windowed White Casing",
-            "price": 4950.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-r4-windowed-white",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define R5 Black (DEF-R5-BK) Casing",
-            "price": 5250.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-r5-black-def-r5-bk",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define R5 Black Window (DEF-R5-BK-W) Casing",
-            "price": 7620.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-r5-black-window-def-r5-bk-w",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define R5 Blackout Edition Window (DEF-R5-BKO-W) Casing",
-            "price": 7800.0,
+            "name": "Fractal Design Define R5 Blackout Window Casing 2x140mm DEF-R5-BKO-W",
+            "price": 5850.0,
             "url": "https://dynaquestpc.com/products/fractal-design-define-r5-blackout-edition-window-def-r5-bko-w",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Chassis",
-            "name": "Fractal Design Define R5 Window Black/ Titanium/ White",
-            "price": 7620.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-r5-window-black-titanium-white",
+            "name": "Fractal Design Define S 2x140mm DEF-S-BK",
+            "price": 4650.0,
+            "url": "https://dynaquestpc.com/products/fractal-design-define-s-def-s-bk-2x140mm-def-s-bk",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Chassis",
-            "name": "Fractal Design Define R6",
-            "price": 9050.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-r6",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define R6 Black Tempered Glass",
-            "price": 9950.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-r6-tempered-glass",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define R6 White Tempered Glass",
-            "price": 9950.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-r6-white-tempered-glass",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Define S Window Edition",
-            "price": 4750.0,
+            "name": "Fractal Design Define S Window 2x140mm DEF-S-BK-W",
+            "price": 4950.0,
             "url": "https://dynaquestpc.com/products/fractal-design-define-s-window-edition",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Chassis",
-            "name": "Fractal Design Define S2 Black Tempered Glass",
-            "price": 10400.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-define-s2-black-tempered-glass",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Meshify S2",
-            "price": 9900.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-meshify-s2",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Node 202",
-            "price": 4700.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-node-202",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Node 202 W/ Integra 450w SFX PSU",
-            "price": 8070.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-node-202-w-integra-450w-sfx-psu",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Fractal Design Node 304",
-            "price": 4970.0,
-            "url": "https://dynaquestpc.com/products/fractal-design-node-304",
+            "name": "Fractal Design XL R2 Titanium 3x140mm DEF-XL-R2-TI",
+            "price": 6350.0,
+            "url": "https://dynaquestpc.com/products/casing-fractal-design-xl-r2-titanium-3x140mm-def-xl-r2-ti",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -33835,7 +33691,7 @@
         },
         {
             "category": "Chassis",
-            "name": "NZXT H210 TG Mini-ITX PC Gaming Case 2x120mm Black/Red CA-H210-BR",
+            "name": "NZXT H210 TG Mini-ITX PC Gaming Case 2x120mm",
             "price": 4950.0,
             "url": "https://dynaquestpc.com/products/nzxt-h210-tg-mini-itx-pc-gaming-case-2x120mm-black-red-ca-h210-br",
             "seller": "DynaQuest PC",
@@ -34286,14 +34142,6 @@
             "name": "Tecware M3 MATX Tempered Glass (Black)",
             "price": 1750.0,
             "url": "https://dynaquestpc.com/products/tecware-m3-matx-tempered-glass-black",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Chassis",
-            "name": "Tecware Neo TG atx 2x140mm 1x120mm USB3",
-            "price": 2300.0,
-            "url": "https://dynaquestpc.com/products/tecware-neo-tg-atx-2x140mm-1x120mm-usb3",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -37427,6 +37275,14 @@
         },
         {
             "category": "Memory",
+            "name": "Adata 4GB DDR4 2666MHz Single SoDimm AD4S2666J4G19-S",
+            "price": 1250.0,
+            "url": "https://dynaquestpc.com/products/adata-4gb-single-2666mhz-ad4s2666w4g19-r",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Memory",
             "name": "Adata 4GB Single DDR4 2666MHz AD4U2666J4G19",
             "price": 1350.0,
             "url": "https://dynaquestpc.com/products/adata-4gb-single-2666mhz-ddr4-ad4u2666w4g19-r",
@@ -37435,9 +37291,9 @@
         },
         {
             "category": "Memory",
-            "name": "Adata 4GB Single SoDimm DDR4 2666MHz AD4S2666J4G19-S",
-            "price": 1250.0,
-            "url": "https://dynaquestpc.com/products/adata-4gb-single-2666mhz-ad4s2666w4g19-r",
+            "name": "Adata 8GB DDR4 2666MHz Single SoDimm AD4S266638G19-S",
+            "price": 2450.0,
+            "url": "https://dynaquestpc.com/products/adata-8gb-single-2666mhz-ad4s266638g19-r",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -37446,14 +37302,6 @@
             "name": "Adata 8GB Single DDR4 2666MHz AD4U266638G19",
             "price": 1900.0,
             "url": "https://dynaquestpc.com/products/adata-8gb-single-2666mhz-ddr4-ad4u266638g19-r",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Memory",
-            "name": "Adata 8GB Single SoDimm DDR4 2666MHz AD4S266638G19-S",
-            "price": 2450.0,
-            "url": "https://dynaquestpc.com/products/adata-8gb-single-2666mhz-ad4s266638g19-r",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -37812,7 +37660,7 @@
         {
             "category": "Memory",
             "name": "Gskill Ripjaws V 16GB Dual DDR4 3600MHz CL18 F4-3600C18D-16GVK",
-            "price": 4900.0,
+            "price": 5650.0,
             "url": "https://dynaquestpc.com/products/gskill-ripjaws-v-16gb-2x8gb-ddr4-3600-f4-3600c18d-16gvk",
             "seller": "DynaQuest PC",
             "note": ""
@@ -38083,7 +37931,15 @@
         },
         {
             "category": "Memory",
-            "name": "Kingston 4GB DDR4 2133 (KVR21S15S8/4) SoDimm",
+            "name": "Kingston 4GB DDR3 1600Mhz Single SoDimm RAM KVR16S11S8/4",
+            "price": 1600.0,
+            "url": "https://dynaquestpc.com/products/kingston-sodimm-4gb-ddr3-1600mhz-memory-ram-kvr16s11s8-4",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Memory",
+            "name": "Kingston 4GB DDR4 2133 Single SoDimm KVR21S15S8/4",
             "price": 1950.0,
             "url": "https://dynaquestpc.com/products/kingston-4gb-ddr4-2133-kvr21s15s8-4",
             "seller": "DynaQuest PC",
@@ -39323,9 +39179,17 @@
         },
         {
             "category": "Power Supply",
-            "name": "Seasonic Focus SGX500 500watts 80+ Gold semi modular",
-            "price": 5350.0,
-            "url": "https://dynaquestpc.com/products/seasonic-focus-sgx500-500watts-80-gold-semi-modular",
+            "name": "Seasonic Focus SGX-500 Gold 500watts PSU SFX full modular SSR-500SGX",
+            "price": 5390.0,
+            "url": "https://dynaquestpc.com/products/fractal-design-node-304",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Power Supply",
+            "name": "Seasonic Focus SGX-600 Gold 600watts PSU SFX full modular SSR-600SGX",
+            "price": 7290.0,
+            "url": "https://dynaquestpc.com/products/fractal-design-node-202",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -41780,7 +41644,7 @@
         {
             "category": "Displays",
             "name": "HKC M24G3F 24in Curved 1920X1080 144hz Gaming Monitor",
-            "price": 6990.0,
+            "price": 7300.0,
             "url": "https://dynaquestpc.com/products/hkc-m24g3f-24inch-curved-1920x1080-144hz-freesync-dvi-hdmi-dp",
             "seller": "DynaQuest PC",
             "note": ""
@@ -55155,14 +55019,6 @@
         },
         {
             "category": "Graphics Card",
-            "name": "GALAX GeForce GTX 1080 EXOC-SNPR WHITE 256-bit 8GB GDDR5X Graphics Card",
-            "price": 4025000.0,
-            "url": "https://pcx.com.ph/product/galax-geforce-gtx-1080-exoc-snpr-white-256-bit-8gb-gddr5x-graphics-card/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Graphics Card",
             "name": "ZOTAC GeForce GTX 1060 AMP! Edition Graphics Card",
             "price": 12950.0,
             "url": "https://pcx.com.ph/product/zotac-gtx1060-amp-edition-6gb-ddr5-192bit-graphics-card/",
@@ -55406,6 +55262,14 @@
             "name": "THERMALTAKE WATER 3.0 PERFORMER-C CPU FAN",
             "price": 2600.0,
             "url": "https://pcx.com.ph/product/thermaltake-water-3-0-performer-c-cpu-fan/",
+            "seller": "PC Express",
+            "note": ""
+        },
+        {
+            "category": "Motherboard",
+            "name": "ROG Strix X570-F AMD X570 ATX Motherboard",
+            "price": 14950.0,
+            "url": "https://pcx.com.ph/product/rog-strix-x570-f-amd-x570-atx-gaming-motherboard/",
             "seller": "PC Express",
             "note": ""
         },
@@ -55883,6 +55747,22 @@
         },
         {
             "category": "Casing",
+            "name": "Cooler Master Masterbox TD500 Mesh Gaming Chasis (White)",
+            "price": 5100.0,
+            "url": "https://pcx.com.ph/product/cooler-master-masterbox-td500-mesh-gaming-chasis-white/",
+            "seller": "PC Express",
+            "note": ""
+        },
+        {
+            "category": "Casing",
+            "name": "Cooler Master Masterbox TD500 Mesh Gaming Chasis (Black)",
+            "price": 5100.0,
+            "url": "https://pcx.com.ph/product/cooler-master-masterbox-td500-mesh-gaming-chasis-black/",
+            "seller": "PC Express",
+            "note": ""
+        },
+        {
+            "category": "Casing",
             "name": "Thermaltake View 37 Riiing Edition Tempered Glass Mid-Tower Gaming Case",
             "price": 7700.0,
             "url": "https://pcx.com.ph/product/thermaltake-view-37-riiing-edition-tempered-glass-mid-tower-gaming-case/",
@@ -56059,6 +55939,14 @@
         },
         {
             "category": "Casing",
+            "name": "NZXT H440 (CA-H442W-M4) Mid Tower Gaming Chassis (Black/Blue)",
+            "price": 6500.0,
+            "url": "https://pcx.com.ph/product/nzxt-h440-ca-h442w-m4-mid-tower-gaming-chassis-black-blue/",
+            "seller": "PC Express",
+            "note": ""
+        },
+        {
+            "category": "Casing",
             "name": "NZXT H440 Envyus Gaming Chassis (Black)",
             "price": 6950.0,
             "url": "https://pcx.com.ph/product/nzxt-h440-envyus-gaming-chassis-black/",
@@ -56075,25 +55963,9 @@
         },
         {
             "category": "Casing",
-            "name": "MSI MAG Vampiric 010 Addressable RGB Tempered Glass Gaming Chassis",
-            "price": 3450.0,
-            "url": "https://pcx.com.ph/product/msi-mag-vampiric-010-addressable-rgb-tempered-glass-gaming-chassis/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
             "name": "MSI MAG Pylon ATX/MATX/MINI-ITX/Tempered Glass Gaming Case",
             "price": 4900.0,
             "url": "https://pcx.com.ph/product/msi-mag-pylon-atx-matx-mini-itx-tempered-glass-gaming-case/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "Cooler Master Mastercase H500P Mesh (MCM-H500P-MGNN-S10) Gaming Case (Gray)",
-            "price": 8850.0,
-            "url": "https://pcx.com.ph/product/cooler-master-mastercase-h500p-mesh-mcm-h500p-mgnn-s10-gaming-case-gray/",
             "seller": "PC Express",
             "note": ""
         },
@@ -56299,14 +56171,6 @@
         },
         {
             "category": "Casing",
-            "name": "AeroCool Project 7 P7-C1 Pro Mid Tower RGB Case (Black) with Project7-Hub1 RGB Controller",
-            "price": 6450.0,
-            "url": "https://pcx.com.ph/product/aerocool-project-7-p7-c1-pro-mid-tower-rgb-case-black-with-project7-hub1-rgb-controller/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
             "name": "AeroCool Project 7 P7-C0 LED Mid Tower Case (Black) with 500W PSU",
             "price": 4950.0,
             "url": "https://pcx.com.ph/product/aerocool-project-7-p7-c0-led-mid-tower-case-black-with-500w-psu/",
@@ -56315,25 +56179,9 @@
         },
         {
             "category": "Casing",
-            "name": "AeroCool VS-1 Mid Tower Case with 500W Power Supply (Black)",
-            "price": 2150.0,
-            "url": "https://pcx.com.ph/product/aerocool-vs-1-mid-tower-case-with-500w-power-supply-black/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
             "name": "AeroCool Cruisestar Advance Mid Tower Case (Black)",
             "price": 205000.0,
             "url": "https://pcx.com.ph/product/aerocool-cruise-star-advance-black-gaming-case/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "AeroCool VS-3 Mid Tower Case (Black)",
-            "price": 1750.0,
-            "url": "https://pcx.com.ph/product/aerocool-vs-3-mid-tower-case-black/",
             "seller": "PC Express",
             "note": ""
         },
@@ -56366,14 +56214,6 @@
             "name": "AeroCool Aero-1000 Mid Tower Case (Black)",
             "price": 365000.0,
             "url": "https://pcx.com.ph/product/aerocool-aero-1000-mid-tower-case-black/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "AeroCool Aero-300 FAW Full Acrylic Window Mid Tower Case",
-            "price": 2100.0,
-            "url": "https://pcx.com.ph/product/aerocool-aero-300-faw-full-acrylic-window-mid-tower-case/",
             "seller": "PC Express",
             "note": ""
         },
@@ -56491,25 +56331,9 @@
         },
         {
             "category": "Casing",
-            "name": "Cooler Master CMP-351 CM RC-351-KKN2 Black CPU Casing",
-            "price": 1100.0,
-            "url": "https://pcx.com.ph/product/cooler-master-cmp-351-cm-rc-351-kkn2-black-cpu-casing/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
             "name": "Thermaltake Versa H17 Windowed Micro Black CPU Casing",
             "price": 2300.0,
             "url": "https://pcx.com.ph/product/thermaltake-versa-h17-windowed-micro-black-cpu-casing/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "Cooler Master MasterCase MC500P MCM-M500P-KG5N-S00 Black CPU Casing",
-            "price": 7150.0,
-            "url": "https://pcx.com.ph/product/cooler-master-mastercase-mc500p-rgb-mcm-m500p-kg5n-s00-black-cpu-casing/",
             "seller": "PC Express",
             "note": ""
         },
@@ -56614,22 +56438,6 @@
             "name": "SILVERSTONE PRECISION 11 USB 3.0 WINDOWED BLACK TOWER CASING",
             "price": 2900.0,
             "url": "https://pcx.com.ph/product/silverstone-precision-11-usb-3-0-windowed-black-tower-casing/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "COOLER MASTER ELITE K350 W/ WINDOW CASING",
-            "price": 230000.0,
-            "url": "https://pcx.com.ph/product/cooler-master-elite-k350-w-window-casing/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "AEROCOOL GT-A BLACK GAMING CASE",
-            "price": 280000.0,
-            "url": "https://pcx.com.ph/product/aerocool-gt-blk-gaming-case/",
             "seller": "PC Express",
             "note": ""
         },
@@ -57302,6 +57110,14 @@
             "name": "FSP Hydro G 650W 80+ Gold Modular Power Supply",
             "price": 6100.0,
             "url": "https://pcx.com.ph/product/fsp-hydro-g-650w-80-gold-modular-power-supply/",
+            "seller": "PC Express",
+            "note": ""
+        },
+        {
+            "category": "Internal Storage",
+            "name": "XPG SX6000 Pro PCIe 512GB NVMe M.2 Solid State Drive",
+            "price": 4500.0,
+            "url": "https://pcx.com.ph/product/xpg-sx6000-pro-pcie-512gb-solid-state-drive/",
             "seller": "PC Express",
             "note": ""
         },
@@ -59659,14 +59475,6 @@
         },
         {
             "category": "GAMING LAPTOP",
-            "name": "Lenovo Ideapad 330-15ICH 81FK0034PH Intel Core i5 15.6-inch GeForce GTX 1050 Windows 10 Laptop (Onyx Black)",
-            "price": 43995.0,
-            "url": "https://pcx.com.ph/product/lenovo-ideapad-330-15ikb-81fk0034ph-intel-core-i5-15-6-inch-geforce-gtx-1050-windows-10-laptop-onyx-black/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "GAMING LAPTOP",
             "name": "Lenovo Legion Y530 81FV004EPH Intel Core i7 15.6-inch GeForce GTX 1050 Ti Windows 10 Gaming Laptop",
             "price": 7099500.0,
             "url": "https://pcx.com.ph/product/lenovo-legion-y530-81fv004eph-intel-core-i7-15-6-inch-geforce-gtx-1050-ti-windows-10-gaming-laptop/",
@@ -61174,14 +60982,6 @@
             "name": "Lenovo Ideapad 330-15ICH 81FK0035PH Intel Core i5 15.6-inch GeForce GTX 1050 Windows 10 Laptop (Platinum Grey)",
             "price": 39995.0,
             "url": "https://pcx.com.ph/product/lenovo-ideapad-330-15ikb-81fk0035ph-intel-core-i5-15-6-inch-geforce-gtx-1050-windows-10-laptop-platinum-grey/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Gaming Laptop",
-            "name": "Lenovo Ideapad 330-15ICH 81FK0034PH Intel Core i5 15.6-inch GeForce GTX 1050 Windows 10 Laptop (Onyx Black)",
-            "price": 43995.0,
-            "url": "https://pcx.com.ph/product/lenovo-ideapad-330-15ikb-81fk0034ph-intel-core-i5-15-6-inch-geforce-gtx-1050-windows-10-laptop-onyx-black/",
             "seller": "PC Express",
             "note": ""
         },
@@ -64643,30 +64443,6 @@
         },
         {
             "category": "Powerbank",
-            "name": "ASUS ZENPOWER PINK 10050MAH POWERBANK W/ BUMPER CASE",
-            "price": 95000.0,
-            "url": "https://pcx.com.ph/product/asus-zenpower-gold-10050mah-powerbank-w-bumper-case/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Powerbank",
-            "name": "ASUS ZENPOWER BLUE 10050mAh POWERBANK W/ BUMPER CASE",
-            "price": 95000.0,
-            "url": "https://pcx.com.ph/product/asus-zenpower-blue-10050mah-powerbank-w-bumper-case/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Powerbank",
-            "name": "ASUS ZENPOWER BLACK 10050MAH POWERBANK W/ BUMPER CASE",
-            "price": 95000.0,
-            "url": "https://pcx.com.ph/product/asus-zenpower-black-10050mah-powerbank-w-bumper-case/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Powerbank",
             "name": "RECCI Legend RL-8000mAh Power Bank",
             "price": 1495.0,
             "url": "https://pcx.com.ph/product/recci-legend-rl-8000mah-power-bank/",
@@ -64702,38 +64478,6 @@
             "name": "RECCI RB-10000M Bruno Series Portable 10000 mAh Intelligent Power Bank",
             "price": 1695.0,
             "url": "https://pcx.com.ph/product/recci-rb-10000m-bruno-series-portable-10000mah-power-bank/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Powerbank",
-            "name": "ASUS ZENPOWER SILVER 10050MAH POWERBANK",
-            "price": 895.0,
-            "url": "https://pcx.com.ph/product/asus-zenpower-silver-10050mah-powerbank/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Powerbank",
-            "name": "ASUS ZENPOWER PINK 10050MAH POWERBANK",
-            "price": 895.0,
-            "url": "https://pcx.com.ph/product/asus-zenpower-pink-10050mah-powerbank/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Powerbank",
-            "name": "ASUS ZENPOWER GOLD 10050MAH POWERBANK WITH BUMPER CASE",
-            "price": 950.0,
-            "url": "https://pcx.com.ph/product/asus-zenpower-gold-10050mah-powerbank/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Powerbank",
-            "name": "ASUS ZENPOWER BLUE 10050MAH POWERBANK",
-            "price": 895.0,
-            "url": "https://pcx.com.ph/product/asus-zenpower-blue-10050mah-powerbank/",
             "seller": "PC Express",
             "note": ""
         },
@@ -65571,14 +65315,6 @@
         },
         {
             "category": "Universal Laptop Charger",
-            "name": "HUNTKEY 65WATTS SLIM BLACK UNIVERSAL LAPTOP ADAPTOR",
-            "price": 1200.0,
-            "url": "https://pcx.com.ph/product/huntkey-65watts-slim-black-universal-laptop-adaptor/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Universal Laptop Charger",
             "name": "HUNTKEY 40WATTS MINI UNIVERSAL NETBOOK ADAPTOR",
             "price": 820.0,
             "url": "https://pcx.com.ph/product/huntkey-40watts-mini-universal-netbook-adaptor/",
@@ -66123,6 +65859,14 @@
         },
         {
             "category": "Camera",
+            "name": "Tp-link NC250 HD Day/Night Cloud Camera, 300Mbps Wi-Fi",
+            "price": 750.0,
+            "url": "https://pcx.com.ph/product/tp-link-nc250-hd-day-night-cloud-camera-300mbps-wi-fi/",
+            "seller": "PC Express",
+            "note": ""
+        },
+        {
+            "category": "Camera",
             "name": "Transcend Drive Pro 520 Car CamCorder",
             "price": 7900.0,
             "url": "https://pcx.com.ph/product/transcend-drive-pro-520-car-camcorder/",
@@ -66198,38 +65942,6 @@
             "name": "D-Link DCS-933L Day &amp; Night Wi-Fi Camera",
             "price": 3500.0,
             "url": "https://pcx.com.ph/product/d-link-dcs-933l-day-night-wi-fi-camera/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Camera",
-            "name": "Logitech Group Web ConferenceCam (960-001054)",
-            "price": 66000.0,
-            "url": "https://pcx.com.ph/product/logitech-group-web-conferencecam-960-001054/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Camera",
-            "name": "Logitech MeetUp Video ConferenceCam (960-001101)",
-            "price": 58700.0,
-            "url": "https://pcx.com.ph/product/logitech-meetup-video-conferencecam-960-001101/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Camera",
-            "name": "Logitech ConferenceCam Connect (960-001035)",
-            "price": 28000.0,
-            "url": "https://pcx.com.ph/product/logitech-conferencecam-connect-960-001035/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Camera",
-            "name": "Logitech BCC950 ConferenceCam (960-000939)",
-            "price": 13700.0,
-            "url": "https://pcx.com.ph/product/logitech-bcc950-conferencecam-960-000939/",
             "seller": "PC Express",
             "note": ""
         },
@@ -66387,22 +66099,6 @@
         },
         {
             "category": "Smartphones",
-            "name": "VIVO V17 PRO (Knight Black)",
-            "price": 21999.0,
-            "url": "https://pcx.com.ph/product/vivo-v17-pro-knight-black-2/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Smartphones",
-            "name": "VIVO V17 PRO (Crystal White)",
-            "price": 21999.0,
-            "url": "https://pcx.com.ph/product/vivo-v17-pro-crystal-white-2/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Smartphones",
             "name": "Asus ROG Eye GC21 Webcam",
             "price": 4600.0,
             "url": "https://pcx.com.ph/product/asus-rog-eye-gc21-webcam/",
@@ -66422,22 +66118,6 @@
             "name": "VIVO V11 (Nebula)",
             "price": 10490.0,
             "url": "https://pcx.com.ph/product/vivo-v11-nebula/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Smartphones",
-            "name": "VIVO S1 (Skyline Blue)",
-            "price": 12999.0,
-            "url": "https://pcx.com.ph/product/vivo-s1-skyline-blue-2/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Smartphones",
-            "name": "VIVO S1 (Diamond Black)",
-            "price": 12999.0,
-            "url": "https://pcx.com.ph/product/vivo-s1-diamond-black-2/",
             "seller": "PC Express",
             "note": ""
         },

@@ -16,13 +16,12 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
-    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <script src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/v/bs4/dt-1.10.21/r-2.2.5/sc-2.0.2/sp-1.1.1/datatables.min.css" />
+
+    <script type="text/javascript"
+        src="https://cdn.datatables.net/v/bs4/dt-1.10.21/r-2.2.5/sc-2.0.2/sp-1.1.1/datatables.min.js"></script>
+
 
     <script src="https://use.fontawesome.com/4f9d8cab91.js"></script>
 </head>
@@ -46,6 +45,10 @@
                     </span>
                 </span>
             </div>
+
+            <div class="col-12">
+                <i style="color:red; font-size:smaller">Note: Contact seller for inquiries.</i>
+            </div>
         </div>
 
         <div class="d-block d-sm-none">
@@ -64,16 +67,20 @@
 
                     </span>
             </div>
+
+            <div class="col-12 d-flex justify-content-center">
+                <i style="color:red; font-size:smaller">Note: Contact seller for inquiries.</i>
+            </div>
         </div>
 
-        <div class="container">
-            <span class="d-flex justify-content-center">
-                <i style="color:red; font-size:smaller">Note: Contact seller for inquiries.</i>
-            </span>
+        <div class="col-12 mt-2">
+            <i style="font-size:smaller">Sources: DynaQuest PC, PC Hub, Easy PC, FayeQ, AyosComputer, PC Express</i>
         </div>
+
+
     </div>
     <div class="container">
-        <div class="table-responsive p-1">
+        <div class="p-1">
             <table class="table table-sm table-striped table-inverse" id="datatable">
                 <thead class="thead-inverse">
                     <tr>
@@ -112,7 +119,7 @@
         try {
             var successful = document.execCommand('copy');
             var msg = successful ? 'successful' : 'unsuccessful';
-            console.log('Copying text command was ' + msg);
+            //console.log('Copying text command was ' + msg);
         } catch (err) {
             console.log('Oops, unable to copy');
         }
@@ -125,10 +132,16 @@
         $.getJSON("data.json", function (response) {
             var allData = response
 
-            $('#datatable').DataTable({
+            var table = $('#datatable').DataTable({
+                //orderCellsTop: true,
+                //fixedHeader: true,
+                //info: false,
                 order: [
                     [2, "asc"]
                 ],
+                language: {
+                    "infoFiltered": " from (_MAX_)"
+                },
                 pageLength: 15,
                 pagingType: 'simple',
                 lengthChange: false,
@@ -138,26 +151,16 @@
                         className: 'align-middle',
                         targets: '_all'
                     },
-
-                    {
-                        searchable: false,
-                        targets: [1, 2, 3]
-                    },
-
                 ],
                 data: allData.data,
-                columns: [
-
-                    {
+                columns: [{
                         visible: false,
                         render: function (data, type, row) {
-                            return row.name + " " + row.category
+                            return row.category + " " + row.name
                         }
                     },
 
-
                     {
-                        searchable: false,
                         render: function (data, type, row) {
                             //return row.name;
 
@@ -181,28 +184,27 @@
                     {
                         data: "price",
                         className: 'text-right align-middle',
-                        searchable: false,
                         render: $.fn.dataTable.render.number(',', '.', 0, '₱ ')
                     },
 
                     {
                         data: "seller",
                         className: 'text-center align-middle',
-                        searchable: false,
                     },
 
                     {
                         orderable: false,
                         render: function (data, type, row) {
                             let result = row.name + ' | ' + row.price + ' | ' + row.url
-                            return '<button type="button" class="btn btn-primary btn-sm"' +
+                            return '<button style="height: 30px;"type="button" class="btn btn-primary btn-sm"' +
                                 'onclick="copyTextToClipboard(\'' + result + '\')"' +
                                 '>' +
                                 '<i class="fa fa-copy"></i>' +
                                 '</button>'
+
                         }
                     },
-                ]
+                ],
             });
 
             $('.lastUpdated').text(allData.date)
