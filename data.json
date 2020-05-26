@@ -1,5 +1,5 @@
 {
-    "date": "May 26 2020 - 14:58:03",
+    "date": "May 26 2020 - 16:09:45",
     "data": [
         {
             "category": "ACCESSORIES",
@@ -55923,22 +55923,6 @@
         },
         {
             "category": "Casing",
-            "name": "Phanteks P350X TG (PH-EC350PTG_DBK) Gaming Chassis (Black)",
-            "price": 4500.0,
-            "url": "https://pcx.com.ph/product/phanteks-p350x-tg-ph-ec350ptg_dbk-gaming-chassis/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "NZXT H500 Tempered Glass Mid Tower Gaming Chassis (White)",
-            "price": 3950.0,
-            "url": "https://pcx.com.ph/product/nzxt-h500-tempered-glass-mid-tower-gaming-chassis-white/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
             "name": "NZXT H440 (CA-H442W-M4) Mid Tower Gaming Chassis (Black/Blue)",
             "price": 6500.0,
             "url": "https://pcx.com.ph/product/nzxt-h440-ca-h442w-m4-mid-tower-gaming-chassis-black-blue/",
@@ -56243,22 +56227,6 @@
         },
         {
             "category": "Casing",
-            "name": "Tecware EDGE TG Mid Tower Gaming Case (Red)",
-            "price": 2000.0,
-            "url": "https://pcx.com.ph/product/tecware-edge-tg-mid-tower-gaming-case-red/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "Tecware EDGE TG Mid Tower Gaming Case (Black)",
-            "price": 2000.0,
-            "url": "https://pcx.com.ph/product/tecware-edge-tg-mid-tower-gaming-case-black/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
             "name": "Cooler Master MasterBox Lite 3 Windowed Black CPU Casing",
             "price": 2450.0,
             "url": "https://pcx.com.ph/product/cooler-master-masterbox-lite-3-windowed-black-casing/",
@@ -56270,30 +56238,6 @@
             "name": "Cooler Master Elite RC-102 CPU Casing with 500W Power Supply",
             "price": 2200.0,
             "url": "https://pcx.com.ph/product/cooler-master-elite-rc-102-cpu-casing-with-500w-power-supply/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "NZXT H700i CAM-powered Premium Mid-Tower Case (MATTE BLACK + RED)",
-            "price": 11650.0,
-            "url": "https://pcx.com.ph/product/nzxt-h700i-cam-powered-premium-mid-tower-case-matte-black-red/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "NZXT H700i CAM-powered Premium Mid-Tower Case (MATTE BLACK + BLUE)",
-            "price": 11650.0,
-            "url": "https://pcx.com.ph/product/nzxt-h700i-cam-powered-premium-mid-tower-case-matte-black-blue/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "NZXT H700i CAM-powered Premium Mid-Tower Case (MATTE BLACK)",
-            "price": 11650.0,
-            "url": "https://pcx.com.ph/product/nzxt-h700i-cam-powered-premium-mid-tower-case-matte-black/",
             "seller": "PC Express",
             "note": ""
         },
@@ -56350,14 +56294,6 @@
             "name": "Cooler Master MasterBox Q300P RGB MCB-Q300P-KANN-S02 Black CPU Casing",
             "price": 4100.0,
             "url": "https://pcx.com.ph/product/cooler-master-masterbox-q300p-rgb-mcb-q300p-kann-s02-black-cpu-casing/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "SilverStone Redline 06 Pro CPU Casing",
-            "price": 4800.0,
-            "url": "https://pcx.com.ph/product/silverstone-redline-06-pro-cpu-casing/",
             "seller": "PC Express",
             "note": ""
         },
@@ -56422,14 +56358,6 @@
             "name": "SILVERSTONE RAVEN 03 BLACK W/ SIDEWINDOW CASE",
             "price": 675000.0,
             "url": "https://pcx.com.ph/product/silverstone-raven-03-black-w-sidewindow-case/",
-            "seller": "PC Express",
-            "note": ""
-        },
-        {
-            "category": "Casing",
-            "name": "SILVERSTONE PRECISION 10 SST-PS10B W/O PSU CASING",
-            "price": 2900.0,
-            "url": "https://pcx.com.ph/product/silverstone-precision-10-sst-ps10b-wo-psu-casing/",
             "seller": "PC Express",
             "note": ""
         },
