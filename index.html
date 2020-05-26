@@ -160,6 +160,11 @@
             if (urlParams.search == undefined) {
                 urlParams.search = ""
             }
+
+            //let dataTableScrollY = "550px"
+            //dataTableScrollYint = Math.ceil(window.innerHeight * 0.56759545923)
+            //dataTableScrollY = dataTableScrollYint.toString() + "px"
+
             var table = $('#datatable').DataTable({
                 //orderCellsTop: true,
                 //fixedHeader: true,
@@ -173,6 +178,8 @@
                 language: {
                     "infoFiltered": " from (_MAX_)"
                 },
+                //scrollY: dataTableScrollY,
+                //scrollCollapse: true,
                 pageLength: 15,
                 pagingType: 'simple',
                 lengthChange: false,
@@ -230,7 +237,7 @@
                         search: false,
                         orderable: false,
                         render: function (data, type, row) {
-                            let result = row.name + ' | PHP' + row.price + ' | ' +
+                            let result = row.name + ' | PHP ' + row.price + ' | ' +
                                 row.seller + ' | ' + row.url
                             return '<button style="height: 30px;"type="button" class="btn btn-primary btn-sm"' +
                                 'onclick="copyTextToClipboard(\'' + result + '\')"' +
@@ -242,6 +249,24 @@
                     },
                 ],
             });
+
+            if (navigator.userAgent.match(/Android/i) ||
+                navigator.userAgent.match(/webOS/i) ||
+                navigator.userAgent.match(/iPhone/i) ||
+                navigator.userAgent.match(/iPad/i) ||
+                navigator.userAgent.match(/iPod/i) ||
+                navigator.userAgent.match(/BlackBerry/i) ||
+                navigator.userAgent.match(/Windows Phone/i)) {
+                table.on('page.dt', function () {
+                    $('html, body').animate({
+                        scrollTop: $("body").offset().top
+                    }, 'fast');
+
+                    $('thead tr th:first-child').focus().blur();
+                });
+            }
+
+
 
             $('.lastUpdated').text(allData.date)
             let sourcesStr = ""
