@@ -192,6 +192,7 @@
                     },
 
                     {
+                        search: false,
                         render: function (data, type, row) {
                             //return row.name;
 
@@ -213,17 +214,20 @@
                     },
 
                     {
+                        search: false,
                         data: "price",
                         className: 'text-right align-middle',
                         render: $.fn.dataTable.render.number(',', '.', 0, '₱ ')
                     },
 
                     {
+                        search: false,
                         data: "seller",
                         className: 'text-center align-middle',
                     },
 
                     {
+                        search: false,
                         orderable: false,
                         render: function (data, type, row) {
                             let result = row.name + ' | ' + row.price + ' | ' +
