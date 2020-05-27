@@ -1,5 +1,5 @@
 {
-    "date": "May 27 2020 - 01:28:03",
+    "date": "May 27 2020 - 01:47:12 PM",
     "data": [
         {
             "category": "Cables/Adapters",
@@ -43995,6 +43995,14 @@
         },
         {
             "category": "Chassis",
+            "name": "BeQuiet Pure Base 500 Window TG atx 2x120mm",
+            "price": 5000.0,
+            "url": "https://dynaquestpc.com/products/bequiet-pure-base-500-window-tg-black-atx-2x120mm-pn-bgw34",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Chassis",
             "name": "BeQuiet Pure Base 600 Case",
             "price": 6070.0,
             "url": "https://dynaquestpc.com/products/bequiet-pure-base-600-window-black-case",
@@ -56931,32 +56939,24 @@
         },
         {
             "category": "Gaming",
-            "name": "RaZER Abyssus 2000 + Goliathus Speed (Terra Design Pad)",
-            "price": 1950.0,
+            "name": "RaZER Abyssus 2000 + Goliathus Speed Terra Surface Bundle RZ83-02020200-B3M1",
+            "price": 2450.0,
             "url": "https://dynaquestpc.com/products/razer-abyssus-2000-mousemat-terra-design-speed",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Gaming",
-            "name": "RaZER Abyssus Essential Chroma Mouse (RZ01-02160300-R3M1)",
-            "price": 2499.0,
+            "name": "RaZER Abyssus Essential Gaming Mouse RZ01-02160300-R3M1",
+            "price": 2550.0,
             "url": "https://dynaquestpc.com/products/razer-abyssus-essential-chroma-mouse",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Gaming",
-            "name": "RaZER Atheris BT Mobile Mouse (RZ01-02170300-R3M1)",
-            "price": 2999.0,
-            "url": "https://dynaquestpc.com/products/razer-atheris-bluetooth-mobile-mouse",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Gaming",
-            "name": "RaZER Atheris BT Mobile Mouse Mercury White (RZ01-02170300-R3M1)",
-            "price": 2999.0,
+            "name": "RaZER Abyssus V2 Ambidextrous Gaming Mouse RZ01-01900100-R3A1",
+            "price": 2450.0,
             "url": "https://dynaquestpc.com/products/razer-atheris-bluetooth-mobile-mouse-rz01-02170300-r3m1",
             "seller": "DynaQuest PC",
             "note": ""
@@ -57011,24 +57011,40 @@
         },
         {
             "category": "Gaming",
-            "name": "RaZER BlackWidow 2019 Edition (RZ03-02860100-R3M1)",
-            "price": 7450.0,
+            "name": "RaZER Basilisk V2 GAMING MOUSE  RZ01-03160100-R3M1",
+            "price": 4250.0,
+            "url": "https://dynaquestpc.com/products/razer-basilisk-v2-gaming-mouse-rz01-03160100-r3m1",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Gaming",
+            "name": "RaZER BlackWidow 2019 Mechanical Gaming Keyboard RZ03-02860100-R3M1",
+            "price": 6990.0,
             "url": "https://dynaquestpc.com/products/razer-blackwidow-2019-edition-rz03-02620100-r3m1",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Gaming",
-            "name": "RaZER BlackWidow Elite Green Switch (RZ03-02620100-R3M1)",
-            "price": 9200.0,
+            "name": "RaZER BlackWidow Chroma V2 Mechanical Keyboard RZ03-02031600-R3M1",
+            "price": 7950.0,
+            "url": "https://dynaquestpc.com/products/razer-blackwidow-tournament-chroma-v2-green-orange-yellow-switch",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Gaming",
+            "name": "RaZER BlackWidow Elite Green Switch RZ03-02620100-R3M1",
+            "price": 8600.0,
             "url": "https://dynaquestpc.com/products/razer-blackwidow-elite-green-switch-rz03-02620100-r3m1",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Gaming",
-            "name": "RaZER BlackWidow Elite Orange Switch (RZ03-02621800-R3M1)",
-            "price": 9299.0,
+            "name": "RaZER BlackWidow Elite Orange Switch RZ03-02621800-R3M1",
+            "price": 8600.0,
             "url": "https://dynaquestpc.com/products/razer-blackwidow-elite-orange-switch-rz03-02621800-r3m1",
             "seller": "DynaQuest PC",
             "note": ""
@@ -57043,39 +57059,31 @@
         },
         {
             "category": "Gaming",
-            "name": "RaZER BlackWidow Lite Mercury White Orange Switch (RZ03-02640700-R3M1)",
-            "price": 5399.0,
+            "name": "RaZER BlackWidow Lite Mercury White TKL Keyboard RZ03-02640700-R3M1",
+            "price": 4950.0,
             "url": "https://dynaquestpc.com/products/razer-blackwidow-lite-orange-switch-rz03-02640100-r3m1",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Gaming",
-            "name": "RaZER BlackWidow Lite Orange Switch (RZ03-02640100-R3M1)",
-            "price": 4660.0,
+            "name": "RaZER BlackWidow Lite Silent Tactile Gaming Keyboard RZ03-02640100-R3M1",
+            "price": 4450.0,
             "url": "https://dynaquestpc.com/products/razer-blackwidow-lite-orange-switch-rz03-02640100-r3m1-1",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Gaming",
-            "name": "RaZER BlackWidow Lite Stormtrooper Orange Switch (RZ03-02640800-R3M1)",
-            "price": 5999.0,
+            "name": "RaZER BlackWidow Lite Stormtrooper RZ03-02640800-R3M1",
+            "price": 5650.0,
             "url": "https://dynaquestpc.com/products/razer-blackwidow-lite-stormtrooper-orange-switch-rz03-02640800-r3m1",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Gaming",
-            "name": "RaZER BlackWidow Tournament Chroma V2 (Green Switch) (RZ03-02190100-R3M1)",
-            "price": 6950.0,
-            "url": "https://dynaquestpc.com/products/razer-blackwidow-tournament-chroma-v2-green-orange-yellow-switch",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Gaming",
-            "name": "RaZER BlackWidow X Chroma Keyboard",
+            "name": "RaZER BlackWidow X Chroma Keyboard RZ03-01760200-R3M1",
             "price": 7450.0,
             "url": "https://dynaquestpc.com/products/razer-blackwidow-x-chroma-keyboard",
             "seller": "DynaQuest PC",
@@ -57083,41 +57091,17 @@
         },
         {
             "category": "Gaming",
-            "name": "RaZER Cynosa Chroma Keyboard (RZ03-\u200e02260100-R3M1)",
-            "price": 2990.0,
-            "url": "https://dynaquestpc.com/products/razer-cynosa-chroma-gaming-keyboard-rz04-02260100-r3m1",
+            "name": "RaZER Cynosa Chroma Lite Essential Membrane Gaming Keyboard RZ03-02740600-R3M1",
+            "price": 2500.0,
+            "url": "https://dynaquestpc.com/products/razer-atheris-bluetooth-mobile-mouse",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Gaming",
-            "name": "RaZER Cynosa Pro + Deathadder bundle (Keyboard + Mouse)",
-            "price": 3890.0,
-            "url": "https://dynaquestpc.com/products/razer-cynosa-pro-deathadder-bundle-keyboard-mouse",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Gaming",
-            "name": "RaZER Deathadder Elite Mouse (RZ01-02010100-R3A1)",
-            "price": 3400.0,
+            "name": "RaZER Deathadder V2 Gaming Mouse RZ01-03210100-R3M1",
+            "price": 3950.0,
             "url": "https://dynaquestpc.com/products/razer-deathadder-rz01-02010100-r3a1",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Gaming",
-            "name": "RaZER Deathadder Essential Mouse (RZ01-02540100-R3M1)",
-            "price": 2199.0,
-            "url": "https://dynaquestpc.com/products/razer-deathadder-essential-mouse-rz01-02540100-r3m1",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Gaming",
-            "name": "Razer Deathstalker Essential",
-            "price": 2350.0,
-            "url": "https://dynaquestpc.com/products/razer-deathstalker-essential",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -57126,14 +57110,6 @@
             "name": "Razer Ergonomic Keyboard Rest",
             "price": 1080.0,
             "url": "https://dynaquestpc.com/products/razer-ergonomic-keyboard-rest",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Gaming",
-            "name": "RaZER Firefly Chroma Hard Mousepad (RZ02-01350100-R3M1)",
-            "price": 2850.0,
-            "url": "https://dynaquestpc.com/products/razer-firefly-chroma-hard-gaming-mouse-mat",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -57243,6 +57219,14 @@
         },
         {
             "category": "Gaming",
+            "name": "RaZER Goliathus Mobile Mousepad RZ83-02730100-B3M1",
+            "price": 2490.0,
+            "url": "https://dynaquestpc.com/products/razer-cynosa-chroma-gaming-keyboard-rz04-02260100-r3m1",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Gaming",
             "name": "RaZER Goliathus Mobile Speed XS Mousepad (RZ02-01820200-R3M1)",
             "price": 550.0,
             "url": "https://dynaquestpc.com/products/razer-goliathus-mobile-rz02-01820200-r3m1",
@@ -57331,31 +57315,39 @@
         },
         {
             "category": "Gaming",
-            "name": "RaZER Huntsman Elite Keyboard (RZ03-01870100-R3M1)",
-            "price": 12999.0,
+            "name": "RaZER Huntsman Elite Opto-Mechanical Switch Keyboard RZ03-01870100-R3M",
+            "price": 11900.0,
             "url": "https://dynaquestpc.com/products/razer-huntsman-elite-keyboard-rz03-01870100-r3m1",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Gaming",
-            "name": "RaZER Huntsman Keyboard (RZ03-02520100-R3M1)",
-            "price": 8200.0,
-            "url": "https://dynaquestpc.com/products/razer-huntsman-opto-mechanical-keyboard-rz03-02520100-r3m1",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Gaming",
-            "name": "RaZER Huntsman Keyboard Quartz Pink (RZ03-02521800-R3M1)",
-            "price": 7800.0,
+            "name": "RaZER Huntsman Keyboard Opto Quartz Pink RZ03-02521800-R3M1",
+            "price": 7950.0,
             "url": "https://dynaquestpc.com/products/razer-huntsman-opto-quartz-rz03-02521800-r3m1",
             "seller": "DynaQuest PC",
             "note": ""
         },
         {
             "category": "Gaming",
-            "name": "RaZER Huntsman Tournament Edition Keyboard (RZ03-03080100-R3M1)",
+            "name": "RaZER Huntsman Optical Switch Keyboard - Mercury RZ03-02521900-R3M1",
+            "price": 8099.0,
+            "url": "https://dynaquestpc.com/products/razer-huntsman-optical-switch-keyboard-mercury-rz03-02521900-r3m1",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Gaming",
+            "name": "RaZER Huntsman Opto Keyboard RZ03-02520100-R3M1",
+            "price": 7950.0,
+            "url": "https://dynaquestpc.com/products/razer-huntsman-opto-mechanical-keyboard-rz03-02520100-r3m1",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Gaming",
+            "name": "RaZER Huntsman Tournament Edition Keyboard RZ03-03080100-R3M1",
             "price": 6450.0,
             "url": "https://dynaquestpc.com/products/razer-huntsman-te-keyboard-rz03-03080100-r3m1",
             "seller": "DynaQuest PC",
@@ -57467,8 +57459,16 @@
         },
         {
             "category": "Gaming",
-            "name": "RaZER Lancehead Mouse (RZ01-02120100-R3A1)",
-            "price": 6350.0,
+            "name": "RaZER Lancehead Tournament Ed Gaming Mouse RZ01-02130300-R3M1",
+            "price": 3950.0,
+            "url": "https://dynaquestpc.com/products/razer-deathstalker-essential",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Gaming",
+            "name": "RaZER Lancehead Wireless Gaming Mouse RZ01-02120100-R3A1",
+            "price": 6650.0,
             "url": "https://dynaquestpc.com/products/razer-lancehead-gaming-mouse",
             "seller": "DynaQuest PC",
             "note": ""
@@ -57499,8 +57499,8 @@
         },
         {
             "category": "Gaming",
-            "name": "RaZER Naga Trinity Mouse (RZ01-02410100-R3M1)",
-            "price": 4750.0,
+            "name": "RaZER Naga Trinity Gaming Mouse RZ01-02410100-R3M1",
+            "price": 4850.0,
             "url": "https://dynaquestpc.com/products/razer-naga-trinity",
             "seller": "DynaQuest PC",
             "note": ""
@@ -57523,16 +57523,8 @@
         },
         {
             "category": "Gaming",
-            "name": "RaZER Orbweaver Chroma Keypad (RZ07-01440100-R3M1)",
-            "price": 7399.0,
-            "url": "https://dynaquestpc.com/products/razer-orbweaver-chroma-keypad",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Gaming",
-            "name": "RaZER Ornata Chroma Keyboard (RZ03-\u200e02040100-R3M1)",
-            "price": 5199.0,
+            "name": "RaZER Ornata Chroma Keyboard RZ03-\u200e02040100-R3M1",
+            "price": 4900.0,
             "url": "https://dynaquestpc.com/products/razer-ornata-chroma-keyboard-rz03-02040100-r3m1",
             "seller": "DynaQuest PC",
             "note": ""
@@ -57635,14 +57627,6 @@
         },
         {
             "category": "Gaming",
-            "name": "Razer Turret Gaming Mouse and Lapboard",
-            "price": 7450.0,
-            "url": "https://dynaquestpc.com/products/razer-turret-gaming-mouse-and-lapboard",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Gaming",
             "name": "RaZER Vespula V2 Mousepad (RZ02-02180100-R3M1)",
             "price": 2000.0,
             "url": "https://dynaquestpc.com/products/razer-vespula-v2-rz02-02180100-r3m1",
@@ -57651,9 +57635,17 @@
         },
         {
             "category": "Gaming",
-            "name": "RaZER Viper Mouse (RZ01-02550100-R3M1)",
-            "price": 3900.0,
+            "name": "RaZER Viper Gaming Mouse RZ01-02550100-R3M1",
+            "price": 3800.0,
             "url": "https://dynaquestpc.com/products/razer-viper-rz01-02550100-r3m1",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Gaming",
+            "name": "RaZER Viper Mini Gaming Mouse RZ01-03250100-R3M1",
+            "price": 2000.0,
+            "url": "https://dynaquestpc.com/products/razer-firefly-chroma-hard-gaming-mouse-mat",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -65550,6 +65542,22 @@
             "name": "Mining Rack",
             "price": 3800.0,
             "url": "https://dynaquestpc.com/products/mining-rack",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Wellness",
+            "name": "LCD Massage Gun",
+            "price": 7500.0,
+            "url": "https://dynaquestpc.com/products/lcd-massage-gun",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Wellness",
+            "name": "Portable Massage Gun",
+            "price": 6500.0,
+            "url": "https://dynaquestpc.com/products/massage-gun",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -80091,14 +80099,6 @@
         },
         {
             "category": "Components",
-            "name": "Corsair CV650 650Watts 80+ Bronze Certified PSU",
-            "price": 3745.0,
-            "url": "https://www.pcworx.ph/pcworx_pricelist",
-            "seller": "PC Worx",
-            "note": null
-        },
-        {
-            "category": "Components",
             "name": "Cougar CGR-PURITAS-RGB Mid-Tower Casing",
             "price": 7195.0,
             "url": "https://www.pcworx.ph/pcworx_pricelist",
@@ -80179,6 +80179,46 @@
         },
         {
             "category": "Components",
+            "name": "Darkflash ICY T120 120mm RGB Liquid CPU Cooler",
+            "price": 2450.0,
+            "url": "https://www.pcworx.ph/pcworx_pricelist",
+            "seller": "PC Worx",
+            "note": null
+        },
+        {
+            "category": "Components",
+            "name": "Darkflash ICY T240 240mm RGB Liquid CPU Cooler",
+            "price": 3295.0,
+            "url": "https://www.pcworx.ph/pcworx_pricelist",
+            "seller": "PC Worx",
+            "note": null
+        },
+        {
+            "category": "Components",
+            "name": "Darkflash Water Square 5 Black ATX Mid-Tower Gaming Case",
+            "price": 1995.0,
+            "url": "https://www.pcworx.ph/pcworx_pricelist",
+            "seller": "PC Worx",
+            "note": null
+        },
+        {
+            "category": "Components",
+            "name": "Darkflash BF3 TG Side Panel ATX Gaming Case",
+            "price": 1595.0,
+            "url": "https://www.pcworx.ph/pcworx_pricelist",
+            "seller": "PC Worx",
+            "note": null
+        },
+        {
+            "category": "Components",
+            "name": "Darkflash J11 ATX Micro-ATX TG Casing",
+            "price": 2995.0,
+            "url": "https://www.pcworx.ph/pcworx_pricelist",
+            "seller": "PC Worx",
+            "note": null
+        },
+        {
+            "category": "Components",
             "name": "Deepcool Smarter M-ATX Black Casing",
             "price": 1150.0,
             "url": "https://www.pcworx.ph/pcworx_pricelist",
@@ -80197,14 +80237,6 @@
             "category": "Components",
             "name": "Deepcool Wave v2 Black Casing",
             "price": 1150.0,
-            "url": "https://www.pcworx.ph/pcworx_pricelist",
-            "seller": "PC Worx",
-            "note": null
-        },
-        {
-            "category": "Components",
-            "name": "Deepcool Gammaxx L120 V2 DP-H12RF-GL120V2 Liquid Cooler",
-            "price": 2760.0,
             "url": "https://www.pcworx.ph/pcworx_pricelist",
             "seller": "PC Worx",
             "note": null
@@ -83474,30 +83506,6 @@
             "note": null
         },
         {
-            "category": "Components",
-            "name": "Tecware Nexus M Black Micro-Tower Casing",
-            "price": 1495.0,
-            "url": "https://www.pcworx.ph/pcworx_pricelist",
-            "seller": "PC Worx",
-            "note": null
-        },
-        {
-            "category": "Components",
-            "name": "Techware Nexus M Black/White Micro-Tower Casing",
-            "price": 1495.0,
-            "url": "https://www.pcworx.ph/pcworx_pricelist",
-            "seller": "PC Worx",
-            "note": null
-        },
-        {
-            "category": "Components",
-            "name": "Techware Nexus M White Micro-Tower Casing",
-            "price": 1595.0,
-            "url": "https://www.pcworx.ph/pcworx_pricelist",
-            "seller": "PC Worx",
-            "note": null
-        },
-        {
             "category": "Peripherals",
             "name": "Tecware Q5 Gaming 7.1 RGB Gaming Headset",
             "price": 1620.0,
@@ -83997,14 +84005,6 @@
             "category": "Components",
             "name": "Zotac  ZT-71302-20L GT710 2GB DDR3 64Bit Graphics Card",
             "price": 2225.0,
-            "url": "https://www.pcworx.ph/pcworx_pricelist",
-            "seller": "PC Worx",
-            "note": null
-        },
-        {
-            "category": "Components",
-            "name": "Zotac ZT-T16620D-10M GTX 1660 Super AMP 6GB GDDR6 3 DP, 1 HDMI",
-            "price": 13865.0,
             "url": "https://www.pcworx.ph/pcworx_pricelist",
             "seller": "PC Worx",
             "note": null
