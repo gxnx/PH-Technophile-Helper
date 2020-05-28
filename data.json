@@ -8,7 +8,7 @@
         "PC Express",
         "BermorZone"
     ],
-    "date": "May 29 2020 - 01:15:46 AM",
+    "date": "May 29 2020 - 02:56:29 AM",
     "data": [
         {
             "category": "Cables/Adapters",
@@ -45309,7 +45309,7 @@
         {
             "category": "Processor",
             "name": "AMD Ryzen 5 3400G 4-Core 8-Thread 3.7-4.20GHz 4mb 65W",
-            "price": 7950.0,
+            "price": 8200.0,
             "url": "https://dynaquestpc.com/products/amd-ryzen-5-3400g-4-core-8-thread-3-7-4-2-ghz-35mb-65w",
             "seller": "DynaQuest PC",
             "note": "NOTE: Must be purchased with\u00a0"
@@ -46575,14 +46575,6 @@
             "name": "MSI B450M-A PRO Max (AM4) mATX Motherboard",
             "price": 3850.0,
             "url": "https://dynaquestpc.com/products/msi-b450m-a-pro-max-am4-matx-motherboard",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Motherboard",
-            "name": "MSI H170M Pro-VDH",
-            "price": 2700.0,
-            "url": "https://dynaquestpc.com/products/msi-h170m-pro-vdh",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -87988,17 +87980,17 @@
         },
         {
             "category": "AMD Motherboards",
-            "name": "MSI B450M Bazooka Plus AM4 Motherboard",
-            "price": 4995.0,
-            "url": "https://www.bermorzone.com.ph/product/msi-b450m-bazooka-plus-am4-motherboard/",
+            "name": "MSI B450 GAMING PRO CARBON AC",
+            "price": 7850.0,
+            "url": "https://www.bermorzone.com.ph/product/msi-b450-gaming-pro-carbon-ac/",
             "seller": "Bermor Techzone",
             "note": ""
         },
         {
             "category": "AMD Motherboards",
-            "name": "MSI B450 GAMING PRO CARBON AC",
-            "price": 7850.0,
-            "url": "https://www.bermorzone.com.ph/product/msi-b450-gaming-pro-carbon-ac/",
+            "name": "MSI B450M Bazooka Plus AM4 Motherboard",
+            "price": 4995.0,
+            "url": "https://www.bermorzone.com.ph/product/msi-b450m-bazooka-plus-am4-motherboard/",
             "seller": "Bermor Techzone",
             "note": ""
         },
@@ -88876,6 +88868,14 @@
         },
         {
             "category": "Memory Modules",
+            "name": "Teamgroup TForce Xtreem ARGB 2&#215;8 16GB DDR4 3600 Mhz",
+            "price": 7350.0,
+            "url": "https://www.bermorzone.com.ph/product/teamgroup-tforce-xtreem-argb-2x8-16gb-ddr4-3600-mhz/",
+            "seller": "Bermor Techzone",
+            "note": ""
+        },
+        {
+            "category": "Memory Modules",
             "name": "Teamgroup TForce Xtreem ARGB 2&#215;8 16GB DDR4 3200 Mhz",
             "price": 6995.0,
             "url": "https://www.bermorzone.com.ph/product/teamgroup-tforce-xtreem-argb-2x8-16gb-ddr4-3200-mhz/",
@@ -88999,14 +88999,6 @@
             "name": "Crucial Ballistix Tactical Tracer RGB 3000 MHz DDR4 DRAM Desktop Gaming Memory Kit",
             "price": 5250.0,
             "url": "https://www.bermorzone.com.ph/product/crucial-ballistix-tactical-tracer-rgb-3000-mhz-ddr4-dram-desktop-gaming-memory-kit/",
-            "seller": "Bermor Techzone",
-            "note": ""
-        },
-        {
-            "category": "Memory Modules",
-            "name": "Teamgroup TForce Xtreem ARGB 2&#215;8 16GB DDR4 3600 Mhz",
-            "price": 7350.0,
-            "url": "https://www.bermorzone.com.ph/product/teamgroup-tforce-xtreem-argb-2x8-16gb-ddr4-3600-mhz/",
             "seller": "Bermor Techzone",
             "note": ""
         },
@@ -90204,6 +90196,14 @@
         },
         {
             "category": "Video Cards",
+            "name": "ZOTAC GAMING GeForce RTX 2060 SUPER AMP Extreme 8GB GDDR6 256-bit 14Gbps Gaming Graphics Card",
+            "price": 23950.0,
+            "url": "https://www.bermorzone.com.ph/product/zotac-gaming-geforce-rtx-2060-super-amp-extreme-8gb-gddr6-256-bit-14gbps-gaming-graphics-card/",
+            "seller": "Bermor Techzone",
+            "note": ""
+        },
+        {
+            "category": "Video Cards",
             "name": "Sapphire Radeon Pulse RX 5500 XT 4GB GDDR6 PCIe 4.0 Graphics Card",
             "price": 9650.0,
             "url": "https://www.bermorzone.com.ph/product/sapphire-radeon-pulse-rx-5500-xt-4gb-gddr6-pcie-4-0-graphics-card/",
@@ -90303,14 +90303,6 @@
             "name": "MSI Gaming GeForce GTX 1650 Super 128-Bit HDMI/DP 4GB GDRR6",
             "price": 9650.0,
             "url": "https://www.bermorzone.com.ph/product/msi-gaming-geforce-gtx-1650-super-128-bit-hdmi-dp-4gb-gdrr6/",
-            "seller": "Bermor Techzone",
-            "note": ""
-        },
-        {
-            "category": "Video Cards",
-            "name": "ZOTAC GAMING GeForce RTX 2060 SUPER AMP Extreme 8GB GDDR6 256-bit 14Gbps Gaming Graphics Card",
-            "price": 23950.0,
-            "url": "https://www.bermorzone.com.ph/product/zotac-gaming-geforce-rtx-2060-super-amp-extreme-8gb-gddr6-256-bit-14gbps-gaming-graphics-card/",
             "seller": "Bermor Techzone",
             "note": ""
         },
@@ -92303,6 +92295,30 @@
             "name": "Fractal Design Define Nano S Black Window Silent Mini ITX Mini Tower Chassis",
             "price": 3780.0,
             "url": "https://www.bermorzone.com.ph/product/fractal-design-define-nano-s-black-window-silent-mini-itx-mini-tower-chassis/",
+            "seller": "Bermor Techzone",
+            "note": ""
+        },
+        {
+            "category": "Chassis",
+            "name": "BeQuiet Pure Base 500 Tempered Window WHITE Chassis",
+            "price": 4950.0,
+            "url": "https://www.bermorzone.com.ph/product/bequiet-pure-base-500-tempered-window-white-chassis/",
+            "seller": "Bermor Techzone",
+            "note": ""
+        },
+        {
+            "category": "Chassis",
+            "name": "BeQuiet Pure Base 500 Tempered Window BLACK Chassis",
+            "price": 4850.0,
+            "url": "https://www.bermorzone.com.ph/product/bequiet-pure-base-500-tempered-window-black-chassis/",
+            "seller": "Bermor Techzone",
+            "note": ""
+        },
+        {
+            "category": "Chassis",
+            "name": "BeQuiet Pure Base 500 Tempered Window GRAY Chassis",
+            "price": 4850.0,
+            "url": "https://www.bermorzone.com.ph/product/be-quiet-pure-base-500-tempered-window-gray-chassis/",
             "seller": "Bermor Techzone",
             "note": ""
         },
@@ -95452,7 +95468,7 @@
         },
         {
             "category": "Cooling Systems",
-            "name": "be quiet! Dark Rock Pro 4 BK022 Aircooler Black",
+            "name": "BeQuiet Dark Rock Pro 4 BK022 Aircooler Black",
             "price": 4895.0,
             "url": "https://www.bermorzone.com.ph/product/be-quiet-dark-rock-pro-4-bk022-aircooler-black/",
             "seller": "Bermor Techzone",
