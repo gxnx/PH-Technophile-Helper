@@ -8,7 +8,7 @@
         "PC Express",
         "BermorZone"
     ],
-    "date": "Jun 10 2020 - 02:15:21 AM",
+    "date": "Jun 10 2020 - 03:54:18 AM",
     "data": [
         {
             "category": "Cables/Adapters",
@@ -27333,7 +27333,7 @@
         {
             "category": "Desktop PC",
             "name": "AMD Ryzen 3 3200G Vega 8 Graphics 4 Core 8GB 500GB CPU Package",
-            "price": 13600.0,
+            "price": 13750.0,
             "url": "https://dynaquestpc.com/products/amd-ryzen-3-3200g-vega-8-graphics-4-core-8gb-500gb-cpu-package",
             "seller": "DynaQuest PC",
             "note": ""
@@ -27341,7 +27341,7 @@
         {
             "category": "Desktop PC",
             "name": "AMD Ryzen 3 3200G Vega 8 Graphics 4 Core with 18.5in Monitor Desktop Package",
-            "price": 18900.0,
+            "price": 19270.0,
             "url": "https://dynaquestpc.com/products/amd-ryzen-3-3200g-vega-8-graphics-4-core-with-18-5in-monitor-desktop-package",
             "seller": "DynaQuest PC",
             "note": ""
@@ -37356,14 +37356,6 @@
         },
         {
             "category": "Displays",
-            "name": "Asus VG27AQ 27in TUF WQHD (2560x1440) IPS 165Hz 1ms Gaming Monitor",
-            "price": 26200.0,
-            "url": "https://dynaquestpc.com/products/asus-27-tuf-gaming-vg27aq-1ms-165hz-gaming-monitor",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Displays",
             "name": "Asus VG27BQ 27\" TUF Gaming 1ms 144Hz Gaming Monitor",
             "price": 22700.0,
             "url": "https://dynaquestpc.com/products/asus-27-vg27bq-1ms-144hz-wqhd-gaming-monitor",
@@ -38924,14 +38916,6 @@
         },
         {
             "category": "Displays",
-            "name": "Viewsonic 24\" VA2407H 1920x1080 5ms 60Hz TN Monitor",
-            "price": 5650.0,
-            "url": "https://dynaquestpc.com/products/viewsonic-23-6-va2407h-full-hd-led-monitor",
-            "seller": "DynaQuest PC",
-            "note": ""
-        },
-        {
-            "category": "Displays",
             "name": "Viewsonic TD1630-3 15.6in LED Multi Touch screen vga HDMI vesa",
             "price": 9750.0,
             "url": "https://dynaquestpc.com/products/viewsonic-td1630-3-15-6in-led-multi-touch-screen-vga-hdmi-vesa",
@@ -38991,6 +38975,14 @@
             "name": "Viewsonic VA2403-H 24in 1920x1080 5ms 60Hz VA Monitor",
             "price": 5990.0,
             "url": "https://dynaquestpc.com/products/viewsonic-23-6-va2403h-full-hd-led-vga-hdmi-vesa",
+            "seller": "DynaQuest PC",
+            "note": ""
+        },
+        {
+            "category": "Displays",
+            "name": "Viewsonic VA2407H 24\" 1920x1080 5ms 60Hz TN Monitor",
+            "price": 5650.0,
+            "url": "https://dynaquestpc.com/products/viewsonic-23-6-va2407h-full-hd-led-monitor",
             "seller": "DynaQuest PC",
             "note": ""
         },
@@ -50373,7 +50365,7 @@
         {
             "category": "Digital Camera",
             "name": "GoPro Protective Lens AGCLK-301",
-            "price": 450.0,
+            "price": 600.0,
             "url": "https://dynaquestpc.com/products/gopro-protective-lens-agclk-301",
             "seller": "DynaQuest PC",
             "note": ""
@@ -50389,7 +50381,7 @@
         {
             "category": "Digital Camera",
             "name": "GoPro Wrist Housing AHDWH-301",
-            "price": 990.0,
+            "price": 1250.0,
             "url": "https://dynaquestpc.com/products/gopro-wrist-housing-ahdwh-301",
             "seller": "DynaQuest PC",
             "note": ""
